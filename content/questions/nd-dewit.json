@@ -1,0 +1,291 @@
+{
+  "source": "Compilation DIGEST — section DEWIT (gastro-entérologie adulte), non datée — sous-partie Œsophage",
+  "questions": [
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-001", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["dysphagie", "achalasie"], "difficulty": 2,
+      "type": "multiple", "expectedCount": 2,
+      "stem": "Question avec achalasie ou dysphagie (2 fausses)",
+      "stemNote": "Consigne reconstituée de mémoire par un·e étudiant·e : il faut cocher les DEUX propositions FAUSSES.",
+      "options": [
+        { "key": "A", "text": "une achalasie est une amplification des contractions péristaltiques douloureuses de l’oesophage avec hypertonie du SOI", "expected": true, "note": "plus de péristaltisme", "noteOrigin": "archives" },
+        { "key": "B", "text": "on a raison de faire une biopsie si endoscopie ne montre rien en cas de dysphagie", "note": "Commentaire étudiant : « d’abord une biopsie pour exclure l’œsophagite à éosinophiles », « d’abord exclure toute pathologie lésionnelle avant d’aller vers le fonctionnel ».", "noteOrigin": "archives" },
+        { "key": "C", "text": "un diverticule de zenker peut causer une dysphagie" },
+        { "key": "D", "text": "les varices oesophagiennes causent de la dysphagie", "expected": true, "note": "asympto", "noteOrigin": "archives" },
+        { "key": "E", "text": "L’ingestion de caustique peut causer une dysphagie après quelques semaines", "note": "oui sténose", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "proposed", "quality": [],
+      "sourceComments": ["Un·e étudiant·e demandait si la manométrie n’était pas plutôt l’examen à faire (B) ; la réponse donnée dans les commentaires : biopsier d’abord pour exclure une œsophagite à éosinophiles."],
+      "provenance": [{ "file": "compilation", "page": 45, "section": "DEWIT — Œsophage", "originalNumber": "1" }, { "file": "qcm-nc", "page": 1, "section": "Dewit — Oesophage", "originalNumber": "1" }],
+      "hints": [
+        "Deux propositions décrivent mal une pathologie : relisez chaque mécanisme.",
+        "L’achalasie est un trouble moteur où le péristaltisme est-il augmenté… ou absent ?",
+        "Des varices œsophagiennes non rompues donnent-elles habituellement des symptômes ?"
+      ],
+      "explanation": { "origin": "complement", "review": "to-validate",
+        "text": "L’achalasie associe une **absence de péristaltisme** du corps de l’œsophage et un **défaut de relaxation** du sphincter inférieur (souvent hypertonique) : ce n’est pas une amplification des contractions (cela décrit plutôt l’œsophage « casse-noisette » ou les spasmes). Les **varices œsophagiennes** sont asymptomatiques tant qu’elles ne saignent pas : elles ne donnent pas de dysphagie. En cas de dysphagie avec endoscopie macroscopiquement normale, on **biopsie** (œsophagite à éosinophiles) avant d’explorer un trouble moteur par manométrie. Zenker et sténose caustique (quelques semaines après l’ingestion) causent bien une dysphagie.",
+        "pitfalls": ["Confondre achalasie (péristaltisme absent) et spasmes/œsophage hypercontractile.", "Penser qu’une endoscopie normale dispense de biopsies devant une dysphagie."] },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-002", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO"], "difficulty": 2,
+      "type": "multiple", "expectedCount": 2,
+      "stem": "Parmi ces cinq propositions, DEUX sont vraies, lesquelles ?",
+      "options": [
+        { "key": "A", "text": "Plus le degré d’œsophagite est sévère, plus les symptômes sont importants", "note": "pas de corrélation entre symptômes et stade de la lésion !", "noteOrigin": "archives" },
+        { "key": "B", "text": "En absence de lésions d’œsophagite en endoscopie, on peut exclure une régurgitation gastro-œsophagienne", "note": "faux, faire une PHmétrie", "noteOrigin": "archives" },
+        { "key": "C", "text": "En Belgique, plus d’une personne sur cinq se plaint de reflux gastro-œsophagien", "expected": true, "note": "28%", "noteOrigin": "archives" },
+        { "key": "D", "text": "Le diagnostic d’œsophagite est le plus posé par une ph-impédancemétrie", "note": "endoscopie", "noteOrigin": "archives" },
+        { "key": "E", "text": "La toux chronique peut être le seul symptôme du reflux gastro-œsophagien", "expected": true }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": ["Commentaire : « œsophagite ⇒ diagnostic endoscopique »."],
+      "provenance": [{ "file": "compilation", "page": 45, "section": "DEWIT — Œsophage", "originalNumber": "2" }, { "file": "qcm-nc", "page": 1, "section": "Dewit — Oesophage", "originalNumber": "2" }],
+      "hints": [
+        "Une proposition est épidémiologique, une autre concerne les manifestations atypiques.",
+        "Le RGO est-il fréquent ou rare dans la population générale ?",
+        "Le reflux peut se manifester en dehors du tube digestif (ORL, bronches)."
+      ],
+      "explanation": { "origin": "complement", "review": "to-validate",
+        "text": "Le RGO est très fréquent (de l’ordre d’un adulte sur quatre à cinq selon les études). Il peut se manifester par des symptômes **extra-digestifs** isolés (toux chronique, asthme nocturne, laryngite). Il n’existe **pas de corrélation** entre l’intensité des symptômes et la sévérité endoscopique. Une endoscopie normale n’exclut pas un RGO (RGO non érosif) : la **pH-impédancemétrie** sert à prouver le reflux, tandis que l’**œsophagite** (lésion muqueuse) se diagnostique en **endoscopie**.",
+        "pitfalls": ["Endoscopie normale ≠ absence de RGO.", "pH-métrie = reflux ; endoscopie = œsophagite."] },
+      "lessonLinks": ["oeso-rgo"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-003", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer", "facteurs de risque"], "difficulty": 2,
+      "type": "multiple", "expectedCount": 2,
+      "stem": "Cause d’un cancer de l’œsophage sauf 2",
+      "stemNote": "Il faut cocher les DEUX situations qui ne favorisent PAS le cancer de l’œsophage.",
+      "options": [
+        { "key": "A", "text": "oesophagite caustique", "note": "risque x1000", "noteOrigin": "archives" },
+        { "key": "B", "text": "œsophagite à éosinophile", "expected": true, "note": "idem pour œsophagite infectieuse", "noteOrigin": "archives" },
+        { "key": "C", "text": "cancer du pharynx" },
+        { "key": "D", "text": "Syndrome de Mallory Weiss", "expected": true, "note": "hémorragie sur déchirure linéaire du cardia < vomissements", "noteOrigin": "archives" },
+        { "key": "E", "text": "métaplasie intestinale dans l’œsophage", "note": "Œsophage de Barrett, 1% cancérisation/an, risque x30-125", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 45, "section": "DEWIT — Œsophage", "originalNumber": "3" }, { "file": "qcm-nc", "page": 1, "section": "Dewit — Oesophage", "originalNumber": "3" }],
+      "duplicateGroup": "oeso-terrains-cancer",
+      "hints": [
+        "Cherchez les situations sans agression chronique de la muqueuse ni lésion précancéreuse.",
+        "Une déchirure aiguë qui cicatrise laisse-t-elle un terrain à risque ?",
+        "Les cancers ORL et de l’œsophage partagent les mêmes facteurs (alcool, tabac)."
+      ],
+      "explanation": { "origin": "complement", "review": "to-validate",
+        "text": "Favorisent le cancer de l’œsophage : la **sténose caustique** (épidermoïde, des décennies plus tard), un **cancer ORL** (cancers synchrones/métachrones du même terrain alcoolo-tabagique) et l’**œsophage de Barrett** (métaplasie intestinale → adénocarcinome). Le **Mallory-Weiss** est une déchirure muqueuse aiguë liée aux efforts de vomissement, sans potentiel malin ; l’**œsophagite à éosinophiles** est une maladie inflammatoire chronique allergique non reconnue comme précancéreuse.",
+        "pitfalls": ["Barrett → adénocarcinome ; caustique, alcool-tabac, ORL → épidermoïde."] },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-001", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["dysphagie"], "difficulty": 1,
+      "type": "single",
+      "stem": "Qu’est ce qui ne cause pas de dysphagie (1 réponse)",
+      "options": [
+        { "key": "A", "text": "les varices œsophagiennes", "expected": true, "note": "asympto sauf si rupture", "noteOrigin": "archives" },
+        { "key": "B", "text": "léiomyome" },
+        { "key": "C", "text": "encore plus de trucs qui causent une dysphagie" },
+        { "key": "D", "text": "et oui ENCORE plus de trucs dysphagiques" }
+      ],
+      "answerStatus": "proposed", "quality": ["incomplete-options"],
+      "sourceComments": ["Les propositions C et D n’ont pas été retranscrites (« d’autres causes de dysphagie »)."],
+      "provenance": [{ "file": "compilation", "page": 45, "section": "DEWIT — Œsophage", "originalNumber": "4" }],
+      "duplicateGroup": "oeso-pas-dysphagie",
+      "hints": ["Une seule proposition ne rétrécit pas la lumière et ne perturbe pas la motricité.", "Pensez à une anomalie vasculaire sous-muqueuse.", "Quand cette anomalie devient-elle symptomatique ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Les varices œsophagiennes ne gênent pas le passage du bol alimentaire ; elles sont asymptomatiques jusqu’à la rupture (hématémèse). Un léiomyome (tumeur sous-muqueuse bénigne) peut, lui, donner une dysphagie s’il est volumineux." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-002", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "oesophagites", "tags": ["œsophagite à éosinophiles", "cas clinique"], "clinical": true, "difficulty": 1,
+      "type": "single",
+      "stem": "Homme de 22 ans qui vient pour D+ thoracique pendant les repas, seuls antécédents sont une méningite et un asthme allergique. Endoscopie on voit un œsophage avec de longues stries longitudinales et un érythème antral non spécifique.",
+      "options": [
+        { "key": "A", "text": "Œsophagite éosinophile", "expected": true, "note": "Asthme allergique + stries longitudinales", "noteOrigin": "archives" },
+        { "key": "B", "text": "Oesophagite à Candida" },
+        { "key": "C", "text": "Maladie de Chagas" },
+        { "key": "D", "text": "?" },
+        { "key": "E", "text": "?" }
+      ],
+      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": ["Propositions D et E non retranscrites."],
+      "provenance": [{ "file": "compilation", "page": 45, "section": "DEWIT — Œsophage", "originalNumber": "5" }],
+      "hints": ["Le terrain du patient est un indice majeur.", "Quelle œsophagite est associée à l’atopie ?", "Les stries longitudinales (« sillons ») sont un aspect endoscopique typique d’une œsophagite inflammatoire chronique non infectieuse."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Homme jeune, atopique (asthme allergique), douleur/blocage au repas, **sillons longitudinaux** en endoscopie : tableau typique d’**œsophagite à éosinophiles**. Le diagnostic est histologique (biopsies étagées, ≥ 15 éosinophiles par champ). La candidose donne des dépôts blanchâtres, surtout chez l’immunodéprimé ; la maladie de Chagas réalise une achalasie secondaire (Amérique du Sud)." },
+      "lessonLinks": ["oeso-rgo", "oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-003", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["Barrett"], "difficulty": 1,
+      "type": "single",
+      "stem": "A propos de l’œsophage de Barrett (1 réponse fausse)",
+      "options": [
+        { "key": "A", "text": "est une métaplasie de la muqueuse intestinale au niveau du bas de l’oesophage" },
+        { "key": "B", "text": "incidence du barrett augmente", "note": "le risque de cancérisation est de 1%/an x30 à 125", "noteOrigin": "archives" },
+        { "key": "C", "text": "Justifie une surveillance endoscopique avec biopsies systématiques" },
+        { "key": "D", "text": "En cas de dysplasie de haut grade, une mucosectomie par endoscopie doit être proposée" },
+        { "key": "E", "text": "La fundoplicature de Nissen permet de guérir le Barrett", "expected": true, "note": "c’est une valve anti-reflux", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 46, "section": "DEWIT — Œsophage", "originalNumber": "6" }, { "file": "qcm-nc", "page": 1, "section": "Dewit — Oesophage", "originalNumber": "6" }],
+      "duplicateGroup": "oeso-barrett-nissen",
+      "hints": ["Une proposition attribue à un traitement un effet qu’il n’a pas.", "Que traite une fundoplicature : la cause ou la lésion déjà constituée ?", "La métaplasie régresse-t-elle quand on supprime le reflux ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le Barrett est une **métaplasie intestinale** remplaçant l’épithélium malpighien du bas œsophage, conséquence du reflux. La fundoplicature (Nissen) contrôle le reflux mais **ne fait pas régresser** la métaplasie ni ne supprime le risque d’adénocarcinome : la surveillance endoscopique avec biopsies reste nécessaire. Les lésions visibles/dysplasie de haut grade relèvent d’une résection endoscopique (mucosectomie) puis d’une ablation (radiofréquence)." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-004", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["Barrett"], "difficulty": 1,
+      "type": "single",
+      "stem": "Trouver la fausse réponse sur l’oesophage de Barrett:",
+      "options": [
+        { "key": "A", "text": "C’est une métaplasie de la muqueuse intestinale au niveau du bas œsophage" },
+        { "key": "B", "text": "C’est une dysplasie de bas grade à traiter par mucosectomie", "expected": true, "note": "on ne traite que la dysplasie de HG ; c’est surtout que c’est une métaplasie et pas une dysplasie le barrett", "noteOrigin": "archives" },
+        { "key": "C", "text": "Surveillance par endoscopie et biopsie" },
+        { "key": "D", "text": "Cancérisation de 1%/an et son incidence augmente" },
+        { "key": "E", "text": "La radiofréquence est un traitement par endoscopie" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 46, "section": "DEWIT — Œsophage", "originalNumber": "7" }, { "file": "qcm-nc", "page": 2, "section": "Dewit — Oesophage", "originalNumber": "7" }],
+      "hints": ["Une proposition confond deux termes histologiques.", "Métaplasie et dysplasie désignent-elles la même chose ?", "Toute muqueuse de Barrett doit-elle être réséquée ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le Barrett est par définition une **métaplasie** (remplacement par un épithélium glandulaire de type intestinal), pas une dysplasie. Sans dysplasie, on surveille ; la résection endoscopique concerne les lésions visibles et la dysplasie de haut grade/cancer superficiel. L’ablation par **radiofréquence** se fait bien **par voie endoscopique**." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-005", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "urgences", "tags": ["caustiques"], "difficulty": 2,
+      "type": "single",
+      "stem": "Concernant l’ingestion de caustique, laquelle de ces propositions est fausse? (1 réponse)",
+      "options": [
+        { "key": "A", "text": "Il est déconseillé de faire boire le patient après ingestion de caustique", "note": "oui car peut faire vomir", "noteOrigin": "archives" },
+        { "key": "B", "text": "L’endoscopie ne doit pas être réalisée dans les 24 premières heures étant donné le risque de perforation", "expected": true, "note": "doit être réalisée dans les 24h", "noteOrigin": "archives" },
+        { "key": "C", "text": "L’œsophagite caustique prédispose au cancer de l’œsophage", "note": "x1000", "noteOrigin": "archives" },
+        { "key": "D", "text": "L’importance des lésions est fonction du volume de caustique ingéré" },
+        { "key": "E", "text": "L’ingestion accidentelle du caustique est habituellement moins sévère que l’ingestion volontaire", "note": "vrai car moins grosse quantité", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 46, "section": "DEWIT — Œsophage", "originalNumber": "8" }, { "file": "qcm-nc", "page": 2, "section": "Dewit — Oesophage", "originalNumber": "8" }],
+      "duplicateGroup": "oeso-caustique",
+      "hints": ["Une proposition concerne le délai de l’examen clé.", "L’endoscopie sert à classer les lésions pour décider de la suite.", "Le risque de perforation est maximal non pas tout de suite mais quelques jours après l’ingestion."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Après ingestion de caustique : pas de vomissement provoqué, pas de neutralisation, pas de boisson. L’**endoscopie précoce** (idéalement dans les 12–24 h, et avant 48 h) classe les lésions (Zargar) et guide la prise en charge ; elle est déconseillée plus tard (vers J5–J15) car la paroi est alors la plus fragile. La gravité dépend surtout de la **quantité** ingérée (plus élevée en cas d’ingestion volontaire). Le risque de cancer épidermoïde sur sténose caustique est fortement augmenté à long terme.",
+        "pitfalls": ["Retarder l’endoscopie « par prudence » : c’est l’inverse, la fenêtre de sécurité est précoce."] },
+      "lessonLinks": ["oeso-urgences"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-006", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer épidermoïde", "RGO"], "difficulty": 2,
+      "type": "single",
+      "stem": "Parmi les propositions suivantes, laquelle est fausse?",
+      "options": [
+        { "key": "A", "text": "Il faut faire une oesogastroduodénoscopie pour le bilan de néoplasie épidermoïde" },
+        { "key": "B", "text": "l’importance du pyrosis n’est pas corrélée aux lésions oesophagiennes" },
+        { "key": "C", "text": "œsophagite médicamenteuse peut provoquer une dysphagie" },
+        { "key": "D", "text": "chirurgie peut être remplacée par mucosectomie en cas de cancer épidermoïde de stade T1N1M0", "expected": true, "note": "mucosectomie si T1N0M0 et risque chirurgical élevé", "noteOrigin": "archives" },
+        { "key": "E", "text": "adénocarcinome œsophagien qqch avec CT thoraco-abdo pour le bilan d’extension" }
+      ],
+      "answerStatus": "proposed", "quality": ["uncertain-wording"], "sourceComments": ["La proposition E est retranscrite de façon approximative (« qqch avec »)."],
+      "provenance": [{ "file": "compilation", "page": 46, "section": "DEWIT — Œsophage", "originalNumber": "9" }],
+      "duplicateGroup": "oeso-mucosectomie-t1",
+      "hints": ["Regardez attentivement le stade TNM cité.", "Un traitement endoscopique local peut-il traiter des ganglions ?", "Que signifie « N1 » ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "La résection endoscopique ne traite que la paroi : elle n’est envisageable que pour des cancers **superficiels sans atteinte ganglionnaire** (N0). Un **N1** signifie une atteinte ganglionnaire régionale, inaccessible par voie endoscopique. Devant un cancer épidermoïde de l’œsophage, on recherche un second cancer des voies aéro-digestives supérieures et inversement." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-007", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO", "endoscopie", "caustiques"], "difficulty": 2,
+      "type": "single",
+      "stem": "Trouver la réponse fausse",
+      "options": [
+        { "key": "A", "text": "Odynophagie, dysphagie, toux chronique, asthme nocturne sont des symptômes qu’on peut avoir dans le RGO" },
+        { "key": "B", "text": "La pHmétrie est supérieure à l’endoscopie pour le diagnostic de l’œsophagite peptique", "expected": true, "note": "PHmétrie pour RGO sans œsophagite", "noteOrigin": "archives" },
+        { "key": "C", "text": "Homme de 47 ans qui est devenu asymptomatique suite à la prise d’IPP est une indication à l’endoscopie", "note": "oui plus de 45 ans", "noteOrigin": "archives" },
+        { "key": "D", "text": "Un endoscopie dans les 24h doit être réalisée pour une ingestion de caustique" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 46, "section": "DEWIT — Œsophage", "originalNumber": "10" }],
+      "duplicateGroup": "oeso-phmetrie-vs-endoscopie",
+      "hints": ["Une proposition inverse le rôle de deux examens.", "Une œsophagite est une lésion de la muqueuse : quel examen la voit ?", "La pH-métrie mesure l’acidité, pas l’aspect de la muqueuse."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "L’**œsophagite peptique** est une lésion muqueuse : son diagnostic est **endoscopique** (classification de Los Angeles). La **pH(-impédance)métrie** de 24 h objective le **reflux** lui-même : elle est utile quand l’endoscopie est normale ou avant une chirurgie anti-reflux. Selon l’enseignement reçu, l’âge > 45 ans (ou des signes d’alarme) justifie une endoscopie, même si les symptômes répondent aux IPP." },
+      "lessonLinks": ["oeso-rgo"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-004", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer épidermoïde", "facteurs de risque"], "difficulty": 2,
+      "type": "multiple", "expectedCount": 2,
+      "stem": "L’apparition d’un cancer épidermoïde est possible sur les terrains suivants sauf 2 :",
+      "stemNote": "Cocher les DEUX terrains qui ne favorisent pas le carcinome épidermoïde.",
+      "options": [
+        { "key": "A", "text": "Sujet alcoolique", "note": "tabac alcool et boissons chaudes = FR", "noteOrigin": "archives" },
+        { "key": "B", "text": "Sujet atteint d’un cancer de la sphère ORL", "note": "cancers synchrones oeso, ORL et pneumo", "noteOrigin": "archives" },
+        { "key": "C", "text": "Sujet atteint d’œsophage de Barett", "expected": true, "note": "AdénoK", "noteOrigin": "archives" },
+        { "key": "D", "text": "Sujet atteint d’ATCD d’oesophagite caustique", "note": "risque x1000", "noteOrigin": "archives" },
+        { "key": "E", "text": "Sujet atteint d’un cancer de l’estomac", "expected": true }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 47, "section": "DEWIT — Œsophage", "originalNumber": "11" }],
+      "duplicateGroup": "oeso-terrains-cancer",
+      "hints": ["Le type histologique est précisé : épidermoïde.", "Quel cancer de l’œsophage naît d’une métaplasie glandulaire ?", "Un cancer gastrique partage-t-il le terrain alcoolo-tabagique de la sphère ORL ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le **carcinome épidermoïde** est favorisé par l’alcool, le tabac, les boissons très chaudes, les antécédents de cancer ORL ou bronchique (« cancérisation de champ ») et la sténose caustique. Le **Barrett** donne un **adénocarcinome**. Le cancer gastrique n’est pas un terrain reconnu de carcinome épidermoïde œsophagien." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-008", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO", "hernie hiatale", "cas clinique"], "clinical": true, "difficulty": 2,
+      "type": "single",
+      "stem": "Un homme de 85 ans, BPCO, asymptomatique du point de vue digestif, présente une anémie ferriprive. On décide de lui faire une gastroscopie et on observe des petites ulcérations au niveau de l’oesophage suggérant une oesophagite peptique (Los Angeles grade B) ainsi qu’une hernie hiatale de 4cm. Quelle prise en charge préconisez-vous ?",
+      "options": [
+        { "key": "A", "text": "Chirurgie : valve de Nissen", "note": "traitement médical en premier TJS ! en plus asympto et opérabilité bof", "noteOrigin": "archives" },
+        { "key": "B", "text": "Traitement IPP à vie", "expected": true },
+        { "key": "C", "text": "Traitement Anti-H2 à vie", "note": "tachyphylaxie", "noteOrigin": "archives" },
+        { "key": "D", "text": "Mesures hygiéno-diététiques : arrêter de boire et de fumer", "note": "ok mais impact est très limité", "noteOrigin": "archives" },
+        { "key": "E", "text": "Dilatation herniaire", "note": "non 85 ans", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": ["Question retrouvée au moins 3 fois (Dewit, janvier 2022, Kartheuser)."],
+      "provenance": [{ "file": "compilation", "page": 47, "section": "DEWIT — Œsophage", "originalNumber": "12" }],
+      "duplicateGroup": "oeso-85ans-ipp",
+      "hints": ["Tenez compte de l’âge et des comorbidités.", "L’œsophagite est la seule lésion retrouvée : quel traitement la cicatrise le mieux ?", "Les anti-H2 perdent leur efficacité avec le temps (tachyphylaxie)."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Patient âgé, BPCO, œsophagite érosive avec volumineuse hernie hiatale : le traitement de référence est **médical** par **IPP**, au long cours (la hernie entretient le reflux). La chirurgie anti-reflux n’est pas indiquée chez ce patient fragile et asymptomatique. Les anti-H2 sont moins efficaces et soumis à la tachyphylaxie. NB : une anémie ferriprive chez un patient de 85 ans impose aussi de s’assurer qu’une autre cause (notamment colique) a été recherchée." },
+      "lessonLinks": ["oeso-rgo"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-009", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO", "endoscopie"], "difficulty": 2,
+      "type": "single",
+      "stem": "1 réponse fausse",
+      "options": [
+        { "key": "A", "text": "Homme de 50 ans avec RGO et bonne réponse aux ipp justifie une endoscopie" },
+        { "key": "B", "text": "Endoscopie supérieur à la PHmétrie de 24h pour le diagnostic de RGO", "expected": true },
+        { "key": "C", "text": "Oesophagite médicamenteuse peut démasquer un trouble moteur" },
+        { "key": "D", "text": "Traitement par mucosectomie d’un œsophage de Barett de haut grade" },
+        { "key": "E", "text": "Endoscopie avant 24h pour une ingestion de caustique" }
+      ],
+      "answerStatus": "proposed", "quality": [],
+      "sourceComments": ["Attention : ailleurs (janvier 2023), une proposition voisine dit « l’endoscopie est supérieure à la pH-métrie pour diagnostiquer une œsophagite à reflux » — œsophagite et RGO ne sont pas la même chose."],
+      "provenance": [{ "file": "compilation", "page": 47, "section": "DEWIT — Œsophage", "originalNumber": "13" }],
+      "duplicateGroup": "oeso-phmetrie-vs-endoscopie",
+      "hints": ["Lisez précisément ce qui est diagnostiqué : le RGO ou l’œsophagite ?", "Un RGO peut exister sans lésion visible.", "Quel examen quantifie l’exposition acide sur 24 h ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Pour le **RGO** (le reflux lui-même), l’examen de référence est la **pH(-impédance)métrie de 24 h** : l’endoscopie est normale dans une majorité de RGO (forme non érosive). Pour l’**œsophagite**, l’endoscopie est l’examen diagnostique. Une œsophagite médicamenteuse (comprimé bloqué) peut révéler un trouble moteur sous-jacent." },
+      "lessonLinks": ["oeso-rgo"]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-005", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["Barrett", "achalasie", "cancer épidermoïde"], "difficulty": 3,
+      "type": "multiple", "expectedCount": 2,
+      "stem": "2 réponses vraies :",
+      "options": [
+        { "key": "A", "text": "Le tabac et l’alcool favorisent l’apparition du carcinome épidermoïde de l’œsophage", "expected": true, "note": "oui + boissons chaudes", "noteOrigin": "archives" },
+        { "key": "B", "text": "L’œsophage de Barett peut évoluer en cancer épidermoïde de l’œsophage", "note": "non adénoK", "noteOrigin": "archives" },
+        { "key": "C", "text": "Un œsophage de Barrett se manifeste par de la dysphagie et nécessite un suivi régulier par endoscopie et biopsie", "note": "pas la cause de dysphagie", "noteOrigin": "archives" },
+        { "key": "D", "text": "En cas de suspicion d’achalasie, il faut réaliser une endoscopie avant de faire une manométrie", "expected": true, "note": "on fait toujours une endoscopie sur dysphagie, si elle ne montre rien on fera la manométrie", "noteOrigin": "archives" },
+        { "key": "E", "text": "La radiofréquence est un traitement de l’œsophage de Barrett par endoscopie", "note": "Commentaire étudiant : « pas par endoscopie, par endoscopie = mucosectomie. Chirurgie possible aussi »", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La correction étudiante retient A et D. Mais le commentaire sur E (« la radiofréquence n’est pas endoscopique ») est contredit par la question « Trouver la fausse sur le Barrett » de la même section, où « la radiofréquence est un traitement par endoscopie » n’est PAS la réponse fausse. En pratique, l’ablation par radiofréquence du Barrett se fait par voie endoscopique : E pourrait être vraie, ce qui ferait 3 propositions vraies. À vérifier dans le cours.",
+      "quality": ["transcription-error-suspected"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 47, "section": "DEWIT — Œsophage", "originalNumber": "14" }],
+      "hints": ["Associez chaque facteur au bon type histologique.", "Devant une dysphagie, on exclut d’abord une lésion organique.", "Le Barrett est-il en lui-même symptomatique ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Alcool et tabac sont les principaux facteurs du **carcinome épidermoïde**. Le Barrett évolue vers l’**adénocarcinome**, et il est asymptomatique (les symptômes sont ceux du reflux). Devant toute dysphagie (y compris suspicion d’achalasie), l’**endoscopie** précède la manométrie pour éliminer une cause organique (notamment une pseudo-achalasie tumorale du cardia). L’ablation par radiofréquence du Barrett dysplasique est une technique **endoscopique**." },
+      "lessonLinks": ["oeso-cancers", "oeso-dysphagie"]
+    }
+  ]
+}

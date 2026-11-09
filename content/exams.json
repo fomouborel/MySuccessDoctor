@@ -1,0 +1,58 @@
+[
+  { "id": "2026-08", "title": "Août 2026 (2ᵉ session)", "session": "2026-08", "dated": true, "duration": "2 h 30", "format": "QROC + QCM, sur 20 points",
+    "compositionKnown": true,
+    "composition": [
+      { "discipline": "GASTRO", "teacher": "Dewit", "announced": "7 pts : 1 page recto-verso de QROC + 2 QCM" },
+      { "discipline": "CHIR", "teacher": "Hubert", "announced": "3 questions" },
+      { "discipline": "HEPATO", "announced": "3 questions" },
+      { "discipline": "PEDIA", "announced": "3 questions (3 pts)" },
+      { "discipline": "RADIO", "announced": "3 questions (1 pt)" },
+      { "discipline": "PHARMA", "announced": "1 QCM (1 pt)" }
+    ],
+    "missingSlots": [{ "originalNumber": "Dewit QCM 2/2", "note": "Le second QCM de Dewit n’a pas été retranscrit." }],
+    "notes": ["Aucune réponse n’est proposée dans la retranscription."] },
+  { "id": "2026-01", "title": "Janvier 2026", "session": "2026-01", "dated": true, "duration": "2 h 30", "format": "QCM (38 pts, dont 1 QCM par clinique, soit 12) + QROC (20 pts) ; total 60 ramené sur 100",
+    "compositionKnown": true,
+    "composition": [
+      { "discipline": "GASTRO", "teacher": "Dewit", "announced": "QCM + 6 QROC" },
+      { "discipline": "HEPATO", "teacher": "Delire", "announced": "3 QROC" },
+      { "discipline": "CHIR", "teacher": "Hubert", "announced": "QCM + 3–4 QROC" },
+      { "discipline": "PEDIA", "teacher": "Smets", "announced": "3 QROC" },
+      { "discipline": "RADIO", "announced": "QCM + 1 QROC" },
+      { "discipline": "PHARMA", "announced": "QCM" },
+      { "discipline": "CLIN", "announced": "12 QCM (1 par clinique)" }
+    ],
+    "missingSlots": [
+      { "originalNumber": "3", "note": "Non retranscrite (prénom du retranscripteur seulement)." },
+      { "originalNumber": "5", "note": "Non retranscrite." }, { "originalNumber": "6", "note": "Non retranscrite." },
+      { "originalNumber": "10", "note": "Non retranscrite." }, { "originalNumber": "14", "note": "Non retranscrite." },
+      { "originalNumber": "17", "note": "Non retranscrite." }, { "originalNumber": "23", "note": "Non retranscrite." },
+      { "originalNumber": "35", "note": "Non retranscrite." }
+    ],
+    "notes": [] },
+  { "id": "2025-01", "title": "Janvier 2025", "session": "2025-01", "dated": true, "duration": "2 h", "format": "46 QCM + QROC (Smets, Leclercq)",
+    "compositionKnown": true,
+    "composition": [
+      { "discipline": "GASTRO", "teacher": "Dewit", "announced": "16 QCM" },
+      { "discipline": "HEPATO", "teacher": "Leclercq", "announced": "3 QROC + 1 QCM" },
+      { "discipline": "CHIR", "teacher": "Hubert", "announced": "11 QCM" },
+      { "discipline": "PEDIA", "teacher": "Smets", "announced": "3 QROC" },
+      { "discipline": "RADIO", "teacher": "Danse", "announced": "4 QCM" },
+      { "discipline": "CLIN", "announced": "12 QCM" },
+      { "discipline": "PHARMA", "announced": "3 QCM" }
+    ],
+    "missingSlots": [
+      { "originalNumber": "5", "note": "Non retranscrite." }, { "originalNumber": "6", "note": "Non retranscrite." },
+      { "originalNumber": "7", "note": "Non retranscrite." }, { "originalNumber": "15", "note": "Vide." },
+      { "originalNumber": "22", "note": "Vide." }, { "originalNumber": "44", "note": "Vide." }
+    ],
+    "notes": ["La retranscription contient aussi des « propositions dont je me souviens » sans question associée."] },
+  { "id": "2024-01", "title": "Janvier 2024", "session": "2024-01", "dated": true, "format": "QCM + QROC (répartition non chiffrée)",
+    "compositionKnown": false, "missingSlots": [], "notes": ["Enseignants : Dewit, Leclercq, Léonard, Smets, radiologie, pharmacologie."] },
+  { "id": "2023-01", "title": "Janvier 2023", "session": "2023-01", "dated": true, "format": "76 QCM (dont 8 sur 22 de type « combien ») + QROC",
+    "compositionKnown": false, "missingSlots": [], "notes": ["Environ 20 numéros non retranscrits."] },
+  { "id": "2022-01", "title": "Janvier 2022", "session": "2022-01", "dated": true, "compositionKnown": false, "missingSlots": [], "notes": [] },
+  { "id": "ND", "title": "Questions non datées (classées par professeur)", "session": "ND", "dated": false, "compositionKnown": false, "missingSlots": [],
+    "notes": ["Ces questions proviennent des sections par professeur de la Compilation, sans année.", "Bertrand et Sokal sont signalés « ancien titulaire »."] },
+  { "id": "AP", "title": "Anatomo-pathologie 2015–2020", "session": "AP", "dated": true, "compositionKnown": false, "missingSlots": [], "notes": ["Questions fondées sur des images ; certaines images manquent."] }
+]

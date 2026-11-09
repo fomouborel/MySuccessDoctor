@@ -1,0 +1,134 @@
+{
+  "source": "Examen de janvier 2022 (Compilation p.31–41) — questions du chapitre Œsophage",
+  "questions": [
+    {
+      "id": "DIGEST-2022-01-CHIR-QCM-001", "revision": 1, "session": "2022-01", "discipline": "CHIR",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer épidermoïde"], "difficulty": 1,
+      "type": "single",
+      "stem": "Concernant le cancer proximal de l’oesophage, une réponse est juste :",
+      "options": [
+        { "key": "A", "text": "il est souvent de type adénocarcinome" },
+        { "key": "B", "text": "il est souvent de type épidermoide", "expected": true, "note": "1/3 proxi comparée a l’adenomK qui est distal", "noteOrigin": "archives" },
+        { "key": "C", "text": "se traite toujours par radiofréquence" },
+        { "key": "D", "text": "une autre proposition fausse" },
+        { "key": "E", "text": "again une autre proposition fausse" }
+      ],
+      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 31, "section": "Janvier 2022", "originalNumber": "1" }],
+      "duplicateGroup": "oeso-proximal-epidermoide",
+      "hints": ["La localisation oriente vers le type histologique.", "Le tiers inférieur est exposé au reflux acide.", "Le tiers supérieur partage les facteurs de risque des cancers ORL."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Tiers supérieur et moyen : **carcinome épidermoïde** majoritaire ; tiers inférieur et jonction : **adénocarcinome** (Barrett)." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-2022-01-CHIR-QCM-002", "revision": 1, "session": "2022-01", "discipline": "CHIR",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker"], "difficulty": 1,
+      "type": "single",
+      "stem": "A propos du diverticule de Zenker, quelle proposition est fausse",
+      "options": [
+        { "key": "A", "text": "diverticule de traction (non de pulsion)", "expected": true },
+        { "key": "B", "text": "cervicotomie toujours associée à une cricomyotomie" }
+      ],
+      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 32, "section": "Janvier 2022", "originalNumber": "3" }],
+      "duplicateGroup": "oeso-zenker-fausse",
+      "hints": ["Pulsion ou traction : quel mécanisme pour un diverticule pharyngo-œsophagien ?", "Pensez au muscle crico-pharyngien.", "Le traitement doit supprimer l’obstacle en aval du diverticule."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le Zenker est un diverticule de **pulsion** ; la chirurgie (diverticulectomie ou diverticulopexie par cervicotomie) s’accompagne toujours d’une **myotomie crico-pharyngienne**." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-2022-01-ANAPATH-QCM-001", "revision": 1, "session": "2022-01", "discipline": "ANAPATH",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer épidermoïde", "facteurs de risque"], "difficulty": 1,
+      "type": "single",
+      "stem": "Ce qui favorise cancer épidermoïde du ⅓ moyen de l’oesophage (une réponse) :",
+      "options": [
+        { "key": "A", "text": "Excès d’alcool et tabac", "expected": true },
+        { "key": "B", "text": "Oesophage de Barrett" },
+        { "key": "C", "text": "Travailleurs exposés à des produits chimiques" },
+        { "key": "D", "text": "(proposition non retranscrite)" }
+      ],
+      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": ["Discipline déduite de la position dans la retranscription (entre deux questions d’anatomo-pathologie)."],
+      "provenance": [{ "file": "compilation", "page": 36, "section": "Janvier 2022", "originalNumber": "34" }],
+      "duplicateGroup": "oeso-terrains-cancer",
+      "hints": ["Type histologique précisé : épidermoïde.", "Le Barrett correspond à quel autre type de cancer ?", "Les deux toxiques les plus classiques agissent en synergie."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "L’**alcool et le tabac** (effet multiplicatif) sont les deux grands facteurs du carcinome épidermoïde ; le Barrett mène à l’adénocarcinome." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-2022-01-RADIO-QCM-001", "revision": 1, "session": "2022-01", "discipline": "RADIO",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["déglutition", "imagerie"], "difficulty": 2,
+      "type": "single",
+      "stem": "Dans quelle circonstance est utilisée l’échelle de Rosenbek?",
+      "options": [
+        { "key": "A", "text": "Etude radiologique des hernies hiatales" },
+        { "key": "B", "text": "Étude radiologique des cancers rectaux" },
+        { "key": "C", "text": "Étude radiologique de l’appendicite" },
+        { "key": "D", "text": "Étude radiologique de la diverticulite" },
+        { "key": "E", "text": "Étude radiologique des aspirations/pénétrations lors de l’étude de la déglutition.", "expected": true }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 36, "section": "Janvier 2022", "originalNumber": "38" }],
+      "duplicateGroup": "oeso-rosenbek",
+      "hints": ["C’est une échelle de 1 à 8.", "Elle décrit jusqu’où le produit de contraste descend dans les voies aériennes.", "Elle est utilisée lors d’un examen dynamique de la déglutition."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "L’échelle **pénétration-aspiration de Rosenbek** (1 à 8) cote, lors d’une vidéofluoroscopie de la déglutition, la profondeur de passage du bolus dans les voies aériennes (pénétration laryngée, aspiration sous les cordes vocales) et l’efficacité de son expulsion." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-2022-01-RADIO-QCM-002", "revision": 1, "session": "2022-01", "discipline": "RADIO",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker", "imagerie"], "difficulty": 2,
+      "type": "single",
+      "stem": "l'examen radiologique du diverticule de zenker se fait via l'examen suivant :",
+      "options": [
+        { "key": "A", "text": "endoscopie" },
+        { "key": "B", "text": "scanner" },
+        { "key": "C", "text": "IRM" },
+        { "key": "D", "text": "radiographie (à l'iode?)", "expected": true },
+        { "key": "E", "text": "étude de la déglutition à la baryte" }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription marque D (« radiographie »), mais la proposition E (« étude de la déglutition à la baryte ») est marquée juste dans une autre question de la même session (« Quel truc pour voir Zenker »). D et E désignent en pratique un examen radiologique avec produit de contraste : la distinction attendue par l’enseignant n’est pas claire.",
+      "quality": ["uncertain-wording"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 36, "section": "Janvier 2022", "originalNumber": "39" }],
+      "duplicateGroup": "oeso-zenker-imagerie",
+      "hints": ["L’endoscopie n’est pas un examen radiologique.", "L’examen doit être dynamique et opacifier la lumière.", "Comparez attentivement les deux propositions qui utilisent un produit de contraste."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le Zenker se voit sur un **transit pharyngo-œsophagien / étude radiologique de la déglutition** avec produit de contraste (baryte le plus souvent). C’est une **radiographie** dynamique avec opacification : selon la formulation de l’enseignant, D et E renvoient au même principe." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QCM-001", "revision": 1, "session": "2022-01", "discipline": "GASTRO",
+      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO", "hernie hiatale", "cas clinique"], "clinical": true, "difficulty": 2,
+      "type": "single",
+      "stem": "Un homme de 85 ans, BPCO, asymptomatique du point de vue digestif, présente une anémie ferriprive. On décide de lui faire une gastroscopie et on observe des petites ulcérations au niveau de l’oesophage suggérant une oesophagite peptique (Los Angeles grade B) ainsi qu’une hernie hiatale de 4cm. Quelle prise en charge préconisez-vous ?",
+      "options": [
+        { "key": "A", "text": "Chirurgie : valve de Nissen", "note": "traitement médical en premier TJS ! (en plus asympto et opérabilité bof)", "noteOrigin": "archives" },
+        { "key": "B", "text": "Traitement IPP à vie", "expected": true },
+        { "key": "C", "text": "Traitement Anti-H2 à vie", "note": "tachyphylaxie", "noteOrigin": "archives" },
+        { "key": "D", "text": "Mesures hygiéno-diététiques : arrêter de boire et de fumer", "note": "ok mais impact est très limité", "noteOrigin": "archives" },
+        { "key": "E", "text": "Dilatation herniaire", "note": "non 85 ans", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": ["Placée après la mention « Reding ⇒ anciennes questions » : enseignant exact incertain."],
+      "provenance": [{ "file": "compilation", "page": 39, "section": "Janvier 2022", "originalNumber": "(non numérotée)" }],
+      "duplicateGroup": "oeso-85ans-ipp",
+      "hints": ["Patient âgé, fragile, et asymptomatique sur le plan digestif.", "Quel traitement cicatrise une œsophagite érosive ?", "La hernie hiatale persistera : le traitement devra-t-il être court ou prolongé ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Traitement médical par **IPP au long cours** : la hernie hiatale volumineuse entretient le reflux ; la chirurgie n’est pas justifiée chez ce patient." },
+      "lessonLinks": ["oeso-rgo"]
+    },
+    {
+      "id": "DIGEST-2022-01-RADIO-QCM-003", "revision": 1, "session": "2022-01", "discipline": "RADIO",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker", "imagerie"], "difficulty": 1,
+      "type": "single",
+      "stem": "Quel truc pour voir Zenker :",
+      "options": [
+        { "key": "A", "text": "étude de déglutition avec PDC baryté", "expected": true, "note": "+1", "noteOrigin": "archives" },
+        { "key": "B", "text": "CT scan" },
+        { "key": "C", "text": "Rx avec pdc iodé" }
+      ],
+      "answerStatus": "proposed", "quality": ["incomplete-options", "uncertain-wording"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 39, "section": "Janvier 2022 — Radiologie", "originalNumber": "(non numérotée)" }],
+      "duplicateGroup": "oeso-zenker-imagerie",
+      "hints": ["Examen dynamique de la déglutition.", "Quel produit de contraste est classiquement utilisé pour le tube digestif haut ?", "Le produit iodé est réservé à certaines situations (suspicion de perforation)."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Étude radiologique de la déglutition avec **produit de contraste baryté** : examen de référence pour montrer le diverticule. Le produit hydrosoluble iodé est préféré en cas de suspicion de perforation." },
+      "lessonLinks": ["oeso-dysphagie"]
+    }
+  ]
+}

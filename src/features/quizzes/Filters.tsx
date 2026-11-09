@@ -1,0 +1,173 @@
+import { useMemo, useState } from 'react';
+import { chapters, questions, sessionLabel } from '../../content';
+import type { Question } from '../../content/schema';
+import { DISCIPLINE_LABELS } from '../../content/schema';
+import { STATUS_LABELS, type QuestionState, type QuestionStatus } from '../../services/progress';
+import { TYPE_LABELS } from '../../components/ui';
+
+export interface FilterValues {
+  session: string;
+  teacher: string;
+  discipline: string;
+  chapter: string;
+  subchapter: string;
+  type: string;
+  difficulty: string;
+  status: string;
+  answer: string;
+  clinical: string;
+}
+export const EMPTY_FILTERS: FilterValues = { session: '', teacher: '', discipline: '', chapter: '', subchapter: '', type: '', difficulty: '', status: '', answer: '', clinical: '' };
+
+export function applyFilters(qs: Question[], f: FilterValues, states: Map<string, QuestionState>): Question[] {
+  return qs.filter(
+    (q) =>
+      (!f.session || q.session === f.session) &&
+      (!f.teacher || (q.teacher ?? '—') === f.teacher) &&
+      (!f.discipline || q.discipline === f.discipline) &&
+      (!f.chapter || q.chapter === f.chapter) &&
+      (!f.subchapter || q.subchapter === f.subchapter) &&
+      (!f.type || q.type === f.type) &&
+      (!f.difficulty || String(q.difficulty) === f.difficulty) &&
+      (!f.status || (states.get(q.id)?.status ?? 'new') === f.status) &&
+      (!f.answer || (f.answer === 'with' ? q.answerStatus !== 'unavailable' : q.answerStatus === 'unavailable')) &&
+      (!f.clinical || !!q.clinical === (f.clinical === 'yes')),
+  );
+}
+
+const uniq = (xs: string[]) => [...new Set(xs)].sort((a, b) => a.localeCompare(b, 'fr'));
+
+export function useFilters(initial: Partial<FilterValues> = {}) {
+  const [f, setF] = useState<FilterValues>({ ...EMPTY_FILTERS, ...initial });
+  return [f, setF] as const;
+}
+
+export function Filters({ value, onChange, compact }: { value: FilterValues; onChange: (f: FilterValues) => void; compact?: boolean }) {
+  const opts = useMemo(
+    () => ({
+      sessions: uniq(questions.map((q) => q.session)).sort((a, b) => (a === 'ND' ? 1 : b === 'ND' ? -1 : b.localeCompare(a))),
+      teachers: uniq(questions.map((q) => q.teacher ?? '—')),
+      disciplines: uniq(questions.map((q) => q.discipline)),
+      types: uniq(questions.map((q) => q.type)),
+    }),
+    [],
+  );
+  const chapter = chapters.find((c) => c.id === value.chapter);
+  const set = (k: keyof FilterValues) => (e: React.ChangeEvent<HTMLSelectElement>) =>
+    onChange({ ...value, [k]: e.target.value, ...(k === 'chapter' ? { subchapter: '' } : {}) });
+  const active = Object.values(value).some(Boolean);
+
+  return (
+    <div className="card">
+      <div className="grid grid-3">
+        <label className="field">
+          Chapitre
+          <select value={value.chapter} onChange={set('chapter')}>
+            <option value="">Tous</option>
+            {chapters
+              .filter((c) => questions.some((q) => q.chapter === c.id))
+              .map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.title}
+                </option>
+              ))}
+          </select>
+        </label>
+        <label className="field">
+          Sous-chapitre
+          <select value={value.subchapter} onChange={set('subchapter')} disabled={!chapter}>
+            <option value="">Tous</option>
+            {chapter?.subchapters.map((s) => (
+              <option key={s.id} value={s.id}>
+                {s.title}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="field">
+          Année / session
+          <select value={value.session} onChange={set('session')}>
+            <option value="">Toutes</option>
+            {opts.sessions.map((s) => (
+              <option key={s} value={s}>
+                {sessionLabel(s)}
+              </option>
+            ))}
+          </select>
+        </label>
+        {!compact && (
+          <>
+            <label className="field">
+              Professeur
+              <select value={value.teacher} onChange={set('teacher')}>
+                <option value="">Tous</option>
+                {opts.teachers.map((t) => (
+                  <option key={t} value={t}>
+                    {t === '—' ? 'Non précisé' : t}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="field">
+              Discipline
+              <select value={value.discipline} onChange={set('discipline')}>
+                <option value="">Toutes</option>
+                {opts.disciplines.map((d) => (
+                  <option key={d} value={d}>
+                    {DISCIPLINE_LABELS[d as keyof typeof DISCIPLINE_LABELS]}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </>
+        )}
+        <label className="field">
+          Type de question
+          <select value={value.type} onChange={set('type')}>
+            <option value="">Tous</option>
+            {opts.types.map((t) => (
+              <option key={t} value={t}>
+                {TYPE_LABELS[t as Question['type']]}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="field">
+          Difficulté (estimée)
+          <select value={value.difficulty} onChange={set('difficulty')}>
+            <option value="">Toutes</option>
+            <option value="1">★ Facile</option>
+            <option value="2">★★ Moyenne</option>
+            <option value="3">★★★ Difficile</option>
+          </select>
+        </label>
+        <label className="field">
+          Mon statut
+          <select value={value.status} onChange={set('status')}>
+            <option value="">Tous</option>
+            {(Object.keys(STATUS_LABELS) as QuestionStatus[]).map((s) => (
+              <option key={s} value={s}>
+                {STATUS_LABELS[s]}
+              </option>
+            ))}
+          </select>
+        </label>
+        {!compact && (
+          <label className="field">
+            Correction
+            <select value={value.answer} onChange={set('answer')}>
+              <option value="">Toutes</option>
+              <option value="with">Avec réponse proposée</option>
+              <option value="without">Sans réponse dans les archives</option>
+            </select>
+          </label>
+        )}
+      </div>
+      {active && (
+        <button className="btn secondary small" type="button" style={{ marginTop: '0.75rem' }} onClick={() => onChange(EMPTY_FILTERS)}>
+          Effacer les filtres
+        </button>
+      )}
+    </div>
+  );
+}

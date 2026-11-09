@@ -1,0 +1,601 @@
+{
+  "source": "Examen de janvier 2023 (Compilation p.18–31) — questions du chapitre Œsophage",
+  "questions": [
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCMM-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "dysphagie"
+      ],
+      "difficulty": 1,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Qu’est-ce qui ne provoque pas de dysphagie ( 2 bonnes réponses )",
+      "options": [
+        {
+          "key": "A",
+          "text": "Syndrome de Mallory Weiss",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "varices oesophagienes",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "achalasie de l’oesophage"
+        },
+        {
+          "key": "D",
+          "text": "l’ingestion de caustique"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 18,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "1"
+        }
+      ],
+      "duplicateGroup": "oeso-pas-dysphagie",
+      "hints": [
+        "Deux entités se révèlent par un saignement.",
+        "L’une est une déchirure, l’autre une dilatation veineuse.",
+        "Achalasie et sténose caustique gênent toutes deux le passage du bol."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Mallory-Weiss (déchirure du cardia après efforts de vomissement) et varices œsophagiennes se révèlent par une **hémorragie**. L’achalasie (trouble moteur) et les séquelles de caustiques (sténose) donnent une **dysphagie**."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-COMB-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "rgo",
+      "tags": [
+        "RGO",
+        "manométrie"
+      ],
+      "difficulty": 3,
+      "type": "count",
+      "countOf": "unknown",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "stem": "combien de réponses sont justes fausses ?",
+      "stemNote": "La retranscription ne permet pas de savoir s’il fallait compter les propositions justes ou fausses. Les choix de réponse n’ont pas été retranscrits.",
+      "statements": [
+        {
+          "key": "a",
+          "text": "chez un homme de 45 ans présentant des symptômes de reflux et devenu asymptomatique suite à la prescription d’IPP par son médecin traitant il n’est pas nécéssaire de réaliser une investigation"
+        },
+        {
+          "key": "b",
+          "text": "une oesophagite médicamenteuse peut mettre en évidence des troubles moteurs"
+        },
+        {
+          "key": "c",
+          "text": "une odynaphagie et douleur rétrosternale peuvent être les symptômes d’un RGO"
+        },
+        {
+          "key": "d",
+          "text": "la manométrie est supérieure à la pH métrie pour détecter une oesophagite peptique"
+        },
+        {
+          "key": "e",
+          "text": "il n’y a pas de corrélation entre les lésions de l’oesophage et l’importance des symptômes"
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording",
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 18,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "2"
+        }
+      ],
+      "hints": [
+        "Évaluez chaque proposition, puis comptez selon la consigne.",
+        "Quel examen visualise une œsophagite ?",
+        "Quel âge seuil justifie une endoscopie dans un RGO ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** a : plutôt fausse selon l’enseignement (≥ 45 ans → endoscopie). b : vraie (un comprimé bloqué peut révéler un trouble moteur). c : vraie (odynophagie, douleur thoracique possibles). d : fausse (ni la manométrie ni la pH-métrie ne « voient » une œsophagite : c’est l’endoscopie ; la manométrie étudie la motricité). e : vraie. Soit 3 vraies et 2 fausses."
+      },
+      "lessonLinks": [
+        "oeso-rgo"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-VF-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "caustiques",
+        "Barrett",
+        "cancer"
+      ],
+      "difficulty": 3,
+      "type": "truefalse",
+      "stem": "Parmi les 6 propositions suivantes lesquelles sont Vraies/fausses (jsp)",
+      "stemNote": "La consigne exacte (lesquelles vraies, lesquelles fausses, ou combien) n’a pas été retenue par le retranscripteur. L’exercice est présenté en Vrai/Faux, proposition par proposition.",
+      "statements": [
+        {
+          "key": "1",
+          "text": "L’examen à faire en première intention dans l’ingestion de caustique est le CT scan avec inject thoraco-abdominal."
+        },
+        {
+          "key": "2",
+          "text": "C’est plus la quantité d’agent caustique ingéré qui importe que le PH (alcalin ou acide)."
+        },
+        {
+          "key": "3",
+          "text": "Les principaux facteurs de risque de l’adénocarcinome oesophagique sont l’alcool et le tabac."
+        },
+        {
+          "key": "4",
+          "text": "La radiothérapie est plus souvent utilisée pour traiter l’adénocarcinome que le carcinome epidermoïde de l’oesophage."
+        },
+        {
+          "key": "5",
+          "text": "La radiofréquence, l’oesophagectomie et la musectomie sont des traitements de l’oesophage de Barrett."
+        },
+        {
+          "key": "6",
+          "text": "L’endoscopie est supérieure à la PH métrie de 24h pour diagnostiquer une oesophagite à reflux."
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [
+        "« musectomie » est probablement « mucosectomie »."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 18,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "3"
+        }
+      ],
+      "hints": [
+        "Pensez à la place de l’endoscopie dans les caustiques.",
+        "Associez chaque facteur de risque au bon type histologique.",
+        "Le carcinome épidermoïde est réputé radiosensible."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** 1 : discutée — l’endoscopie précoce reste l’examen classique ; certaines équipes utilisent aujourd’hui le scanner injecté pour décider d’une chirurgie urgente : dépend du cours. 2 : vraie (la quantité est déterminante ; les bases donnent plutôt des lésions œsophagiennes, les acides plutôt gastriques). 3 : fausse (adénocarcinome : RGO, Barrett, obésité, sexe masculin ; alcool-tabac : épidermoïde). 4 : fausse (le carcinome épidermoïde est le plus radiosensible ; la radio-chimiothérapie exclusive y est une option). 5 : vraie (radiofréquence, mucosectomie et, en cas de cancer invasif, œsophagectomie). 6 : vraie."
+      },
+      "lessonLinks": [
+        "oeso-urgences",
+        "oeso-cancers"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCM-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "cancer",
+        "facteurs de risque"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "L’apparition d’un cancer de l’œsophage est possible sur les terrains suivants sauf 1 :",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sujet qui consomme tabac alcool"
+        },
+        {
+          "key": "B",
+          "text": "Sujet atteint d’un cancer de la sphère ORL"
+        },
+        {
+          "key": "C",
+          "text": "Sujet atteint d’œsophage de Barett"
+        },
+        {
+          "key": "D",
+          "text": "Sujet atteint d’ATCD d’oesophagite caustique risque"
+        },
+        {
+          "key": "E",
+          "text": "Sujet atteint d’un cancer de l’estomac",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 19,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "4"
+        }
+      ],
+      "duplicateGroup": "oeso-terrains-cancer",
+      "hints": [
+        "Ici, le type histologique n’est pas précisé : tous les cancers de l’œsophage comptent.",
+        "Le Barrett favorise-t-il un cancer de l’œsophage ? Oui, mais lequel ?",
+        "Un seul terrain n’est associé à aucun type de cancer œsophagien."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Sans précision histologique : alcool-tabac, cancer ORL et caustiques favorisent le **carcinome épidermoïde**, le Barrett favorise l’**adénocarcinome**. Le cancer de l’estomac n’est pas un terrain reconnu. Comparez avec la question « sauf 2 » portant spécifiquement sur l’épidermoïde, où le Barrett devient aussi une réponse attendue."
+      },
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "cancer épidermoïde"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Concernant le cancer proximal de l’oesophage, une réponse est juste :",
+      "options": [
+        {
+          "key": "A",
+          "text": "il est souvent de type adénocarcinome"
+        },
+        {
+          "key": "B",
+          "text": "il est souvent de type épidermoide",
+          "expected": true,
+          "note": "1/3 proxi comparé à l’adénoK qui est distal",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "se traite toujours par radiofréquence"
+        },
+        {
+          "key": "D",
+          "text": "une autre proposition fausse"
+        },
+        {
+          "key": "E",
+          "text": "again une autre proposition fausse"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [
+        "Question située dans la partie chirurgie (Kartheuser) de la retranscription."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 24,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "40"
+        }
+      ],
+      "duplicateGroup": "oeso-proximal-epidermoide",
+      "hints": [
+        "La localisation renseigne sur l’histologie.",
+        "Où naît l’adénocarcinome de l’œsophage, et pourquoi ?",
+        "Le Barrett siège dans le bas œsophage."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Les cancers des tiers **supérieur et moyen** sont surtout des **carcinomes épidermoïdes** (alcool-tabac). L’**adénocarcinome** siège au **tiers inférieur / jonction**, sur Barrett. La radiofréquence est un traitement endoscopique du Barrett dysplasique, pas du cancer invasif."
+      },
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-002",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "Zenker"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "A propos du diverticule de Zenker, quelle proposition est fausse",
+      "options": [
+        {
+          "key": "A",
+          "text": "diverticule de traction (non de pulsion)",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "cervicotomie toujours associée à une cricomyotomie"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [
+        "Seules deux propositions ont été retranscrites."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 25,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "40"
+        }
+      ],
+      "duplicateGroup": "oeso-zenker-fausse",
+      "hints": [
+        "Les diverticules se classent selon leur mécanisme de formation.",
+        "Le Zenker se forme au-dessus d’un muscle qui se relâche mal.",
+        "Une hyperpression dans la lumière pousse la muqueuse à travers une zone de faiblesse."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le Zenker est un diverticule de **pulsion** : la muqueuse hernie à travers le triangle de Killian, au-dessus d’un muscle crico-pharyngien (sphincter supérieur) hypertonique / mal relaxé. Son traitement chirurgical associe toujours une **myotomie crico-pharyngienne** (sinon récidive). Les diverticules de **traction** sont médio-œsophagiens (adénopathies, tuberculose)."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-003",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "rgo",
+      "tags": [
+        "hernie hiatale",
+        "RGO"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Citez la propositon exacte",
+      "options": [
+        {
+          "key": "A",
+          "text": "Une hernie hiatale mixte favorise le RGO",
+          "expected": true,
+          "note": "+1 +1 +1 +1",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Une hernie hiatale par roulement favoris le RGO"
+        },
+        {
+          "key": "C",
+          "text": "L’intensité des symptômes en parallèle avec gravité des lésions"
+        },
+        {
+          "key": "D",
+          "text": "(proposition fausse non retranscrite)"
+        },
+        {
+          "key": "E",
+          "text": "(proposition fausse non retranscrite)"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 25,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "41"
+        }
+      ],
+      "duplicateGroup": "oeso-hernie-mixte",
+      "hints": [
+        "Une hernie favorise le reflux si elle déplace le cardia.",
+        "La hernie mixte combine deux mécanismes.",
+        "Les symptômes sont-ils proportionnels aux lésions dans le RGO ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le reflux est favorisé par l’ascension du **cardia** (hernie par **glissement**). La hernie **mixte** associe glissement et roulement : elle favorise donc le RGO. La hernie par roulement pure laisse le cardia en place. Les symptômes du RGO ne sont pas corrélés à la gravité des lésions."
+      },
+      "lessonLinks": [
+        "oeso-rgo"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-RADIO-QCM-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "RADIO",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "Schatzki",
+        "imagerie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un monsieur qui a eu un housse steak syndrome, maintenant on nous demande quel examen radiologique pourrait monter un anneau de schatki",
+      "stemNote": "« housse steak syndrome » = steakhouse syndrome (impaction alimentaire). Formulation reconstituée.",
+      "options": [
+        {
+          "key": "A",
+          "text": "aucun examen"
+        },
+        {
+          "key": "B",
+          "text": "ct avec pdc"
+        },
+        {
+          "key": "C",
+          "text": "iRm avec pDc"
+        },
+        {
+          "key": "D",
+          "text": "OED"
+        },
+        {
+          "key": "E",
+          "text": "biopsie (qqch Comme ça)"
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 28,
+          "section": "Janvier 2023 — Radiologie",
+          "originalNumber": "66"
+        }
+      ],
+      "hints": [
+        "L’anneau est fin et muqueux : il faut opacifier la lumière.",
+        "Un examen radiologique avec ingestion de produit de contraste.",
+        "OED = œso-gastro-duodénal (transit baryté)."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** L’anneau de Schatzki est un fin repli muqueux du bas œsophage, responsable de dysphagie intermittente aux solides et d’impactions (« steakhouse syndrome »). En radiologie, il est le mieux montré par un **transit œso-gastro-duodénal (OED) baryté**, idéalement avec bolus solide ; l’endoscopie (non radiologique) le voit et permet de le dilater."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QROC-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "Barrett",
+        "définition"
+      ],
+      "difficulty": 1,
+      "type": "qroc",
+      "stem": "Définir le barrett",
+      "answerStatus": "unavailable",
+      "quality": [
+        "stem-only"
+      ],
+      "sourceComments": [
+        "Enseignant non précisé dans la retranscription des QROC de 2023."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 30,
+          "section": "Janvier 2023 — QROC",
+          "originalNumber": "(liste)"
+        }
+      ],
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Remplacement de l’épithélium malpighien du bas œsophage par un épithélium glandulaire (métaplasie)",
+          "de type intestinal (cellules caliciformes)",
+          "conséquence du reflux gastro-œsophagien chronique"
+        ],
+        "keywords": [
+          "métaplasie",
+          "intestinale",
+          "épithélium malpighien",
+          "bas œsophage",
+          "RGO",
+          "adénocarcinome"
+        ],
+        "optional": [
+          "Diagnostic endoscopique (muqueuse « saumon » remontant au-dessus de la jonction) confirmé par biopsies",
+          "Classification de Prague",
+          "Risque d’adénocarcinome ≈ 0,1–0,5 %/an sans dysplasie (le chiffre de 1 %/an circule dans les archives)"
+        ],
+        "majorErrors": [
+          "Parler de dysplasie au lieu de métaplasie",
+          "Associer le Barrett au carcinome épidermoïde"
+        ],
+        "exampleAnswer": "L’œsophage de Barrett est une métaplasie glandulaire de type intestinal remplaçant l’épithélium malpighien du bas œsophage, secondaire au reflux gastro-œsophagien chronique. Diagnostic endoscopique confirmé par biopsies ; c’est une lésion prénéoplasique de l’adénocarcinome, justifiant une surveillance endoscopique."
+      },
+      "hints": [
+        "Le terme clé est histologique.",
+        "Quel épithélium remplace quel autre ?",
+        "Quelle est la cause et quel cancer en découle ?"
+      ],
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
+    }
+  ]
+}

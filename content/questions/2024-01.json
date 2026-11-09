@@ -1,0 +1,84 @@
+{
+  "source": "Examen de janvier 2024 (Compilation p.9–17) — questions du chapitre Œsophage",
+  "questions": [
+    {
+      "id": "DIGEST-2024-01-GASTRO-COMB-001", "revision": 1, "session": "2024-01", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer", "dysphagie"], "difficulty": 3,
+      "type": "count", "countOf": "true", "choices": ["0", "1", "2", "3", "4", "5"], "expectedChoice": "3",
+      "stem": "Combien de réponses correctes :",
+      "stemNote": "Les choix de réponse (A = 1, B = 2…) n’ont pas été retranscrits ; ils sont remplacés ici par 0 à 5.",
+      "statements": [
+        { "key": "A", "text": "Echo endoscopie c’est mieux que CTscan pour le bilan d’extention et metastases du cancer epidermoide", "expected": false, "note": "Faux CT scan préférable pour métastases", "noteOrigin": "archives" },
+        { "key": "B", "text": "Oesophagite médicamenteuse donne dysphagie", "expected": true, "note": "VRai", "noteOrigin": "archives" },
+        { "key": "C", "text": "On peut faire une mucosectomie si risque chir d’un cancer epidermoide T1N0M0", "expected": true, "note": "VRai. Débat : c’était peut-être « œsophage distal » ; « ça change rien ».", "noteOrigin": "archives" },
+        { "key": "D", "text": "L’adenocarcinome se traite le mieux par radiotherapie", "expected": false, "note": "Non annoté dans les archives ; jugé faux par déduction (complément).", "noteOrigin": "complement" },
+        { "key": "E", "text": "Faire une oesogastroduodenoscopie dans le bilan d’une neoplasie epidermoide du pharynx", "expected": true, "note": "Vrai", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "inferred",
+      "answerNote": "Le nombre n’est pas indiqué dans les archives : il est déduit des annotations « vrai/faux » proposition par proposition (A faux, B vrai, C vrai, E vrai) et d’une déduction pour D (non annotée).",
+      "quality": ["incomplete-options"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 9, "section": "Janvier 2024 — Dewit", "originalNumber": "1" }],
+      "hints": ["Évaluez chaque affirmation séparément avant de compter.", "Pour les métastases à distance, quel examen voit tout le thorax et l’abdomen ?", "Quel est le traitement de référence d’un adénocarcinome résécable : chirurgie ou radiothérapie seule ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "L’écho-endoscopie est excellente pour le **T et le N locorégional**, mais le **scanner (et le TEP)** recherche les métastases à distance. L’œsophagite médicamenteuse donne une odynophagie/dysphagie. Une résection endoscopique est possible pour un carcinome épidermoïde superficiel **T1N0** si la chirurgie est risquée. L’adénocarcinome résécable se traite par traitement néo-adjuvant + **chirurgie**, pas par radiothérapie seule. Un cancer ORL impose de rechercher un cancer œsophagien synchrone (endoscopie)." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-2024-01-GASTRO-QCMM-001", "revision": 1, "session": "2024-01", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["dysphagie"], "difficulty": 1,
+      "type": "multiple", "expectedCount": 2,
+      "stem": "qu’est ce qui ne donne pas de dysphagie ?",
+      "stemNote": "Le nombre de réponses attendues n’est pas précisé dans la retranscription ; deux propositions sont marquées.",
+      "options": [
+        { "key": "A", "text": "varices oeso", "expected": true },
+        { "key": "B", "text": "syndrome de mallory weiss", "expected": true },
+        { "key": "C", "text": "Oesophage de Barrett" },
+        { "key": "D", "text": "Chagas" },
+        { "key": "E", "text": "Oesophagite medicamenteuse" }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription marque A et B. Or un œsophage de Barrett (C) n’est pas en lui-même une cause de dysphagie (cf. autre question Dewit : « pas la cause de dysphagie ») : C pourrait également être attendue. À vérifier.",
+      "quality": ["uncertain-wording"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 10, "section": "Janvier 2024 — Dewit", "originalNumber": "10" }],
+      "duplicateGroup": "oeso-pas-dysphagie",
+      "hints": ["Cherchez les lésions qui n’obstruent pas la lumière et ne gênent pas la motricité.", "Une déchirure linéaire liée aux vomissements se manifeste comment ?", "Quand les varices œsophagiennes deviennent-elles symptomatiques ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Les **varices** œsophagiennes et le **Mallory-Weiss** se révèlent par une **hémorragie** (hématémèse), pas par une dysphagie. Chagas (achalasie secondaire) et l’œsophagite médicamenteuse donnent une dysphagie/odynophagie. Le Barrett est asymptomatique en lui-même : seuls ses complications (sténose peptique, adénocarcinome) donnent une dysphagie." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-2024-01-GASTRO-QROC-001", "revision": 1, "session": "2024-01", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO", "endoscopie"], "difficulty": 1,
+      "type": "qroc",
+      "stem": "Patient 45 ans avec RGO contrôlé sous IPP; indication endoscopie?",
+      "stemNote": "Seul l’énoncé a été retranscrit (pas de propositions, pas de réponse).",
+      "answerStatus": "unavailable", "quality": ["stem-only"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 12, "section": "Janvier 2024 — Dewit", "originalNumber": "(non numérotée)" }],
+      "duplicateGroup": "oeso-endoscopie-45ans",
+      "model": { "origin": "complement", "review": "to-validate",
+        "essentials": ["Oui, selon l’enseignement reçu : âge ≥ 45 ans (seuil cité dans plusieurs questions d’archives)", "Rechercher œsophagite, Barrett, cancer"],
+        "keywords": ["45 ans", "endoscopie", "Barrett", "signes d’alarme"],
+        "optional": ["Signes d’alarme : dysphagie, amaigrissement, anémie, hémorragie, vomissements"],
+        "majorErrors": ["Considérer que la bonne réponse aux IPP dispense de toute endoscopie quel que soit l’âge"],
+        "exampleAnswer": "Oui : à partir de 45 ans (seuil enseigné), une endoscopie haute est indiquée même si les symptômes sont contrôlés par IPP, afin de rechercher une œsophagite, un œsophage de Barrett ou une lésion néoplasique ; elle l’est à tout âge en présence de signes d’alarme." },
+      "hints": ["Un âge seuil est régulièrement cité dans les questions de ce professeur.", "La réponse aux IPP masque-t-elle une éventuelle lésion ?", "Pensez aux complications du reflux chronique à rechercher."],
+      "lessonLinks": ["oeso-rgo"]
+    },
+    {
+      "id": "DIGEST-2024-01-CHIR-QCM-001", "revision": 1, "session": "2024-01", "discipline": "CHIR", "teacher": "Léonard",
+      "chapter": "oesophage", "subchapter": "rgo", "tags": ["Nissen", "hernie hiatale", "chirurgie"], "difficulty": 2,
+      "type": "single",
+      "stem": "Question sur l'opération de nissen, la fausse",
+      "options": [
+        { "key": "A", "text": "permet de traiter du reflux sur hernie par roulement", "expected": true, "note": "+1 (vote d’étudiant)", "noteOrigin": "archives" },
+        { "key": "B", "text": "se fait par laparoscopie" },
+        { "key": "C", "text": "sur le fundus" },
+        { "key": "D", "text": "se fait avec les piliers du diaphragme" }
+      ],
+      "answerStatus": "proposed", "answerNote": "Réponse issue d’un vote d’étudiant (+1), sans marquage rouge.",
+      "quality": ["incomplete-options"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 14, "section": "Janvier 2024 — Léonard", "originalNumber": "6" }],
+      "hints": ["Distinguez les deux grands types de hernie hiatale.", "Lequel des deux types laisse le cardia en place ?", "Une hernie qui ne déplace pas le cardia favorise-t-elle le reflux ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "La fundoplicature de Nissen (360°, par **laparoscopie**) enroule le **fundus** autour de l’œsophage abdominal, après rapprochement des **piliers** du diaphragme. Elle traite le **RGO** (souvent associé à une hernie **par glissement**, où le cardia remonte). La hernie **par roulement** (para-œsophagienne) ne s’accompagne classiquement pas de reflux : son risque est mécanique (volvulus, étranglement)." },
+      "lessonLinks": ["oeso-rgo"]
+    }
+  ]
+}

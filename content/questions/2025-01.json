@@ -1,0 +1,85 @@
+{
+  "source": "Examen de janvier 2025 (Compilation p.1–9 et Retranscription Janvier 2025) — questions du chapitre Œsophage",
+  "questions": [
+    {
+      "id": "DIGEST-2025-01-GASTRO-QCMM-001", "revision": 1, "session": "2025-01", "discipline": "GASTRO", "teacher": "Dewit",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["dysphagie"], "difficulty": 2,
+      "type": "multiple",
+      "stem": "Qu’est-ce qui donne une dysphagie",
+      "stemNote": "Retranscription de mémoire. Le format exact de la question (« lesquelles » ou « combien ») n’est pas connu. Le surnom de l’enseignant figurant dans la retranscription a été retiré.",
+      "options": [
+        { "key": "A", "text": "RGO" },
+        { "key": "B", "text": "Oesophagite médicamenteuse" },
+        { "key": "C", "text": "Oesophagite peptique" },
+        { "key": "D", "text": "Maladie de Chagas" },
+        { "key": "E", "text": "Anneau de Schatzki" },
+        { "key": "F", "text": "Oesophagite à éosinophiles" },
+        { "key": "G", "text": "Candidose oesophagienne" },
+        { "key": "H", "text": "Varices oesophagiennes" },
+        { "key": "I", "text": "Adénocarcinome au niveau du cardia" }
+      ],
+      "answerStatus": "unavailable", "quality": ["uncertain-wording"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 1, "section": "Janvier 2025 — Dewit", "originalNumber": "1" }, { "file": "jan2025", "page": 1, "section": "Dewit", "originalNumber": "1" }],
+      "hints": ["Classez les causes : organiques, inflammatoires, motrices.", "Une seule de ces entités est typiquement asymptomatique avant sa complication.", "Le RGO non compliqué donne surtout pyrosis et régurgitations ; une dysphagie doit faire chercher une complication."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "**Analyse complémentaire (aucune correction dans les archives).** Donnent une dysphagie : œsophagites (peptique, médicamenteuse, à éosinophiles, candidose — plutôt odynophagie), anneau de Schatzki (dysphagie intermittente aux solides), maladie de Chagas (achalasie secondaire), adénocarcinome du cardia. Les **varices** œsophagiennes ne donnent pas de dysphagie. Le **RGO** en lui-même donne surtout pyrosis/régurgitations ; une dysphagie au cours d’un RGO fait rechercher une œsophagite sévère, une sténose peptique ou un cancer — selon la façon dont l’enseignant l’entend, « RGO » peut être compté ou non." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-2025-01-CHIR-QCM-001", "revision": 1, "session": "2025-01", "discipline": "CHIR", "teacher": "Hubert",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["chirurgie de l’œsophage"], "difficulty": 3,
+      "type": "single",
+      "stem": "Concernant la chir oeso. La vraie :",
+      "options": [
+        { "key": "A", "text": "Bilal pré nutrition pas indiqué", "note": "Lire « bilan nutritionnel préopératoire non indiqué » (faute de frappe de la retranscription)." , "noteOrigin": "complement" },
+        { "key": "B", "text": "Envahissement de l’aorte n’est pas une CI" },
+        { "key": "C", "text": "ne cirrhose décompensée n’est pas une CI" },
+        { "key": "D", "text": "Chir de l’œsophage 1/3 sup se fait en 3 voies", "expected": true },
+        { "key": "E", "text": "curage de 4 ganglions" }
+      ],
+      "answerStatus": "proposed", "quality": ["uncertain-wording"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 4, "section": "Janvier 2025 — Hubert", "originalNumber": "24" }, { "file": "qcm-nc", "page": 27, "section": "Chir Hubert (2025)", "originalNumber": "24" }],
+      "hints": ["Quatre propositions énoncent des contre-indications ou des pratiques erronées.", "Plus la tumeur est haute, plus l’anastomose doit être haute.", "Une anastomose cervicale demande un abord supplémentaire."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Pour un cancer haut situé, l’œsophagectomie se fait par **trois voies** (abdominale, thoracique droite et cervicale, type McKeown) avec anastomose cervicale. Un bilan **nutritionnel** préopératoire est indispensable (dénutrition fréquente). L’envahissement de l’aorte (T4b) et une cirrhose décompensée sont des **contre-indications**. Le curage ganglionnaire est étendu (bien plus que 4 ganglions)." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-2025-01-RADIO-QCM-001", "revision": 1, "session": "2025-01", "discipline": "RADIO", "teacher": "Danse",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker", "imagerie", "cas clinique"], "clinical": true, "difficulty": 1,
+      "type": "single",
+      "stem": "Patiente de 85 ans, avec pneumonies récurrentes sur probables fausses routes. Elle se plaint aussi de gêne à la déglutition, de masse cervicale transitoire et d'haleine fétide, quel examen complémentaire serait le plus adapté dans un bilan de diverticule de Zenker (1 réponse):",
+      "options": [
+        { "key": "A", "text": "Echographie (pas sur si j'ai bien retranscrit celle-ci)" },
+        { "key": "B", "text": "Radiographie simple avec ingestion de produit de contraste", "expected": true },
+        { "key": "C", "text": "CT scan cervicale" },
+        { "key": "D", "text": "IRM cervicale" },
+        { "key": "E", "text": "Pet-scan" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 6, "section": "Janvier 2025 — Radio", "originalNumber": "34" }],
+      "duplicateGroup": "oeso-zenker-imagerie",
+      "hints": ["L’examen doit montrer une poche qui se remplit lors de la déglutition.", "On a besoin d’un examen dynamique, pendant la déglutition.", "Un produit opacifiant avalé dessine la lumière digestive."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le diverticule de Zenker (pharyngo-œsophagien postérieur) se met en évidence par un **transit / étude radiologique de la déglutition avec produit de contraste** (baryté le plus souvent ; hydrosoluble si suspicion de fausse route ou de perforation). L’endoscopie est réalisée avec prudence (risque de perforation du diverticule)." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-2025-01-CLIN-QCM-001", "revision": 1, "session": "2025-01", "discipline": "CLIN",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["jonction œso-gastrique", "bilan d’extension"], "clinical": true, "difficulty": 3,
+      "type": "single",
+      "stem": "Pour un patient avec un adénocarcinome au niveau de la jonction oeso-gastrique (1 fausse)",
+      "options": [
+        { "key": "A", "text": "Il faut faire un bilan complet comportant un CT cervico-thoraco-abdo-pelvien, un pet-CT, les dosages de CEA et de CA19,9 + biologie complète, une coelioscopie (= laparoscopie), gastroscopie + biopsie et (écho)endoscopie avec ou sans cytoponction" },
+        { "key": "B", "text": "La coelioscopie est indispensable afin de pouvoir placer une gastro- ou jéjunostomie qui elle est indispensable pour assurer la nutrition correcte du patient dans la prise en charge et ce quel que soit le diagnostic nutritionnel du patient" },
+        { "key": "C", "text": "Le stade cTNM doit être défini/est indispensable pour le futur/la décision de la prise en charge du patient" },
+        { "key": "D", "text": "On peut commencer par une radio-chimiothérapie néo-adjuvante pour ce patient et si la tumeur répond bien au traitement on peut alors faire un ‘watch-and-wait' et uniquement s’engager dans la chirurgie si jamais la tumeur venait à croître à nouveau", "expected": true }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription marque D. Cependant la proposition B (« jéjunostomie indispensable quel que soit l’état nutritionnel ») paraît elle aussi fausse : la question compterait alors 2 propositions fausses pour une consigne « 1 fausse ». Formulations longues reconstituées de mémoire ; à vérifier.",
+      "quality": ["uncertain-wording"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 7, "section": "Janvier 2025 — Cliniques", "originalNumber": "39" }],
+      "duplicateGroup": "oeso-jonction-watch-wait",
+      "hints": ["Une stratégie validée pour un autre cancer digestif est transposée ici.", "Pour quel cancer la surveillance après réponse complète (« watch and wait ») est-elle discutée ?", "La chirurgie reste-t-elle la référence après traitement néo-adjuvant d’un adénocarcinome de la jonction ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Pour un adénocarcinome de la jonction œso-gastrique résécable, le standard est un traitement **néo-adjuvant** (chimiothérapie périopératoire ou radio-chimiothérapie) **suivi de chirurgie**. La stratégie « watch-and-wait » est discutée dans le cancer du **rectum** (et dans certains carcinomes épidermoïdes de l’œsophage en réponse complète), pas comme option standard ici. Le stade cTNM conditionne la stratégie. Une jéjunostomie d’alimentation n’est pas systématique : elle dépend de l’état nutritionnel." },
+      "lessonLinks": ["oeso-cancers"]
+    }
+  ]
+}

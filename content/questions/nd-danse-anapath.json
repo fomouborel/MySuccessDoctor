@@ -1,0 +1,138 @@
+{
+  "source": "Compilation DIGEST — sections DANSE/ANNET (radiologie, non datée) et ANAPATH (2015–2020) — questions du chapitre Œsophage",
+  "questions": [
+    {
+      "id": "DIGEST-ND-RADIO-QCM-001", "revision": 1, "session": "ND", "discipline": "RADIO", "teacher": "Danse / Annet",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["déglutition", "imagerie"], "difficulty": 2,
+      "type": "single",
+      "stem": "L’échelle de Rosenbek est utilisé pour l’:",
+      "options": [
+        { "key": "A", "text": "Etude radiologique des aspirations/pénétrations lors de l’étude de la déglutition", "expected": true },
+        { "key": "B", "text": "Etude radiologique de l’hernie hiatale" },
+        { "key": "C", "text": "Etude radiologique de l’appendicite" },
+        { "key": "D", "text": "Etude radiologique de la diverticulite" },
+        { "key": "E", "text": "Etude radiologique du cancer du rectum" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 98, "section": "DANSE/ANNET — Radiologie", "originalNumber": "9" }, { "file": "qcm-nc", "page": 22, "section": "Imagerie Danse", "originalNumber": "9" }],
+      "duplicateGroup": "oeso-rosenbek",
+      "hints": ["Échelle utilisée en vidéofluoroscopie.", "Elle concerne les voies aériennes pendant la déglutition.", "Pénétration… et ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Échelle **pénétration-aspiration** de Rosenbek (8 grades) utilisée lors de l’étude radiologique dynamique de la déglutition." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-ND-RADIO-QCM-002", "revision": 1, "session": "ND", "discipline": "RADIO", "teacher": "Danse / Annet",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker", "imagerie"], "difficulty": 1,
+      "type": "single",
+      "stem": "L'analyse radiologique du diverticule de Zenker se fait grâce à ( 1 réponse ) :",
+      "options": [
+        { "key": "A", "text": "L'échographie" },
+        { "key": "B", "text": "L'IRM" },
+        { "key": "C", "text": "Le scanner" },
+        { "key": "D", "text": "La radiographie", "expected": true },
+        { "key": "E", "text": "L'angiographie" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 99, "section": "DANSE/ANNET — Radiologie", "originalNumber": "10" }],
+      "duplicateGroup": "oeso-zenker-imagerie",
+      "hints": ["L’examen doit être dynamique.", "On fait avaler un produit qui opacifie la lumière.", "C’est l’examen radiologique le plus « classique »."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "**Radiographie** dynamique avec produit de contraste (transit pharyngo-œsophagien / étude de la déglutition)." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-ND-RADIO-QCM-003", "revision": 1, "session": "ND", "discipline": "RADIO", "teacher": "Danse / Annet",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker", "imagerie"], "difficulty": 1,
+      "type": "single",
+      "stem": "Le diverticule de Zenker est détecté par :",
+      "options": [
+        { "key": "A", "text": "Radiographie", "expected": true },
+        { "key": "B", "text": "IRM" },
+        { "key": "C", "text": "CT scan" },
+        { "key": "D", "text": "PET-scan" },
+        { "key": "E", "text": "Echographie" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 99, "section": "DANSE/ANNET — Radiologie", "originalNumber": "13" }],
+      "duplicateGroup": "oeso-zenker-imagerie",
+      "hints": ["Même question que la précédente, autre formulation.", "Examen avec produit de contraste avalé.", "Examen dynamique."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Radiographie avec opacification (transit / étude de la déglutition)." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-ND-RADIO-QCM-004", "revision": 1, "session": "ND", "discipline": "RADIO", "teacher": "Danse / Annet",
+      "chapter": "oesophage", "subchapter": "moteur", "tags": ["achalasie", "imagerie", "image"], "difficulty": 2,
+      "type": "single",
+      "stem": "Quel est votre diagnostic?",
+      "stemNote": "Question posée sur une image radiologique qui n’est PAS présente dans les archives. Sans l’image, la question ne peut pas être raisonnée : elle sert seulement de rappel du diagnostic attendu.",
+      "options": [
+        { "key": "A", "text": "Spasmes diffus" },
+        { "key": "B", "text": "Sclérodermie" },
+        { "key": "C", "text": "Achalasie", "expected": true },
+        { "key": "D", "text": "Sténose peptique" },
+        { "key": "E", "text": "Normal" }
+      ],
+      "answerStatus": "proposed", "quality": ["image-missing"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 99, "section": "DANSE/ANNET — Radiologie", "originalNumber": "14" }],
+      "hints": ["Imaginez les aspects typiques de chaque diagnostic au transit baryté.", "« Bec d’oiseau » ou « queue de radis » : à quoi cela correspond-il ?", "Un aspect en « tire-bouchon » évoque plutôt des spasmes."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Au transit baryté, l’**achalasie** donne un œsophage dilaté, sans péristaltisme, avec rétrécissement effilé régulier du bas œsophage (« bec d’oiseau », « queue de radis ») et stase. Spasmes diffus : aspect en « tire-bouchon ». Sclérodermie : œsophage atone avec sphincter béant et reflux." },
+      "lessonLinks": ["oeso-dysphagie"]
+    },
+    {
+      "id": "DIGEST-AP2015-ANAPATH-QCM-001", "revision": 1, "session": "AP2015", "discipline": "ANAPATH",
+      "chapter": "oesophage", "subchapter": "oesophagites", "tags": ["œsophagite infectieuse", "immunodépression", "image", "cas clinique"], "clinical": true, "difficulty": 3,
+      "type": "single",
+      "stem": "Jeune homme de 25ans, traité pour maladie de Hodgkin, présente des douleurs rétrosternales, on fait une endoscopie avec prélèvements. diagnostic:",
+      "stemNote": "La question portait sur une image histologique qui n’est pas présente dans les archives.",
+      "options": [
+        { "key": "a", "text": "ulcère gastroduodénal" },
+        { "key": "b", "text": "oesophagite à CMV", "note": "Commentaire : « il y avait les yeux de hibou non ? »", "noteOrigin": "archives" },
+        { "key": "c", "text": "carcinome épidermoïde" },
+        { "key": "d", "text": "oesophagite à Candida" },
+        { "key": "e", "text": "oesophagite herpétique", "note": "Marquée en rouge, puis commentée : « possible vu qu’il y avait des cellules en “verre dépoli” mais surtout présence de cellules à noyau + halo clair = CMV »", "noteOrigin": "archives" }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "Réponse marquée « herpétique » mais le commentaire qui suit conclut plutôt à une œsophagite à CMV (inclusions en « œil de hibou »). Sans l’image, impossible de trancher.",
+      "quality": ["image-missing"], "sourceComments": [],
+      "provenance": [{ "file": "compilation", "page": 104, "section": "ANAPATH — 2015", "originalNumber": "1" }],
+      "hints": ["Le terrain (chimiothérapie) oriente vers une cause infectieuse opportuniste.", "Deux virus donnent des aspects histologiques différents : cellules multinucléées en verre dépoli, ou grosses inclusions avec halo.", "« Œil de hibou » = ?"],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Chez l’immunodéprimé, trois causes d’œsophagite infectieuse : **Candida** (pseudo-membranes, filaments mycéliens), **HSV** (ulcérations superficielles, cellules malpighiennes multinucléées à noyaux en verre dépoli, « 3 M » : multinucléation, moulage, marginalisation de la chromatine) et **CMV** (ulcères profonds, grandes cellules endothéliales/stromales avec inclusion nucléaire à halo clair « en œil de hibou »)." },
+      "lessonLinks": ["oeso-rgo"]
+    },
+    {
+      "id": "DIGEST-AP2016-ANAPATH-QCMM-001", "revision": 1, "session": "AP2016", "discipline": "ANAPATH",
+      "chapter": "oesophage", "subchapter": "cancer", "tags": ["dysplasie", "image"], "difficulty": 2,
+      "type": "multiple", "expectedCount": 2,
+      "stem": "Quel diagnostic ? (2 réponses)",
+      "media": [{ "src": "media/ap2016-dysplasie-hg.png", "alt": "Coupe histologique d’un épithélium malpighien : cellules atypiques occupant toute la hauteur de l’épithélium, membrane basale respectée." }],
+      "options": [
+        { "key": "a", "text": "Dysplasie haut grade", "expected": true },
+        { "key": "b", "text": "Carcinome épidemroïde infiltrant" },
+        { "key": "c", "text": "Oesophagite peptique" },
+        { "key": "d", "text": "Néoplasie intra épithéliales de haut grade", "expected": true },
+        { "key": "e", "text": "Oesophagite herpetique" }
+      ],
+      "answerStatus": "proposed", "quality": [], "sourceComments": ["Image extraite de la Compilation (p.105) : l’association image ↔ question est déduite de la mise en page."],
+      "provenance": [{ "file": "compilation", "page": 105, "section": "ANAPATH — 2016", "originalNumber": "3" }],
+      "hints": ["Observez toute la hauteur de l’épithélium.", "La membrane basale est-elle franchie ?", "Deux propositions sont des synonymes."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Atypies cytonucléaires sur toute la hauteur de l’épithélium malpighien **sans franchissement de la membrane basale** : **dysplasie de haut grade**, également appelée **néoplasie intra-épithéliale de haut grade**. Le franchissement de la membrane basale définirait un carcinome infiltrant." },
+      "lessonLinks": ["oeso-cancers"]
+    },
+    {
+      "id": "DIGEST-AP2019-ANAPATH-QCM-001", "revision": 1, "session": "AP2019", "discipline": "ANAPATH",
+      "chapter": "oesophage", "subchapter": "oesophagites", "tags": ["œsophagite infectieuse", "VIH", "image"], "difficulty": 2,
+      "type": "single",
+      "stem": "Quelle est cette pathologie chez patient HIV +",
+      "media": [{ "src": "media/ap2019-candida.png", "alt": "Coupe histologique : épithélium malpighien recouvert d’un enduit contenant des filaments et levures (coloration spéciale)." }],
+      "options": [
+        { "key": "a", "text": "Mycose a candida", "expected": true },
+        { "key": "b", "text": "CMV" },
+        { "key": "c", "text": "oesophagite caustique" }
+      ],
+      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": ["Image extraite de la Compilation (p.110) : l’association image ↔ question est déduite de la mise en page."],
+      "provenance": [{ "file": "compilation", "page": 110, "section": "ANAPATH — 2019", "originalNumber": "1" }],
+      "hints": ["Le terrain est celui d’une immunodépression.", "Observez la surface de l’épithélium.", "Des filaments en surface évoquent un champignon."],
+      "explanation": { "origin": "complement", "review": "to-validate", "text": "Filaments mycéliens et levures dans un enduit en surface de l’épithélium malpighien (mieux vus en coloration PAS ou Grocott) : **œsophagite à Candida**, la plus fréquente des œsophagites infectieuses chez le patient VIH+." },
+      "lessonLinks": ["oeso-rgo"]
+    }
+  ]
+}
