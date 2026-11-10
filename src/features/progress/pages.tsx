@@ -35,8 +35,8 @@ export function HomePage() {
         <div className="card stack">
           <h2 style={{ margin: 0 }}>Par où commencer ?</h2>
           <div className="grid grid-3">
-            <Link className="btn" to="/cours/oesophage">
-              📘 Parcours Œsophage
+            <Link className="btn" to="/cours">
+              📘 Mes cours
             </Link>
             <Link className="btn secondary" to="/examens">
               🗂️ Anciens examens

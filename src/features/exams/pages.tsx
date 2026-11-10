@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router';
 import { exams, questions, questionsOfExam, questionById, caseSteps, chapters, sessionLabel } from '../../content';
+
+const availableChapters = () => chapters.filter((c) => c.status === 'available').map((c) => c.title).join(', ');
 import type { Question } from '../../content/schema';
 import { DISCIPLINE_LABELS } from '../../content/schema';
 import { useProgress } from '../../state/ProgressContext';
@@ -37,7 +39,7 @@ export function ExamsPage() {
         </div>
         <ProgressBar value={cov.total ? cov.worked / cov.total : 0} label="Couverture des archives" />
         <p className="small muted" style={{ marginBottom: 0 }}>
-          Prototype : seules les {questions.length} questions du chapitre Œsophage sont intégrées pour l’instant (≈ 661 au total dans les archives).
+          Intégration progressive : {questions.length} questions intégrées à ce jour (chapitres : {availableChapters()}) sur ≈ 661 dans les archives.
         </p>
       </div>
       <div className="tabs" role="tablist">
@@ -145,7 +147,7 @@ export function ExamDetailPage() {
         </details>
       )}
       <div className="notice small">
-        Prototype : seules les questions du chapitre Œsophage de cette session sont intégrées ({qs.length}). Les autres le seront en phase 4.
+        Intégration progressive : seules les questions des chapitres déjà disponibles ({availableChapters()}) sont reprises pour cette session ({qs.length}). Les autres seront ajoutées au fur et à mesure.
       </div>
       <div className="row">
         <button

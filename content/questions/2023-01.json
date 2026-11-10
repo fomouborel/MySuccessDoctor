@@ -1,5 +1,5 @@
 {
-  "source": "Examen de janvier 2023 (Compilation p.18–31) — questions du chapitre Œsophage",
+  "source": "Examen de janvier 2023 (Compilation p.18–31) — questions du chapitre Œsophage, Estomac et duodénum",
   "questions": [
     {
       "id": "DIGEST-2023-01-GASTRO-QCMM-001",
@@ -595,6 +595,400 @@
       ],
       "lessonLinks": [
         "oeso-cancers"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCM-002",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "estomac",
+      "subchapter": "dyspepsie",
+      "tags": [
+        "endoscopie",
+        "signes d’alarme"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Quelle situation ne justifie pas un traitement endoscopique?",
+      "stemNote": "« traitement endoscopique » est probablement « examen endoscopique » (même question que dans la section Dewit). Dans cette version, la patiente B est dite hémophile, et la proposition D est incomplète.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Femme de 40 ans, migraineuse, traitée occasionnellement par ibuprofen, se plaignant de lourdeurs postprandiales, sans vomissements."
+        },
+        {
+          "key": "B",
+          "text": "Femme de 28 ans, hémophile, souffrant d’un pyrosis invalidant.",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Homme de 35 ans, pyrosis malgré un traitement par oméprazole."
+        },
+        {
+          "key": "D",
+          "text": "Femme de 32 ans, se plaignant d’une sensation de gêne épigastrique et ayant perdu"
+        },
+        {
+          "key": "E",
+          "text": "Femmes de 52 ans, récemment ménopausée qui consulte pour satiété précoce."
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 19,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "5"
+        }
+      ],
+      "duplicateGroup": "est-endoscopie-indication",
+      "hints": [
+        "Cherchez la patiente jeune sans signe d’alarme.",
+        "AINS, échec des IPP, amaigrissement, âge : autant d’arguments pour l’endoscopie.",
+        "Un pyrosis typique se traite d’abord empiriquement."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Pyrosis typique, patiente jeune, aucun signe d’alarme → traitement d’épreuve par IPP, sans endoscopie d’emblée (l’hémophilie n’est pas un argument pour l’endoscopie, plutôt un argument de prudence)."
+      },
+      "lessonLinks": [
+        "est-dyspepsie"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-VF-002",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "estomac",
+      "subchapter": "ugd",
+      "tags": [
+        "ulcère",
+        "AINS",
+        "lymphome du MALT"
+      ],
+      "difficulty": 2,
+      "type": "truefalse",
+      "stem": "Vrai ou faux (cb de réponses V/F) :",
+      "stemNote": "La consigne exacte (« combien de vraies / fausses ») et les choix de réponse n’ont pas été retranscrits : l’exercice est présenté en Vrai / Faux.",
+      "statements": [
+        {
+          "key": "1",
+          "text": "Ulcère duodénal cause 10% de cancer"
+        },
+        {
+          "key": "2",
+          "text": "Aspirine à faible dose suffit pour provoquer un ulcère"
+        },
+        {
+          "key": "3",
+          "text": "Eradiquer H.P permet de traiter un lymphome du MALT"
+        },
+        {
+          "key": "4",
+          "text": "Les douleurs ulcéreux gastrique sont plus typiques que les duodénales"
+        },
+        {
+          "key": "5",
+          "text": "Les hémorragies sur ulcère sont plus fréquentes avec les AINS plutôt qu’avec l’H.B"
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [
+        "« H.B » est probablement « H.P » (Helicobacter pylori)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 21,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "(non numérotée)"
+        }
+      ],
+      "hints": [
+        "L’ulcère duodénal dégénère-t-il ?",
+        "Une faible dose d’aspirine reste-t-elle gastro-toxique ?",
+        "Quel ulcère donne les douleurs les plus typiques ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** 1 : faux (l’ulcère duodénal ne dégénère pas). 2 : vrai (même l’aspirine à faible dose est ulcérogène). 3 : vrai (lymphome du MALT de bas grade localisé H. pylori+). 4 : faux (c’est l’inverse). 5 : vrai (ulcères AINS souvent indolores, révélés par une hémorragie)."
+      },
+      "lessonLinks": [
+        "est-ugd"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCMM-002",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "estomac",
+      "subchapter": "gastrites",
+      "tags": [
+        "hypergastrinémie"
+      ],
+      "difficulty": 3,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Une question avec qu’est ce qui ne provoque pas une hypergastrinémie (deux réponses)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zollinger"
+        },
+        {
+          "key": "B",
+          "text": "Prise chronique d’inhibiteur de la pompe a proton"
+        },
+        {
+          "key": "C",
+          "text": "Gastropathie antrale type erythémateuse “en pastèque”",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Biermer"
+        },
+        {
+          "key": "E",
+          "text": "gastrite lymphocytaire",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 22,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "(non numérotée)"
+        }
+      ],
+      "duplicateGroup": "est-hypergastrinemie",
+      "hints": [
+        "Classez : production tumorale de gastrine, ou réponse à une baisse d’acidité.",
+        "Un traitement antisécrétoire prolongé fait-il monter la gastrine ?",
+        "Deux entités ne modifient pas la sécrétion acide."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Hypergastrinémie : **Zollinger-Ellison** (gastrinome), **IPP au long cours** et **Biermer / gastrite atrophique** (achlorhydrie → hypergastrinémie réactionnelle). La gastropathie « en pastèque » (ectasies vasculaires antrales, GAVE) et la gastrite lymphocytaire ne sont pas des causes classiques — à noter que la GAVE est parfois associée aux gastrites atrophiques."
+      },
+      "lessonLinks": [
+        "est-gastrites"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-004",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "cancer",
+      "tags": [
+        "gastrectomie",
+        "curage"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Concernant la gastrectomie pour un cancer de l’estomac, une réponse JUSTE :",
+      "options": [
+        {
+          "key": "A",
+          "text": "N'entraîne aucune carence vitaminique"
+        },
+        {
+          "key": "B",
+          "text": "Nécessite un curage ganglionnaire extensif",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Doit toujours être une gastrectomie totale"
+        },
+        {
+          "key": "D",
+          "text": "Ne peut jamais être palliative"
+        },
+        {
+          "key": "E",
+          "text": "D’office radiochimiothérapie néo-adjuvante"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 25,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "40"
+        }
+      ],
+      "duplicateGroup": "est-gastrectomie-curage",
+      "hints": [
+        "Repérez les mots absolus.",
+        "Que retire-t-on avec l’estomac pour un cancer ?",
+        "Une gastrectomie peut-elle soulager sans guérir ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Curage ganglionnaire étendu (D2) ; gastrectomie partielle ou totale selon le siège ; carences possibles (B12, fer) ; chirurgie palliative possible."
+      },
+      "lessonLinks": [
+        "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-005",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "ugd",
+      "tags": [
+        "ulcère perforé"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Concernant l’ulcère gastro-duodénal, une proposition fausse :",
+      "options": [
+        {
+          "key": "A",
+          "text": "L’ulcère gastrique perforé est parfois un cancer"
+        },
+        {
+          "key": "B",
+          "text": "L’ulcère duodénal perforé est souvent un cancer",
+          "expected": true,
+          "note": "UD donne perfo et hémorragies mais pas cancer",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "L’ulcère gastroduodénal peut être lié à la prise d’AINS"
+        },
+        {
+          "key": "D",
+          "text": "L’ulcère gastroduodénal perforé peut entraîner une péritonite"
+        },
+        {
+          "key": "E",
+          "text": "La mortalité de la chirurgie de la perforations de l’ulcère s’élève à 10 %"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 25,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "40"
+        }
+      ],
+      "duplicateGroup": "est-ulcere-perfore-cancer",
+      "hints": [
+        "Estomac ou duodénum : lequel peut cacher un cancer ?",
+        "Le duodénum est un siège très rare d’adénocarcinome.",
+        "Question très récurrente."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "L’ulcère duodénal ne dégénère pas ; l’ulcère gastrique doit être biopsié (cancer ulcériforme)."
+      },
+      "lessonLinks": [
+        "est-ugd"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-ANAPATH-QCM-001",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "ANAPATH",
+      "chapter": "estomac",
+      "subchapter": "cancer",
+      "tags": [
+        "classification de Lauren"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Anat Path : D’après la classification de « LaUrEn… » pour les carcinomes de l’estomac, quelle est la bonne réponse ?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Polyploides, ulcéreux-…, infiltrants"
+        },
+        {
+          "key": "b",
+          "text": "Classification de bas à haut grade d’après Ki67"
+        },
+        {
+          "key": "c",
+          "text": "Lymphome, …, neuroendocrine"
+        },
+        {
+          "key": "d",
+          "text": "Intestinal et diffus à cellules isolées",
+          "expected": true
+        },
+        {
+          "key": "e",
+          "text": "(proposition non retranscrite)"
+        }
+      ],
+      "answerStatus": "inferred",
+      "answerNote": "Aucune réponse marquée pour cette occurrence ; réponse déduite de la même question de la section « En vrac » (type intestinal / type diffus).",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 28,
+          "section": "Janvier 2023 — Anatomo-pathologie",
+          "originalNumber": "63"
+        }
+      ],
+      "duplicateGroup": "est-lauren",
+      "hints": [
+        "Classification histologique.",
+        "Deux types.",
+        "Glandulaire, ou cellules isolées infiltrantes."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Lauren : type **intestinal** et type **diffus** (cellules isolées, en bague à chaton)."
+      },
+      "lessonLinks": [
+        "est-cancer"
       ]
     }
   ]

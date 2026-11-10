@@ -44,7 +44,7 @@ test('QCM simple : indice, réponse fausse → correction, carnet d’erreurs, c
   await go(page, '/erreurs');
   await expect(page.getByText(/A propos de l’œsophage de Barrett/)).toBeVisible();
   await go(page, '/');
-  await expect(page.getByText('1/70')).toBeVisible();
+  await expect(page.getByText(/^1\/\d+$/)).toBeVisible();
 });
 
 test('QCM à réponses multiples : bonne combinaison', async ({ page }) => {
@@ -132,7 +132,7 @@ test('sauvegarde : export puis restauration dans un navigateur vierge', async ({
   await p2.getByRole('button', { name: 'Remplacer mes données actuelles' }).click();
   await expect(p2.getByText('Sauvegarde restaurée.')).toBeVisible();
   await p2.goto(page.url().replace(/#.*/, '#/'));
-  await expect(p2.getByText('1/70')).toBeVisible();
+  await expect(p2.getByText(/^1\/\d+$/)).toBeVisible();
   await fresh.close();
 });
 
@@ -140,4 +140,23 @@ test('une sauvegarde invalide est refusée avec un message clair', async ({ page
   await go(page, '/progression');
   await page.getByLabel('Fichier de sauvegarde').setInputFiles({ name: 'x.json', mimeType: 'application/json', buffer: Buffer.from('{"nope":true}') });
   await expect(page.getByText('Ce fichier n’est pas une sauvegarde DIGEST ACADEMY valide.')).toBeVisible();
+});
+
+test('chapitre Estomac : parcours disponible et QCM « 2 faux » corrigé', async ({ page }) => {
+  await go(page, '/cours');
+  await page.getByRole('link', { name: /Estomac et duodénum/ }).click();
+  await expect(page.getByRole('heading', { level: 1, name: /Estomac et duodénum/ })).toBeVisible();
+  await go(page, '/question/DIGEST-2025-01-GASTRO-QCMM-002');
+  await page.getByRole('button', { name: /^a\. Prédispose/ }).click();
+  await page.getByRole('button', { name: /^b\. Est plus fréquent/ }).click();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await expect(page.getByText('✅ Bonne réponse')).toBeVisible();
+});
+
+test('question contestée sans réponse retenue : non évaluée, explication du désaccord affichée', async ({ page }) => {
+  await go(page, '/question/DIGEST-2024-01-CHIR-QCM-002');
+  await page.getByRole('button', { name: /^E\. Cancer colique droit/ }).click();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await expect(page.getByText(/Pas de correction de référence/)).toBeVisible();
+  await expect(page.getByText(/Votes partagés/)).toBeVisible();
 });

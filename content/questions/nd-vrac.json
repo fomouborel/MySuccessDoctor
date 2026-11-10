@@ -1,0 +1,136 @@
+{
+  "source": "Compilation DIGEST — section « En vrac » (non datée, enseignant non précisé)",
+  "questions": [
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-021",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "chapter": "estomac",
+      "subchapter": "hemorragie",
+      "tags": [
+        "vomissements",
+        "Dieulafoy",
+        "hémorragie digestive haute"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Trouver De réponse correct",
+      "stemNote": "Section « En vrac » de la Compilation : enseignant non précisé.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vomissement Chronique et Aigue Pour hypertension intracranienne",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Vomissement provoquer par diverticule de Zenker"
+        },
+        {
+          "key": "C",
+          "text": "hemoglobinemie est une bonne caractéristique de l'hémorragie"
+        },
+        {
+          "key": "D",
+          "text": "les varices œsophagiennes sont la cause la plus fréquente d'hémorragie haute"
+        },
+        {
+          "key": "E",
+          "text": "perfo dieu la foy dépasse la Muscularis mucosis"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 44,
+          "section": "En vrac",
+          "originalNumber": "23"
+        }
+      ],
+      "duplicateGroup": "est-htic-dieulafoy",
+      "hints": [
+        "Version voisine d’une question de la section Dewit.",
+        "Le Zenker donne des régurgitations : est-ce un vomissement ?",
+        "Pensez à une cause neurologique de vomissements."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Voir la question jumelle : HTIC → vomissements aigus ou chroniques. Le Zenker donne des **régurgitations** (sans effort de vomissement)."
+      },
+      "lessonLinks": [
+        "est-dyspepsie",
+        "est-hemorragie"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-ANAPATH-QCM-001",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "ANAPATH",
+      "chapter": "estomac",
+      "subchapter": "cancer",
+      "tags": [
+        "classification de Lauren",
+        "cancer gastrique"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "La classification microscopique de Lauren classe les cancers de l’estomac selon (1 bonne réponse vraie) :",
+      "options": [
+        {
+          "key": "a",
+          "text": "Type polypoïde, type végétant, type infiltrant"
+        },
+        {
+          "key": "b",
+          "text": "Type intestinal, type diffus à cellules isolées",
+          "expected": true
+        },
+        {
+          "key": "c",
+          "text": "… cellules neuroendocrines …"
+        },
+        {
+          "key": "d",
+          "text": "Une proposition fausse"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [
+        "Section « En vrac » ; discipline déduite (anatomo-pathologie)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 43,
+          "section": "En vrac",
+          "originalNumber": "15"
+        }
+      ],
+      "duplicateGroup": "est-lauren",
+      "hints": [
+        "Classification microscopique, pas macroscopique.",
+        "Deux grands types histologiques.",
+        "L’un forme des glandes, l’autre infiltre la paroi par cellules dispersées."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Lauren** : type **intestinal** (glandulaire, sur gastrite atrophique / métaplasie, sujet âgé) et type **diffus** (cellules isolées, souvent en « bague à chaton », sujet plus jeune, linite). La classification polypoïde / ulcéré / infiltrant est **macroscopique** (Borrmann)."
+      },
+      "lessonLinks": [
+        "est-cancer"
+      ]
+    }
+  ]
+}

@@ -1,242 +1,1216 @@
 {
-  "source": "Compilation DIGEST — section KARTHEUSER (chirurgie adulte), non datée — questions du chapitre Œsophage",
+  "source": "Compilation DIGEST — section KARTHEUSER (chirurgie adulte), non datée — questions du chapitre Œsophage, Estomac et duodénum",
   "questions": [
     {
-      "id": "DIGEST-ND-CHIR-QCM-001", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "urgences", "tags": ["perforation", "cas clinique"], "clinical": true, "difficulty": 1,
-      "caseId": "cas-perforation-oeso", "caseStep": 1,
+      "id": "DIGEST-ND-CHIR-QCM-001",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "urgences",
+      "tags": [
+        "perforation",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-perforation-oeso",
+      "caseStep": 1,
       "type": "single",
       "stem": "Après endoscopie chez un patient, emphysème cutané au niveau du cou. A quoi pensez-vous?",
       "options": [
-        { "key": "A", "text": "Perforation gastrique" },
-        { "key": "B", "text": "Pneumonie d’inhalation" },
-        { "key": "C", "text": "Perforation de l’oesophage", "expected": true }
+        {
+          "key": "A",
+          "text": "Perforation gastrique"
+        },
+        {
+          "key": "B",
+          "text": "Pneumonie d’inhalation"
+        },
+        {
+          "key": "C",
+          "text": "Perforation de l’oesophage",
+          "expected": true
+        }
       ],
-      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 82, "section": "KARTHEUSER", "originalNumber": "6" }],
-      "hints": ["De l’air est sorti du tube digestif.", "Le cou communique avec le médiastin par des espaces celluleux.", "Quel organe traversé par l’endoscope est situé dans le cou et le thorax ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Un **emphysème sous-cutané cervical** après endoscopie signe une **perforation œsophagienne** (iatrogène, cause la plus fréquente) jusqu’à preuve du contraire. Associé à douleur thoracique, fièvre et parfois crépitants, c’est une urgence (médiastinite)." },
-      "lessonLinks": ["oeso-urgences"]
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 82,
+          "section": "KARTHEUSER",
+          "originalNumber": "6"
+        }
+      ],
+      "hints": [
+        "De l’air est sorti du tube digestif.",
+        "Le cou communique avec le médiastin par des espaces celluleux.",
+        "Quel organe traversé par l’endoscope est situé dans le cou et le thorax ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Un **emphysème sous-cutané cervical** après endoscopie signe une **perforation œsophagienne** (iatrogène, cause la plus fréquente) jusqu’à preuve du contraire. Associé à douleur thoracique, fièvre et parfois crépitants, c’est une urgence (médiastinite)."
+      },
+      "lessonLinks": [
+        "oeso-urgences"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-002", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "urgences", "tags": ["perforation", "imagerie", "cas clinique"], "clinical": true, "difficulty": 2,
-      "caseId": "cas-perforation-oeso", "caseStep": 2,
+      "id": "DIGEST-ND-CHIR-QCM-002",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "urgences",
+      "tags": [
+        "perforation",
+        "imagerie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "caseId": "cas-perforation-oeso",
+      "caseStep": 2,
       "type": "single",
       "stem": "Par rapport à cette hypothèse, quel examen faire?",
       "options": [
-        { "key": "A", "text": "CT abdomen" },
-        { "key": "B", "text": "Radio thorax baryté" },
-        { "key": "C", "text": "CT thorax", "expected": true }
+        {
+          "key": "A",
+          "text": "CT abdomen"
+        },
+        {
+          "key": "B",
+          "text": "Radio thorax baryté"
+        },
+        {
+          "key": "C",
+          "text": "CT thorax",
+          "expected": true
+        }
       ],
-      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 82, "section": "KARTHEUSER", "originalNumber": "7" }],
-      "hints": ["Où se situe la lésion suspectée ?", "Faut-il éviter un produit de contraste particulier en cas de perforation ?", "Le scanner montre l’air et le liquide médiastinaux."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Devant une suspicion de perforation œsophagienne, on réalise un **scanner thoracique** (cervico-thoracique, idéalement avec opacification orale par produit **hydrosoluble**) : pneumomédiastin, épanchement, collection, fuite de contraste. La **baryte est proscrite** en cas de suspicion de perforation (médiastinite chimique)." },
-      "lessonLinks": ["oeso-urgences"]
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 82,
+          "section": "KARTHEUSER",
+          "originalNumber": "7"
+        }
+      ],
+      "hints": [
+        "Où se situe la lésion suspectée ?",
+        "Faut-il éviter un produit de contraste particulier en cas de perforation ?",
+        "Le scanner montre l’air et le liquide médiastinaux."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Devant une suspicion de perforation œsophagienne, on réalise un **scanner thoracique** (cervico-thoracique, idéalement avec opacification orale par produit **hydrosoluble**) : pneumomédiastin, épanchement, collection, fuite de contraste. La **baryte est proscrite** en cas de suspicion de perforation (médiastinite chimique)."
+      },
+      "lessonLinks": [
+        "oeso-urgences"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-003", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "urgences", "tags": ["perforation", "cas clinique", "chirurgie"], "clinical": true, "difficulty": 3,
-      "caseId": "cas-perforation-oeso", "caseStep": 3,
+      "id": "DIGEST-ND-CHIR-QCM-003",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "urgences",
+      "tags": [
+        "perforation",
+        "cas clinique",
+        "chirurgie"
+      ],
+      "clinical": true,
+      "difficulty": 3,
+      "caseId": "cas-perforation-oeso",
+      "caseStep": 3,
       "type": "single",
       "stem": "Si ces examens révèlent une perforation oesophagienne avec liquide dans le cou et dans le médiastin, que faire?",
       "options": [
-        { "key": "A", "text": "Cervicotomie + lavement/aspiration médiastin et cou" },
-        { "key": "B", "text": "Thoracotomie gauche", "expected": true },
-        { "key": "C", "text": "Laparoscopie" }
+        {
+          "key": "A",
+          "text": "Cervicotomie + lavement/aspiration médiastin et cou"
+        },
+        {
+          "key": "B",
+          "text": "Thoracotomie gauche",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Laparoscopie"
+        }
       ],
       "answerStatus": "proposed",
       "answerNote": "Réponse proposée dans les archives, sans discussion. La voie d’abord dépend du siège de la perforation (thoracotomie droite pour le tiers moyen, gauche pour le tiers inférieur) et des équipes ; à vérifier dans le cours.",
-      "quality": ["incomplete-options"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 82, "section": "KARTHEUSER", "originalNumber": "8" }],
-      "hints": ["La contamination atteint le médiastin.", "Une simple voie cervicale permet-elle de drainer le médiastin ?", "Une laparoscopie donne accès à quelle cavité ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Une perforation avec **collection médiastinale** nécessite un geste qui permette d’atteindre et de drainer le **médiastin** (suture/drainage par **thoracotomie**, ou de plus en plus, traitement endoscopique + drainage selon les cas). Une perforation purement cervicale peut être drainée par cervicotomie. Le traitement associe aussi jeûne, antibiotiques à large spectre et support nutritionnel." },
-      "lessonLinks": ["oeso-urgences"]
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 82,
+          "section": "KARTHEUSER",
+          "originalNumber": "8"
+        }
+      ],
+      "hints": [
+        "La contamination atteint le médiastin.",
+        "Une simple voie cervicale permet-elle de drainer le médiastin ?",
+        "Une laparoscopie donne accès à quelle cavité ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Une perforation avec **collection médiastinale** nécessite un geste qui permette d’atteindre et de drainer le **médiastin** (suture/drainage par **thoracotomie**, ou de plus en plus, traitement endoscopique + drainage selon les cas). Une perforation purement cervicale peut être drainée par cervicotomie. Le traitement associe aussi jeûne, antibiotiques à large spectre et support nutritionnel."
+      },
+      "lessonLinks": [
+        "oeso-urgences"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-004", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO", "hernie hiatale", "cas clinique"], "clinical": true, "difficulty": 2,
+      "id": "DIGEST-ND-CHIR-QCM-004",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "rgo",
+      "tags": [
+        "RGO",
+        "hernie hiatale",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
       "type": "single",
       "stem": "Un homme de 85 ans, BPCO, asymptomatique du point de vue digestif, présente une anémie ferriprive. On décide de lui faire une gastroscopie et on observe des petites ulcérations au niveau de l’œsophage suggérant une oesophagite peptique (Los Angeles, grade B) ainsi qu’une hernie hiatale de 4 cm. Quelle prise en charge préconisez-vous ?",
       "options": [
-        { "key": "a", "text": "Chirurgie : valve de Nissen" },
-        { "key": "b", "text": "Traitement IPP à vie", "expected": true },
-        { "key": "c", "text": "Traitement Anti-H2 à vie" },
-        { "key": "d", "text": "Mesures hygiéno-diététiques : arrêter de boire et de fumer" },
-        { "key": "e", "text": "Dilatation herniaire" }
+        {
+          "key": "a",
+          "text": "Chirurgie : valve de Nissen"
+        },
+        {
+          "key": "b",
+          "text": "Traitement IPP à vie",
+          "expected": true
+        },
+        {
+          "key": "c",
+          "text": "Traitement Anti-H2 à vie"
+        },
+        {
+          "key": "d",
+          "text": "Mesures hygiéno-diététiques : arrêter de boire et de fumer"
+        },
+        {
+          "key": "e",
+          "text": "Dilatation herniaire"
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 82, "section": "KARTHEUSER", "originalNumber": "9" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 82,
+          "section": "KARTHEUSER",
+          "originalNumber": "9"
+        }
+      ],
       "duplicateGroup": "oeso-85ans-ipp",
-      "hints": ["Même énoncé que chez Dewit : restez cohérent·e.", "Traitement médical ou chirurgical chez ce patient ?", "Quel médicament a la meilleure efficacité durable ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Voir la question jumelle de la section Dewit : **IPP au long cours**." },
-      "lessonLinks": ["oeso-rgo"]
+      "hints": [
+        "Même énoncé que chez Dewit : restez cohérent·e.",
+        "Traitement médical ou chirurgical chez ce patient ?",
+        "Quel médicament a la meilleure efficacité durable ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Voir la question jumelle de la section Dewit : **IPP au long cours**."
+      },
+      "lessonLinks": [
+        "oeso-rgo"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCMM-001", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker"], "difficulty": 2,
-      "type": "multiple", "expectedCount": 3,
+      "id": "DIGEST-ND-CHIR-QCMM-001",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "Zenker"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 3,
       "stem": "Diverticule de Zenker (3 réponses)",
       "options": [
-        { "key": "A", "text": "Est un diverticule de pulsion", "expected": true },
-        { "key": "B", "text": "Est un diverticule de traction" },
-        { "key": "C", "text": "Hypertonie du muscle crico pharyngien", "expected": true },
-        { "key": "D", "text": "Peut se traiter par diverticulopexie seule" },
-        { "key": "E", "text": "Risque de perforation par endoscopie", "expected": true }
+        {
+          "key": "A",
+          "text": "Est un diverticule de pulsion",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Est un diverticule de traction"
+        },
+        {
+          "key": "C",
+          "text": "Hypertonie du muscle crico pharyngien",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Peut se traiter par diverticulopexie seule"
+        },
+        {
+          "key": "E",
+          "text": "Risque de perforation par endoscopie",
+          "expected": true
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 83, "section": "KARTHEUSER", "originalNumber": "11" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 83,
+          "section": "KARTHEUSER",
+          "originalNumber": "11"
+        }
+      ],
       "duplicateGroup": "oeso-zenker-fausse",
-      "hints": ["Mécanisme, cause, et risque iatrogène : trois réponses.", "Quel muscle se relâche mal sous le diverticule ?", "Que se passe-t-il si on oublie de traiter ce muscle ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Zenker = diverticule de **pulsion** (triangle de Killian) lié à un défaut de relaxation / hypertonie du **muscle crico-pharyngien**. L’endoscope peut s’engager dans la poche et la **perforer**. La diverticulopexie (ou diverticulectomie) n’est jamais suffisante seule : il faut toujours y associer une **myotomie** crico-pharyngienne." },
-      "lessonLinks": ["oeso-dysphagie"]
+      "hints": [
+        "Mécanisme, cause, et risque iatrogène : trois réponses.",
+        "Quel muscle se relâche mal sous le diverticule ?",
+        "Que se passe-t-il si on oublie de traiter ce muscle ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Zenker = diverticule de **pulsion** (triangle de Killian) lié à un défaut de relaxation / hypertonie du **muscle crico-pharyngien**. L’endoscope peut s’engager dans la poche et la **perforer**. La diverticulopexie (ou diverticulectomie) n’est jamais suffisante seule : il faut toujours y associer une **myotomie** crico-pharyngienne."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCMM-002", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "moteur", "tags": ["achalasie", "chirurgie"], "difficulty": 2,
-      "type": "multiple", "expectedCount": 2,
+      "id": "DIGEST-ND-CHIR-QCMM-002",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "achalasie",
+        "chirurgie"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
       "stem": "Homme avec achalasie, traitement chir (2 bonnes réponses)",
       "options": [
-        { "key": "A", "text": "Cardio-myotomie" },
-        { "key": "B", "text": "Cardio-myotomie de Heller avec hémi valve postérieur anti reflux de Toupet", "expected": true },
-        { "key": "C", "text": "Cardio-myotomie de Heller avec hémi valve antérieur anti reflux de Dor", "expected": true },
-        { "key": "D", "text": "Cardio-myotomie de Heller avec valve anti reflux à 360° Nissen" }
+        {
+          "key": "A",
+          "text": "Cardio-myotomie"
+        },
+        {
+          "key": "B",
+          "text": "Cardio-myotomie de Heller avec hémi valve postérieur anti reflux de Toupet",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Cardio-myotomie de Heller avec hémi valve antérieur anti reflux de Dor",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Cardio-myotomie de Heller avec valve anti reflux à 360° Nissen"
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 83, "section": "KARTHEUSER", "originalNumber": "12" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 83,
+          "section": "KARTHEUSER",
+          "originalNumber": "12"
+        }
+      ],
       "duplicateGroup": "oeso-achalasie-chir",
-      "hints": ["Après section du sphincter, quel effet secondaire faut-il prévenir ?", "Une valve complète serait-elle tolérée par un œsophage sans péristaltisme ?", "On préfère des valves partielles."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le traitement chirurgical de l’achalasie est la **myotomie de Heller** (laparoscopique), associée à une **valve partielle** anti-reflux : **Dor** (antérieure, 180°) ou **Toupet** (postérieure, 270°). Une myotomie seule expose au reflux ; une valve complète de **Nissen** (360°) entraînerait une dysphagie sur un œsophage apéristaltique." },
-      "lessonLinks": ["oeso-dysphagie"]
+      "hints": [
+        "Après section du sphincter, quel effet secondaire faut-il prévenir ?",
+        "Une valve complète serait-elle tolérée par un œsophage sans péristaltisme ?",
+        "On préfère des valves partielles."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le traitement chirurgical de l’achalasie est la **myotomie de Heller** (laparoscopique), associée à une **valve partielle** anti-reflux : **Dor** (antérieure, 180°) ou **Toupet** (postérieure, 270°). Une myotomie seule expose au reflux ; une valve complète de **Nissen** (360°) entraînerait une dysphagie sur un œsophage apéristaltique."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-005", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker"], "difficulty": 1,
+      "id": "DIGEST-ND-CHIR-QCM-005",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "Zenker"
+      ],
+      "difficulty": 1,
       "type": "single",
       "stem": "Concernant le diverticule de Zenker, 1 réponse fausse",
       "options": [
-        { "key": "A", "text": "C’est un diverticule de traction", "expected": true },
-        { "key": "B", "text": "Sa localisation est cervicale" },
-        { "key": "C", "text": "Son opération comporte toujours une cricomyotomie" },
-        { "key": "D", "text": "La diverticulopexie est la fixation du diverticule vers le haut" }
+        {
+          "key": "A",
+          "text": "C’est un diverticule de traction",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Sa localisation est cervicale"
+        },
+        {
+          "key": "C",
+          "text": "Son opération comporte toujours une cricomyotomie"
+        },
+        {
+          "key": "D",
+          "text": "La diverticulopexie est la fixation du diverticule vers le haut"
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 85, "section": "KARTHEUSER", "originalNumber": "23" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 85,
+          "section": "KARTHEUSER",
+          "originalNumber": "23"
+        }
+      ],
       "duplicateGroup": "oeso-zenker-fausse",
-      "hints": ["Question très récurrente.", "Pulsion ou traction ?", "Les diverticules de traction siègent plutôt au tiers moyen."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le Zenker est cervical, de **pulsion** ; la chirurgie comporte toujours une myotomie crico-pharyngienne ; la diverticulopexie suspend le diverticule vers le haut pour qu’il se vide." },
-      "lessonLinks": ["oeso-dysphagie"]
+      "hints": [
+        "Question très récurrente.",
+        "Pulsion ou traction ?",
+        "Les diverticules de traction siègent plutôt au tiers moyen."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le Zenker est cervical, de **pulsion** ; la chirurgie comporte toujours une myotomie crico-pharyngienne ; la diverticulopexie suspend le diverticule vers le haut pour qu’il se vide."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCMM-003", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer", "symptômes"], "difficulty": 1,
-      "type": "multiple", "expectedCount": 3,
+      "id": "DIGEST-ND-CHIR-QCMM-003",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "cancer",
+        "symptômes"
+      ],
+      "difficulty": 1,
+      "type": "multiple",
+      "expectedCount": 3,
       "stem": "Patient qui vient avec un cancer de l'œsophage. Quels symptômes trouve-t-on ? (3 bonnes réponses)",
       "options": [
-        { "key": "A", "text": "Diarrhée liquide" },
-        { "key": "B", "text": "Dysphagie", "expected": true },
-        { "key": "C", "text": "Regurgitation", "expected": true },
-        { "key": "D", "text": "Rectorragie" },
-        { "key": "E", "text": "AEG et amaigrissement", "expected": true }
+        {
+          "key": "A",
+          "text": "Diarrhée liquide"
+        },
+        {
+          "key": "B",
+          "text": "Dysphagie",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Regurgitation",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Rectorragie"
+        },
+        {
+          "key": "E",
+          "text": "AEG et amaigrissement",
+          "expected": true
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 85, "section": "KARTHEUSER", "originalNumber": "25" }],
-      "hints": ["Pensez à l’obstacle sur le trajet des aliments.", "Que se passe-t-il pour les aliments qui ne passent pas ?", "Un cancer évolué retentit sur l’état général."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le cancer de l’œsophage se révèle typiquement par une **dysphagie progressive** (solides puis liquides), des **régurgitations**, une **altération de l’état général** avec amaigrissement ; plus tardivement : odynophagie, dysphonie (nerf récurrent), toux à la déglutition (fistule)." },
-      "lessonLinks": ["oeso-cancers"]
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 85,
+          "section": "KARTHEUSER",
+          "originalNumber": "25"
+        }
+      ],
+      "hints": [
+        "Pensez à l’obstacle sur le trajet des aliments.",
+        "Que se passe-t-il pour les aliments qui ne passent pas ?",
+        "Un cancer évolué retentit sur l’état général."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le cancer de l’œsophage se révèle typiquement par une **dysphagie progressive** (solides puis liquides), des **régurgitations**, une **altération de l’état général** avec amaigrissement ; plus tardivement : odynophagie, dysphonie (nerf récurrent), toux à la déglutition (fistule)."
+      },
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-006", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "urgences", "tags": ["caustiques", "Barrett"], "difficulty": 2,
+      "id": "DIGEST-ND-CHIR-QCM-006",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "urgences",
+      "tags": [
+        "caustiques",
+        "Barrett"
+      ],
+      "difficulty": 2,
       "type": "single",
       "stem": "Caustique et oesophage. 1 fausse :",
       "options": [
-        { "key": "A", "text": "caustique se complique en cancer" },
-        { "key": "B", "text": "Barrett = risque de cancérisation" },
-        { "key": "C", "text": "Barrett se guérit par Nissen", "expected": true },
-        { "key": "D", "text": "opération urgente si grade III ou IV lésion caustique" },
-        { "key": "E", "text": "prise volontaire de caustiques donne des lésions habituellement plus grave si prise accidentelle" }
+        {
+          "key": "A",
+          "text": "caustique se complique en cancer"
+        },
+        {
+          "key": "B",
+          "text": "Barrett = risque de cancérisation"
+        },
+        {
+          "key": "C",
+          "text": "Barrett se guérit par Nissen",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "opération urgente si grade III ou IV lésion caustique"
+        },
+        {
+          "key": "E",
+          "text": "prise volontaire de caustiques donne des lésions habituellement plus grave si prise accidentelle"
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 86, "section": "KARTHEUSER", "originalNumber": "34" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 86,
+          "section": "KARTHEUSER",
+          "originalNumber": "34"
+        }
+      ],
       "duplicateGroup": "oeso-barrett-nissen",
-      "hints": ["Une proposition attribue un pouvoir curatif à une chirurgie anti-reflux.", "La métaplasie disparaît-elle après fundoplicature ?", "Relisez la question Dewit sur la fundoplicature et le Barrett."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "La fundoplicature ne « guérit » pas le Barrett. Les lésions caustiques sévères (nécrose transmurale) peuvent imposer une chirurgie urgente ; l’ingestion volontaire (quantité plus importante) est plus grave ; la sténose caustique est un terrain de cancer à long terme." },
-      "lessonLinks": ["oeso-urgences", "oeso-cancers"]
+      "hints": [
+        "Une proposition attribue un pouvoir curatif à une chirurgie anti-reflux.",
+        "La métaplasie disparaît-elle après fundoplicature ?",
+        "Relisez la question Dewit sur la fundoplicature et le Barrett."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La fundoplicature ne « guérit » pas le Barrett. Les lésions caustiques sévères (nécrose transmurale) peuvent imposer une chirurgie urgente ; l’ingestion volontaire (quantité plus importante) est plus grave ; la sténose caustique est un terrain de cancer à long terme."
+      },
+      "lessonLinks": [
+        "oeso-urgences",
+        "oeso-cancers"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-007", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer", "chirurgie"], "difficulty": 3,
+      "id": "DIGEST-ND-CHIR-QCM-007",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "cancer",
+        "chirurgie"
+      ],
+      "difficulty": 3,
       "type": "single",
       "stem": "Cancer oesophage & chirurgie. 1 fausse :",
       "options": [
-        { "key": "A", "text": "adénocarcinome surtout dans les ⅔ sup" },
-        { "key": "B", "text": "traitement chir sur T3N2M1 est à visée curative" },
-        { "key": "C", "text": "chirurgie cancer épidermoïde avec étage moyen triple voie d'abord" },
-        { "key": "D", "text": "Siewert I associé à cancer cardia" },
-        { "key": "E", "text": "mucosectomie possible si c épidermoide T1N1" }
+        {
+          "key": "A",
+          "text": "adénocarcinome surtout dans les ⅔ sup"
+        },
+        {
+          "key": "B",
+          "text": "traitement chir sur T3N2M1 est à visée curative"
+        },
+        {
+          "key": "C",
+          "text": "chirurgie cancer épidermoïde avec étage moyen triple voie d'abord"
+        },
+        {
+          "key": "D",
+          "text": "Siewert I associé à cancer cardia"
+        },
+        {
+          "key": "E",
+          "text": "mucosectomie possible si c épidermoide T1N1"
+        }
       ],
       "answerStatus": "disputed",
       "answerNote": "La consigne demande UNE proposition fausse, mais la retranscription en marque QUATRE (A, B, D et E). La consigne originale était peut-être « 1 vraie » (C). Aucune réponse n’est retenue pour la correction automatique : la question est proposée en auto-évaluation.",
-      "quality": ["transcription-error-suspected"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 87, "section": "KARTHEUSER", "originalNumber": "35" }],
-      "hints": ["Évaluez chaque proposition séparément.", "M1 signifie quoi pour l’intention du traitement ?", "La classification de Siewert concerne la jonction œso-gastrique : le type I est-il un cancer du cardia ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "**Analyse complémentaire.** A : faux (l’adénocarcinome est surtout au tiers inférieur). B : faux (M1 = métastatique → pas de chirurgie curative). C : vrai (œsophagectomie en 3 voies possible pour les tumeurs du tiers moyen/supérieur). D : faux (Siewert I = adénocarcinome du bas œsophage ; le Siewert II est le « vrai cardia »). E : faux (N1 contre-indique le traitement endoscopique). Seule C est vraie : la consigne d’origine était probablement « 1 vraie »." },
-      "lessonLinks": ["oeso-cancers"]
+      "quality": [
+        "transcription-error-suspected"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 87,
+          "section": "KARTHEUSER",
+          "originalNumber": "35"
+        }
+      ],
+      "hints": [
+        "Évaluez chaque proposition séparément.",
+        "M1 signifie quoi pour l’intention du traitement ?",
+        "La classification de Siewert concerne la jonction œso-gastrique : le type I est-il un cancer du cardia ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire.** A : faux (l’adénocarcinome est surtout au tiers inférieur). B : faux (M1 = métastatique → pas de chirurgie curative). C : vrai (œsophagectomie en 3 voies possible pour les tumeurs du tiers moyen/supérieur). D : faux (Siewert I = adénocarcinome du bas œsophage ; le Siewert II est le « vrai cardia »). E : faux (N1 contre-indique le traitement endoscopique). Seule C est vraie : la consigne d’origine était probablement « 1 vraie »."
+      },
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCMM-004", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "moteur", "tags": ["achalasie"], "difficulty": 2,
-      "type": "multiple", "expectedCount": 2,
+      "id": "DIGEST-ND-CHIR-QCMM-004",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "achalasie"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
       "stem": "Concernant l’achalasie (deux réponses justes)",
       "options": [
-        { "key": "A", "text": "C’est un akinésie de l'oesophage et un défaut de relaxation du SOI", "expected": true },
-        { "key": "B", "text": "Traitée par toxine botulique en premier choix" },
-        { "key": "C", "text": "Uniquement traitée via léiomyotomie et valve antireflux postérieure" },
-        { "key": "D", "text": "Traitement via léiomyotomie de heller + valve anti reflux", "expected": true }
+        {
+          "key": "A",
+          "text": "C’est un akinésie de l'oesophage et un défaut de relaxation du SOI",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Traitée par toxine botulique en premier choix"
+        },
+        {
+          "key": "C",
+          "text": "Uniquement traitée via léiomyotomie et valve antireflux postérieure"
+        },
+        {
+          "key": "D",
+          "text": "Traitement via léiomyotomie de heller + valve anti reflux",
+          "expected": true
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 89, "section": "KARTHEUSER", "originalNumber": "48" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 89,
+          "section": "KARTHEUSER",
+          "originalNumber": "48"
+        }
+      ],
       "duplicateGroup": "oeso-achalasie-chir",
-      "hints": ["Une proposition est une définition, une autre un traitement.", "Méfiez-vous des mots « uniquement » et « premier choix ».", "La toxine botulique est réservée à quels patients ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "L’achalasie associe **apéristaltisme** et **défaut de relaxation du SIO**. Les traitements de référence sont la **myotomie de Heller + valve partielle**, la **dilatation pneumatique** et la myotomie endoscopique (POEM). La toxine botulique est réservée aux patients fragiles (effet transitoire). La valve peut être antérieure (Dor) ou postérieure (Toupet) : « uniquement postérieure » est faux." },
-      "lessonLinks": ["oeso-dysphagie"]
+      "hints": [
+        "Une proposition est une définition, une autre un traitement.",
+        "Méfiez-vous des mots « uniquement » et « premier choix ».",
+        "La toxine botulique est réservée à quels patients ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "L’achalasie associe **apéristaltisme** et **défaut de relaxation du SIO**. Les traitements de référence sont la **myotomie de Heller + valve partielle**, la **dilatation pneumatique** et la myotomie endoscopique (POEM). La toxine botulique est réservée aux patients fragiles (effet transitoire). La valve peut être antérieure (Dor) ou postérieure (Toupet) : « uniquement postérieure » est faux."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-008", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "rgo", "tags": ["RGO", "hernie hiatale"], "difficulty": 1,
+      "id": "DIGEST-ND-CHIR-QCM-008",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "rgo",
+      "tags": [
+        "RGO",
+        "hernie hiatale"
+      ],
+      "difficulty": 1,
       "type": "single",
       "stem": "RGO: (une réponse juste)",
       "options": [
-        { "key": "A", "text": "Favorisée par une hernie de roulement" },
-        { "key": "B", "text": "Favorisée par une hernie mixte", "expected": true },
-        { "key": "C", "text": "Se traite uniquement par une valve de Dor" }
+        {
+          "key": "A",
+          "text": "Favorisée par une hernie de roulement"
+        },
+        {
+          "key": "B",
+          "text": "Favorisée par une hernie mixte",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Se traite uniquement par une valve de Dor"
+        }
       ],
-      "answerStatus": "proposed", "quality": ["incomplete-options"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 89, "section": "KARTHEUSER", "originalNumber": "49" }],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 89,
+          "section": "KARTHEUSER",
+          "originalNumber": "49"
+        }
+      ],
       "duplicateGroup": "oeso-hernie-mixte",
-      "hints": ["Quelle hernie fait remonter le cardia ?", "La hernie mixte comprend une composante de glissement.", "Le traitement du RGO est-il d’abord chirurgical ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "La composante de **glissement** (présente dans la hernie mixte) favorise le RGO. Le RGO se traite d’abord médicalement (IPP) ; la chirurgie de référence est la fundoplicature (Nissen ou Toupet), pas « uniquement » une valve de Dor." },
-      "lessonLinks": ["oeso-rgo"]
+      "hints": [
+        "Quelle hernie fait remonter le cardia ?",
+        "La hernie mixte comprend une composante de glissement.",
+        "Le traitement du RGO est-il d’abord chirurgical ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La composante de **glissement** (présente dans la hernie mixte) favorise le RGO. Le RGO se traite d’abord médicalement (IPP) ; la chirurgie de référence est la fundoplicature (Nissen ou Toupet), pas « uniquement » une valve de Dor."
+      },
+      "lessonLinks": [
+        "oeso-rgo"
+      ]
     },
     {
-      "id": "DIGEST-ND-CHIR-QCM-009", "revision": 1, "session": "ND", "discipline": "CHIR", "teacher": "Kartheuser",
-      "chapter": "oesophage", "subchapter": "cancer", "tags": ["cancer épidermoïde"], "difficulty": 1,
+      "id": "DIGEST-ND-CHIR-QCM-009",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "cancer épidermoïde"
+      ],
+      "difficulty": 1,
       "type": "single",
       "stem": "A propos du cancer de l'œsophage proximal (1 juste)",
       "options": [
-        { "key": "A", "text": "Le plus souvent adénocarcinome" },
-        { "key": "B", "text": "Le plus souvent épidermoïde", "expected": true },
-        { "key": "C", "text": "Toujours traité par plastie colique" },
-        { "key": "D", "text": "Nécessité de radiothérapie" }
+        {
+          "key": "A",
+          "text": "Le plus souvent adénocarcinome"
+        },
+        {
+          "key": "B",
+          "text": "Le plus souvent épidermoïde",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Toujours traité par plastie colique"
+        },
+        {
+          "key": "D",
+          "text": "Nécessité de radiothérapie"
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 89, "section": "KARTHEUSER", "originalNumber": "50" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 89,
+          "section": "KARTHEUSER",
+          "originalNumber": "50"
+        }
+      ],
       "duplicateGroup": "oeso-proximal-epidermoide",
-      "hints": ["Localisation haute → quel type histologique ?", "Méfiez-vous des mots « toujours ».", "La plastie de remplacement la plus utilisée est gastrique."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Cancer proximal → surtout **épidermoïde**. Après œsophagectomie, la plastie la plus fréquente est **gastrique** (tubulisation de l’estomac) ; le côlon est une alternative." },
-      "lessonLinks": ["oeso-cancers"]
+      "hints": [
+        "Localisation haute → quel type histologique ?",
+        "Méfiez-vous des mots « toujours ».",
+        "La plastie de remplacement la plus utilisée est gastrique."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Cancer proximal → surtout **épidermoïde**. Après œsophagectomie, la plastie la plus fréquente est **gastrique** (tubulisation de l’estomac) ; le côlon est une alternative."
+      },
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCMM-005",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "cancer",
+      "tags": [
+        "cancer gastrique",
+        "bilan d’opérabilité",
+        "sujet âgé"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 3,
+      "stem": "Un homme de 78 ans présente un cancer de l’estomac. Avant la chirurgie vous lui proposez le bilan d’opérabilité suivant : (3 réponses vraies)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cardio-respiratoire",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Nutritionnel",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Cognitif"
+        },
+        {
+          "key": "D",
+          "text": "Locomoteur"
+        },
+        {
+          "key": "E",
+          "text": "Onco-gériatrie",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 83,
+          "section": "KARTHEUSER",
+          "originalNumber": "14"
+        }
+      ],
+      "hints": [
+        "Pensez aux organes sollicités par une grande chirurgie abdominale sous anesthésie générale.",
+        "Le cancer gastrique entraîne souvent une perte de poids.",
+        "Chez le sujet âgé, une évaluation globale spécialisée existe."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Avant une gastrectomie chez un patient âgé : bilan **cardio-respiratoire** (risque anesthésique), **nutritionnel** (dénutrition fréquente, renutrition préopératoire si besoin) et **évaluation onco-gériatrique** (qui intègre elle-même autonomie, cognition et comorbidités)."
+      },
+      "lessonLinks": [
+        "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-010",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "ugd",
+      "tags": [
+        "ulcère perforé",
+        "chirurgie"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Concernant l’ulcère perforé, toutes ces réponses sont justes sauf une, laquelle ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "L’ulcère gastrique perforé est parfois un cancer"
+        },
+        {
+          "key": "B",
+          "text": "L’ulcère duodénal perforé est souvent un cancer",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "L’ulcère gastroduodénal peut être lié à la prise d’AINS"
+        },
+        {
+          "key": "D",
+          "text": "L’ulcère gastroduodénal perforé peut entraîner une péritonite"
+        },
+        {
+          "key": "E",
+          "text": "La mortalité de la chirurgie de la perforation de l’ulcère s’élève à 10 %"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Question posée au moins 3 fois (Kartheuser, janvier 2022, janvier 2023)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 85,
+          "section": "KARTHEUSER",
+          "originalNumber": "24"
+        }
+      ],
+      "duplicateGroup": "est-ulcere-perfore-cancer",
+      "hints": [
+        "Comparez estomac et duodénum.",
+        "Lequel des deux ulcères impose des biopsies systématiques ?",
+        "Le duodénum est un siège très rare de cancer."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Un **ulcère gastrique** peut être un cancer ulcéré : on le **biopsie toujours** et on contrôle sa cicatrisation. L’**ulcère duodénal ne dégénère pas**. La perforation entraîne une péritonite chimique puis bactérienne ; sa mortalité opératoire est non négligeable (sujets âgés, retard de prise en charge)."
+      },
+      "lessonLinks": [
+        "est-ugd"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-011",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "cancer",
+      "tags": [
+        "gastrectomie",
+        "classification de Lauren"
+      ],
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Une gastrectomie subtotale dans le cadre d’un cancer de l’estomac résécable est justifié pour:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Un adénocarcinome de type glandes intestinales au niveau du corps"
+        },
+        {
+          "key": "B",
+          "text": "Un adénocarcinome de type diffus à cellules indépendantes au niveau du cardia"
+        },
+        {
+          "key": "C",
+          "text": "Un adénocarcinome de type diffus à cellules indépendantes au niveau du corps"
+        },
+        {
+          "key": "D",
+          "text": "Un adénocarcinome de type glandes intestinales au niveau de l’antre",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "Une linite gastrique"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 87,
+          "section": "KARTHEUSER",
+          "originalNumber": "36"
+        }
+      ],
+      "hints": [
+        "Deux paramètres : la localisation et le type histologique.",
+        "Une gastrectomie partielle laisse en place la partie haute de l’estomac.",
+        "Le type diffus s’étend loin sous la muqueuse : quelle marge faut-il ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La **gastrectomie subtotale (des 4/5)** convient aux tumeurs **distales (antre)** de type **intestinal**, avec une marge suffisante. Les cancers du corps haut ou du cardia, le type **diffus** (extension sous-muqueuse étendue, marges plus larges) et la **linite** imposent une **gastrectomie totale**."
+      },
+      "lessonLinks": [
+        "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCMM-006",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "cancer",
+      "tags": [
+        "cancer gastrique",
+        "dumping",
+        "staging"
+      ],
+      "difficulty": 3,
+      "type": "multiple",
+      "expectedCount": 3,
+      "stem": "Indiquez quelles sont les 3 bonnes propositions",
+      "options": [
+        {
+          "key": "A",
+          "text": "Une tumeur de Krückenberg est une tumeur de l’ovaire métastatique d’un cancer gastrique",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Le ganglion de Troisier est un ganglion métastatique inguinal"
+        },
+        {
+          "key": "C",
+          "text": "On peut faire une laparoscopie de staging en cas de tumeur gastrique T4N0M0 dont la résécabilité n’est pas certaine",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Le dumping syndrome est causé par une arrivée de substances hyperosmolaires dans les premières anses grêles",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "Le seul traitement curatif d’une tumeur T1a est une gastrectomie totale"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 87,
+          "section": "KARTHEUSER",
+          "originalNumber": "37"
+        }
+      ],
+      "hints": [
+        "Une proposition se trompe de région anatomique pour un ganglion célèbre.",
+        "Que se passe-t-il quand le contenu gastrique arrive trop vite dans le grêle ?",
+        "Une tumeur limitée à la muqueuse peut-elle être réséquée par endoscopie ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Krukenberg** : métastases ovariennes (souvent bilatérales) d’un adénocarcinome à cellules en bague à chaton, classiquement gastrique. **Troisier** : adénopathie **sus-claviculaire gauche**. La **laparoscopie de stadification** recherche une carcinose avant une chirurgie lourde. **Dumping précoce** : arrivée rapide d’un contenu hyperosmolaire dans le grêle (malaise, diarrhée après le repas) après gastrectomie. Un cancer **T1a** peut relever d’une résection **endoscopique** (dissection sous-muqueuse) selon des critères stricts."
+      },
+      "lessonLinks": [
+        "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-012",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "hemorragie",
+      "tags": [
+        "méléna",
+        "AINS",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Une femme de 73 ans sans antécédents particuliers et asymptomatique jusqu’à présent a remarqué des selles foncées à quelques reprises ces derniers jours. Elle a pris des AINS pendant une semaine pour des douleurs articulaires et se plaint d'essoufflements pour monter les escaliers. Quelle proposition est correcte?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On ne fait rien, c’est normal d’avoir des selles foncées de temps en temps."
+        },
+        {
+          "key": "B",
+          "text": "Cancer du côlon droit"
+        },
+        {
+          "key": "C",
+          "text": "Appendicite ?"
+        },
+        {
+          "key": "D",
+          "text": "ulcère gastroduodénal perforé",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "Une autre proposition style polype ou quoi mais qui ne collait pas avec un méléna."
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription marque « ulcère gastroduodénal perforé ». Or des selles noires sous AINS évoquent un ulcère HÉMORRAGIQUE, pas perforé (la perforation donne une douleur brutale et une péritonite). La même vignette posée par Léonard en 2024 a divisé les votes entre « perforation » et « cancer du côlon droit ». La formulation exacte de la proposition D est peut-être « ulcère gastroduodénal » : à vérifier.",
+      "quality": [
+        "uncertain-wording",
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 88,
+          "section": "KARTHEUSER",
+          "originalNumber": "43"
+        }
+      ],
+      "duplicateGroup": "est-melena-ains-agee",
+      "hints": [
+        "Selles noires = sang digéré.",
+        "Le médicament pris récemment est-il gastro-toxique ?",
+        "L’essoufflement à l’effort traduit quoi ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Méléna + prise d’**AINS** + dyspnée d’effort (anémie) chez une patiente âgée : **ulcère gastro-duodénal hémorragique** jusqu’à preuve du contraire → gastroscopie. Un **cancer du côlon droit** donne plutôt une anémie ferriprive chronique, parfois des selles foncées : c’est le diagnostic à évoquer si la gastroscopie est normale. La **perforation** se manifeste par une douleur épigastrique brutale et une contracture, pas par du méléna."
+      },
+      "lessonLinks": [
+        "est-hemorragie",
+        "est-ugd"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-013",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "estomac",
+      "subchapter": "cancer",
+      "tags": [
+        "gastrectomie",
+        "cancer gastrique"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Concernant la gastrectomie pour un cancer de l’estomac, une réponse JUSTE :",
+      "options": [
+        {
+          "key": "A",
+          "text": "N'entraîne aucune carence vitaminique"
+        },
+        {
+          "key": "B",
+          "text": "Nécessite un curage ganglionnaire extensif",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Doit toujours être une gastrectomie totale"
+        },
+        {
+          "key": "D",
+          "text": "Ne peut jamais être palliative"
+        },
+        {
+          "key": "E",
+          "text": "D’office radiochimiothérapie néo-adjuvante"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Question posée au moins 4 fois (Kartheuser, 2022, 2023, Léonard 2024)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 89,
+          "section": "KARTHEUSER",
+          "originalNumber": "51"
+        }
+      ],
+      "duplicateGroup": "est-gastrectomie-curage",
+      "hints": [
+        "Méfiez-vous des mots « aucune », « toujours », « jamais », « d’office ».",
+        "Que retire-t-on avec l’estomac pour un cancer ?",
+        "Après gastrectomie, quelle vitamine n’est plus absorbée ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La gastrectomie carcinologique comporte un **curage ganglionnaire étendu (D2)**. Elle peut être partielle (tumeur distale) ou totale. Elle entraîne des carences (**B12**, fer, calcium/vitamine D). Elle peut être **palliative** (hémorragie, sténose). Le traitement péri-opératoire standard est plutôt une **chimiothérapie** (FLOT), pas une radio-chimiothérapie systématique."
+      },
+      "lessonLinks": [
+        "est-cancer"
+      ]
     }
   ]
 }

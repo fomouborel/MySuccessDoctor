@@ -30,7 +30,14 @@ describe('contenu pédagogique', () => {
     const all = exams.flatMap((e) => questionsOfExam(e.id));
     expect(all.length).toBe(questions.length);
   });
-  it('le chapitre Œsophage du prototype contient toutes les questions extraites (70)', () => {
+  it('chapitres intégrés : nombre de questions extraites attendu', () => {
     expect(questions.filter((q) => q.chapter === 'oesophage').length).toBe(70);
+    expect(questions.filter((q) => q.chapter === 'estomac').length).toBe(51);
+  });
+  it('chaque chapitre disponible a des questions et des leçons', () => {
+    for (const c of chapters.filter((c) => c.status === 'available')) {
+      expect(questions.some((q) => q.chapter === c.id)).toBe(true);
+      expect(c.lessons.length).toBeGreaterThan(0);
+    }
   });
 });

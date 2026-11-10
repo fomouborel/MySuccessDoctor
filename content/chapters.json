@@ -1,27 +1,208 @@
 [
-  { "id": "oesophage", "title": "Œsophage", "short": "RGO, dysphagie, achalasie, Zenker, Barrett, cancers, caustiques", "icon": "🫗", "status": "available",
+  {
+    "id": "oesophage",
+    "title": "Œsophage",
+    "short": "RGO, dysphagie, achalasie, Zenker, Barrett, cancers, caustiques",
+    "icon": "🫗",
+    "status": "available",
     "subchapters": [
-      { "id": "rgo", "title": "RGO et hernie hiatale" },
-      { "id": "oesophagites", "title": "Œsophagites (médicamenteuse, à éosinophiles, infectieuses)" },
-      { "id": "moteur", "title": "Dysphagie, troubles moteurs et diverticules" },
-      { "id": "cancer", "title": "Barrett et cancers de l’œsophage" },
-      { "id": "urgences", "title": "Caustiques et perforation" }
+      {
+        "id": "rgo",
+        "title": "RGO et hernie hiatale"
+      },
+      {
+        "id": "oesophagites",
+        "title": "Œsophagites (médicamenteuse, à éosinophiles, infectieuses)"
+      },
+      {
+        "id": "moteur",
+        "title": "Dysphagie, troubles moteurs et diverticules"
+      },
+      {
+        "id": "cancer",
+        "title": "Barrett et cancers de l’œsophage"
+      },
+      {
+        "id": "urgences",
+        "title": "Caustiques et perforation"
+      }
     ],
     "lessons": [
-      { "id": "oeso-rgo", "title": "RGO, hernie hiatale et œsophagites", "file": "oesophage/01-rgo.md", "minutes": 12 },
-      { "id": "oeso-dysphagie", "title": "Dysphagie, achalasie, Zenker et imagerie de la déglutition", "file": "oesophage/02-dysphagie.md", "minutes": 12 },
-      { "id": "oeso-cancers", "title": "Œsophage de Barrett et cancers de l’œsophage", "file": "oesophage/03-cancers.md", "minutes": 14 },
-      { "id": "oeso-urgences", "title": "Urgences de l’œsophage : caustiques et perforation", "file": "oesophage/04-urgences.md", "minutes": 8 }
-    ] },
-  { "id": "estomac", "title": "Estomac et duodénum", "short": "Ulcère, H. pylori, dyspepsie, gastrites, cancer gastrique, hémorragie haute", "icon": "🫃", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "grele", "title": "Intestin grêle", "short": "Malabsorption, maladie cœliaque, diarrhées, occlusion, Meckel", "icon": "🌀", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "mici", "title": "MICI", "short": "Maladie de Crohn, RCUH", "icon": "🔥", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "colon", "title": "Côlon et rectum", "short": "Cancer colorectal, dépistage, diverticules, côlon irritable, colites", "icon": "🧬", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "procto", "title": "Proctologie", "short": "Fissure, abcès, hémorroïdes, fistule", "icon": "🎯", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "biliaire", "title": "Voies biliaires", "short": "Lithiase, cholécystite, angiocholite, CSP, cholangiocarcinome", "icon": "🟢", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "pancreas", "title": "Pancréas", "short": "Pancréatites aiguë et chronique, tumeurs", "icon": "🧪", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "foie", "title": "Foie", "short": "Hépatites, cirrhose, HTP, surcharges, CHC, transplantation", "icon": "🩺", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "urgences", "title": "Abdomen aigu et chirurgie générale", "short": "Appendicite, péritonite, occlusion, rate", "icon": "🚑", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "pediatrie", "title": "Pédiatrie digestive", "short": "Nourrisson, ictère néonatal, diarrhées, chirurgie pédiatrique", "icon": "👶", "status": "pending", "subchapters": [], "lessons": [] },
-  { "id": "pharmaco", "title": "Pharmacologie digestive", "short": "IPP, prokinétiques, laxatifs, antiacides", "icon": "💊", "status": "pending", "subchapters": [], "lessons": [] }
+      {
+        "id": "oeso-rgo",
+        "title": "RGO, hernie hiatale et œsophagites",
+        "file": "oesophage/01-rgo.md",
+        "minutes": 12
+      },
+      {
+        "id": "oeso-dysphagie",
+        "title": "Dysphagie, achalasie, Zenker et imagerie de la déglutition",
+        "file": "oesophage/02-dysphagie.md",
+        "minutes": 12
+      },
+      {
+        "id": "oeso-cancers",
+        "title": "Œsophage de Barrett et cancers de l’œsophage",
+        "file": "oesophage/03-cancers.md",
+        "minutes": 14
+      },
+      {
+        "id": "oeso-urgences",
+        "title": "Urgences de l’œsophage : caustiques et perforation",
+        "file": "oesophage/04-urgences.md",
+        "minutes": 8
+      }
+    ]
+  },
+  {
+    "id": "estomac",
+    "title": "Estomac et duodénum",
+    "short": "Ulcère, H. pylori, dyspepsie, gastrites, cancer gastrique, hémorragie haute",
+    "icon": "🫃",
+    "status": "available",
+    "subchapters": [
+      {
+        "id": "ugd",
+        "title": "Ulcère gastro-duodénal et Helicobacter pylori"
+      },
+      {
+        "id": "dyspepsie",
+        "title": "Dyspepsie, vomissements et indications d’endoscopie"
+      },
+      {
+        "id": "gastrites",
+        "title": "Gastrites, maladie de Biermer et hypergastrinémie"
+      },
+      {
+        "id": "cancer",
+        "title": "Cancer de l’estomac et chirurgie gastrique"
+      },
+      {
+        "id": "hemorragie",
+        "title": "Hémorragie digestive haute"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "est-ugd",
+        "title": "Ulcère gastro-duodénal et Helicobacter pylori",
+        "file": "estomac/01-ulcere.md",
+        "minutes": 14
+      },
+      {
+        "id": "est-dyspepsie",
+        "title": "Dyspepsie, vomissements et indications d’endoscopie",
+        "file": "estomac/02-dyspepsie.md",
+        "minutes": 10
+      },
+      {
+        "id": "est-gastrites",
+        "title": "Gastrites, maladie de Biermer et hypergastrinémie",
+        "file": "estomac/03-gastrites.md",
+        "minutes": 8
+      },
+      {
+        "id": "est-cancer",
+        "title": "Cancer de l’estomac et chirurgie gastrique",
+        "file": "estomac/04-cancer.md",
+        "minutes": 12
+      },
+      {
+        "id": "est-hemorragie",
+        "title": "Hémorragie digestive haute",
+        "file": "estomac/05-hemorragie.md",
+        "minutes": 10
+      }
+    ]
+  },
+  {
+    "id": "grele",
+    "title": "Intestin grêle",
+    "short": "Malabsorption, maladie cœliaque, diarrhées, occlusion, Meckel",
+    "icon": "🌀",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "mici",
+    "title": "MICI",
+    "short": "Maladie de Crohn, RCUH",
+    "icon": "🔥",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "colon",
+    "title": "Côlon et rectum",
+    "short": "Cancer colorectal, dépistage, diverticules, côlon irritable, colites",
+    "icon": "🧬",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "procto",
+    "title": "Proctologie",
+    "short": "Fissure, abcès, hémorroïdes, fistule",
+    "icon": "🎯",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "biliaire",
+    "title": "Voies biliaires",
+    "short": "Lithiase, cholécystite, angiocholite, CSP, cholangiocarcinome",
+    "icon": "🟢",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "pancreas",
+    "title": "Pancréas",
+    "short": "Pancréatites aiguë et chronique, tumeurs",
+    "icon": "🧪",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "foie",
+    "title": "Foie",
+    "short": "Hépatites, cirrhose, HTP, surcharges, CHC, transplantation",
+    "icon": "🩺",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "urgences",
+    "title": "Abdomen aigu et chirurgie générale",
+    "short": "Appendicite, péritonite, occlusion, rate",
+    "icon": "🚑",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "pediatrie",
+    "title": "Pédiatrie digestive",
+    "short": "Nourrisson, ictère néonatal, diarrhées, chirurgie pédiatrique",
+    "icon": "👶",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  },
+  {
+    "id": "pharmaco",
+    "title": "Pharmacologie digestive",
+    "short": "IPP, prokinétiques, laxatifs, antiacides",
+    "icon": "💊",
+    "status": "pending",
+    "subchapters": [],
+    "lessons": []
+  }
 ]

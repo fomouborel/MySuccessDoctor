@@ -1,85 +1,567 @@
 {
-  "source": "Examen de janvier 2025 (Compilation p.1–9 et Retranscription Janvier 2025) — questions du chapitre Œsophage",
+  "source": "Examen de janvier 2025 (Compilation p.1–9 et Retranscription Janvier 2025) — questions du chapitre Œsophage, Estomac et duodénum",
   "questions": [
     {
-      "id": "DIGEST-2025-01-GASTRO-QCMM-001", "revision": 1, "session": "2025-01", "discipline": "GASTRO", "teacher": "Dewit",
-      "chapter": "oesophage", "subchapter": "moteur", "tags": ["dysphagie"], "difficulty": 2,
+      "id": "DIGEST-2025-01-GASTRO-QCMM-001",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "dysphagie"
+      ],
+      "difficulty": 2,
       "type": "multiple",
       "stem": "Qu’est-ce qui donne une dysphagie",
       "stemNote": "Retranscription de mémoire. Le format exact de la question (« lesquelles » ou « combien ») n’est pas connu. Le surnom de l’enseignant figurant dans la retranscription a été retiré.",
       "options": [
-        { "key": "A", "text": "RGO" },
-        { "key": "B", "text": "Oesophagite médicamenteuse" },
-        { "key": "C", "text": "Oesophagite peptique" },
-        { "key": "D", "text": "Maladie de Chagas" },
-        { "key": "E", "text": "Anneau de Schatzki" },
-        { "key": "F", "text": "Oesophagite à éosinophiles" },
-        { "key": "G", "text": "Candidose oesophagienne" },
-        { "key": "H", "text": "Varices oesophagiennes" },
-        { "key": "I", "text": "Adénocarcinome au niveau du cardia" }
+        {
+          "key": "A",
+          "text": "RGO"
+        },
+        {
+          "key": "B",
+          "text": "Oesophagite médicamenteuse"
+        },
+        {
+          "key": "C",
+          "text": "Oesophagite peptique"
+        },
+        {
+          "key": "D",
+          "text": "Maladie de Chagas"
+        },
+        {
+          "key": "E",
+          "text": "Anneau de Schatzki"
+        },
+        {
+          "key": "F",
+          "text": "Oesophagite à éosinophiles"
+        },
+        {
+          "key": "G",
+          "text": "Candidose oesophagienne"
+        },
+        {
+          "key": "H",
+          "text": "Varices oesophagiennes"
+        },
+        {
+          "key": "I",
+          "text": "Adénocarcinome au niveau du cardia"
+        }
       ],
-      "answerStatus": "unavailable", "quality": ["uncertain-wording"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 1, "section": "Janvier 2025 — Dewit", "originalNumber": "1" }, { "file": "jan2025", "page": 1, "section": "Dewit", "originalNumber": "1" }],
-      "hints": ["Classez les causes : organiques, inflammatoires, motrices.", "Une seule de ces entités est typiquement asymptomatique avant sa complication.", "Le RGO non compliqué donne surtout pyrosis et régurgitations ; une dysphagie doit faire chercher une complication."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "**Analyse complémentaire (aucune correction dans les archives).** Donnent une dysphagie : œsophagites (peptique, médicamenteuse, à éosinophiles, candidose — plutôt odynophagie), anneau de Schatzki (dysphagie intermittente aux solides), maladie de Chagas (achalasie secondaire), adénocarcinome du cardia. Les **varices** œsophagiennes ne donnent pas de dysphagie. Le **RGO** en lui-même donne surtout pyrosis/régurgitations ; une dysphagie au cours d’un RGO fait rechercher une œsophagite sévère, une sténose peptique ou un cancer — selon la façon dont l’enseignant l’entend, « RGO » peut être compté ou non." },
-      "lessonLinks": ["oeso-dysphagie"]
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 1,
+          "section": "Janvier 2025 — Dewit",
+          "originalNumber": "1"
+        },
+        {
+          "file": "jan2025",
+          "page": 1,
+          "section": "Dewit",
+          "originalNumber": "1"
+        }
+      ],
+      "hints": [
+        "Classez les causes : organiques, inflammatoires, motrices.",
+        "Une seule de ces entités est typiquement asymptomatique avant sa complication.",
+        "Le RGO non compliqué donne surtout pyrosis et régurgitations ; une dysphagie doit faire chercher une complication."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** Donnent une dysphagie : œsophagites (peptique, médicamenteuse, à éosinophiles, candidose — plutôt odynophagie), anneau de Schatzki (dysphagie intermittente aux solides), maladie de Chagas (achalasie secondaire), adénocarcinome du cardia. Les **varices** œsophagiennes ne donnent pas de dysphagie. Le **RGO** en lui-même donne surtout pyrosis/régurgitations ; une dysphagie au cours d’un RGO fait rechercher une œsophagite sévère, une sténose peptique ou un cancer — selon la façon dont l’enseignant l’entend, « RGO » peut être compté ou non."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
     },
     {
-      "id": "DIGEST-2025-01-CHIR-QCM-001", "revision": 1, "session": "2025-01", "discipline": "CHIR", "teacher": "Hubert",
-      "chapter": "oesophage", "subchapter": "cancer", "tags": ["chirurgie de l’œsophage"], "difficulty": 3,
+      "id": "DIGEST-2025-01-CHIR-QCM-001",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "CHIR",
+      "teacher": "Hubert",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "chirurgie de l’œsophage"
+      ],
+      "difficulty": 3,
       "type": "single",
       "stem": "Concernant la chir oeso. La vraie :",
       "options": [
-        { "key": "A", "text": "Bilal pré nutrition pas indiqué", "note": "Lire « bilan nutritionnel préopératoire non indiqué » (faute de frappe de la retranscription)." , "noteOrigin": "complement" },
-        { "key": "B", "text": "Envahissement de l’aorte n’est pas une CI" },
-        { "key": "C", "text": "ne cirrhose décompensée n’est pas une CI" },
-        { "key": "D", "text": "Chir de l’œsophage 1/3 sup se fait en 3 voies", "expected": true },
-        { "key": "E", "text": "curage de 4 ganglions" }
+        {
+          "key": "A",
+          "text": "Bilal pré nutrition pas indiqué",
+          "note": "Lire « bilan nutritionnel préopératoire non indiqué » (faute de frappe de la retranscription).",
+          "noteOrigin": "complement"
+        },
+        {
+          "key": "B",
+          "text": "Envahissement de l’aorte n’est pas une CI"
+        },
+        {
+          "key": "C",
+          "text": "ne cirrhose décompensée n’est pas une CI"
+        },
+        {
+          "key": "D",
+          "text": "Chir de l’œsophage 1/3 sup se fait en 3 voies",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "curage de 4 ganglions"
+        }
       ],
-      "answerStatus": "proposed", "quality": ["uncertain-wording"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 4, "section": "Janvier 2025 — Hubert", "originalNumber": "24" }, { "file": "qcm-nc", "page": 27, "section": "Chir Hubert (2025)", "originalNumber": "24" }],
-      "hints": ["Quatre propositions énoncent des contre-indications ou des pratiques erronées.", "Plus la tumeur est haute, plus l’anastomose doit être haute.", "Une anastomose cervicale demande un abord supplémentaire."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Pour un cancer haut situé, l’œsophagectomie se fait par **trois voies** (abdominale, thoracique droite et cervicale, type McKeown) avec anastomose cervicale. Un bilan **nutritionnel** préopératoire est indispensable (dénutrition fréquente). L’envahissement de l’aorte (T4b) et une cirrhose décompensée sont des **contre-indications**. Le curage ganglionnaire est étendu (bien plus que 4 ganglions)." },
-      "lessonLinks": ["oeso-cancers"]
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 4,
+          "section": "Janvier 2025 — Hubert",
+          "originalNumber": "24"
+        },
+        {
+          "file": "qcm-nc",
+          "page": 27,
+          "section": "Chir Hubert (2025)",
+          "originalNumber": "24"
+        }
+      ],
+      "hints": [
+        "Quatre propositions énoncent des contre-indications ou des pratiques erronées.",
+        "Plus la tumeur est haute, plus l’anastomose doit être haute.",
+        "Une anastomose cervicale demande un abord supplémentaire."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Pour un cancer haut situé, l’œsophagectomie se fait par **trois voies** (abdominale, thoracique droite et cervicale, type McKeown) avec anastomose cervicale. Un bilan **nutritionnel** préopératoire est indispensable (dénutrition fréquente). L’envahissement de l’aorte (T4b) et une cirrhose décompensée sont des **contre-indications**. Le curage ganglionnaire est étendu (bien plus que 4 ganglions)."
+      },
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
     },
     {
-      "id": "DIGEST-2025-01-RADIO-QCM-001", "revision": 1, "session": "2025-01", "discipline": "RADIO", "teacher": "Danse",
-      "chapter": "oesophage", "subchapter": "moteur", "tags": ["Zenker", "imagerie", "cas clinique"], "clinical": true, "difficulty": 1,
+      "id": "DIGEST-2025-01-RADIO-QCM-001",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "RADIO",
+      "teacher": "Danse",
+      "chapter": "oesophage",
+      "subchapter": "moteur",
+      "tags": [
+        "Zenker",
+        "imagerie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
       "type": "single",
       "stem": "Patiente de 85 ans, avec pneumonies récurrentes sur probables fausses routes. Elle se plaint aussi de gêne à la déglutition, de masse cervicale transitoire et d'haleine fétide, quel examen complémentaire serait le plus adapté dans un bilan de diverticule de Zenker (1 réponse):",
       "options": [
-        { "key": "A", "text": "Echographie (pas sur si j'ai bien retranscrit celle-ci)" },
-        { "key": "B", "text": "Radiographie simple avec ingestion de produit de contraste", "expected": true },
-        { "key": "C", "text": "CT scan cervicale" },
-        { "key": "D", "text": "IRM cervicale" },
-        { "key": "E", "text": "Pet-scan" }
+        {
+          "key": "A",
+          "text": "Echographie (pas sur si j'ai bien retranscrit celle-ci)"
+        },
+        {
+          "key": "B",
+          "text": "Radiographie simple avec ingestion de produit de contraste",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "CT scan cervicale"
+        },
+        {
+          "key": "D",
+          "text": "IRM cervicale"
+        },
+        {
+          "key": "E",
+          "text": "Pet-scan"
+        }
       ],
-      "answerStatus": "proposed", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 6, "section": "Janvier 2025 — Radio", "originalNumber": "34" }],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 6,
+          "section": "Janvier 2025 — Radio",
+          "originalNumber": "34"
+        }
+      ],
       "duplicateGroup": "oeso-zenker-imagerie",
-      "hints": ["L’examen doit montrer une poche qui se remplit lors de la déglutition.", "On a besoin d’un examen dynamique, pendant la déglutition.", "Un produit opacifiant avalé dessine la lumière digestive."],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Le diverticule de Zenker (pharyngo-œsophagien postérieur) se met en évidence par un **transit / étude radiologique de la déglutition avec produit de contraste** (baryté le plus souvent ; hydrosoluble si suspicion de fausse route ou de perforation). L’endoscopie est réalisée avec prudence (risque de perforation du diverticule)." },
-      "lessonLinks": ["oeso-dysphagie"]
+      "hints": [
+        "L’examen doit montrer une poche qui se remplit lors de la déglutition.",
+        "On a besoin d’un examen dynamique, pendant la déglutition.",
+        "Un produit opacifiant avalé dessine la lumière digestive."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le diverticule de Zenker (pharyngo-œsophagien postérieur) se met en évidence par un **transit / étude radiologique de la déglutition avec produit de contraste** (baryté le plus souvent ; hydrosoluble si suspicion de fausse route ou de perforation). L’endoscopie est réalisée avec prudence (risque de perforation du diverticule)."
+      },
+      "lessonLinks": [
+        "oeso-dysphagie"
+      ]
     },
     {
-      "id": "DIGEST-2025-01-CLIN-QCM-001", "revision": 1, "session": "2025-01", "discipline": "CLIN",
-      "chapter": "oesophage", "subchapter": "cancer", "tags": ["jonction œso-gastrique", "bilan d’extension"], "clinical": true, "difficulty": 3,
+      "id": "DIGEST-2025-01-CLIN-QCM-001",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "CLIN",
+      "chapter": "oesophage",
+      "subchapter": "cancer",
+      "tags": [
+        "jonction œso-gastrique",
+        "bilan d’extension"
+      ],
+      "clinical": true,
+      "difficulty": 3,
       "type": "single",
       "stem": "Pour un patient avec un adénocarcinome au niveau de la jonction oeso-gastrique (1 fausse)",
       "options": [
-        { "key": "A", "text": "Il faut faire un bilan complet comportant un CT cervico-thoraco-abdo-pelvien, un pet-CT, les dosages de CEA et de CA19,9 + biologie complète, une coelioscopie (= laparoscopie), gastroscopie + biopsie et (écho)endoscopie avec ou sans cytoponction" },
-        { "key": "B", "text": "La coelioscopie est indispensable afin de pouvoir placer une gastro- ou jéjunostomie qui elle est indispensable pour assurer la nutrition correcte du patient dans la prise en charge et ce quel que soit le diagnostic nutritionnel du patient" },
-        { "key": "C", "text": "Le stade cTNM doit être défini/est indispensable pour le futur/la décision de la prise en charge du patient" },
-        { "key": "D", "text": "On peut commencer par une radio-chimiothérapie néo-adjuvante pour ce patient et si la tumeur répond bien au traitement on peut alors faire un ‘watch-and-wait' et uniquement s’engager dans la chirurgie si jamais la tumeur venait à croître à nouveau", "expected": true }
+        {
+          "key": "A",
+          "text": "Il faut faire un bilan complet comportant un CT cervico-thoraco-abdo-pelvien, un pet-CT, les dosages de CEA et de CA19,9 + biologie complète, une coelioscopie (= laparoscopie), gastroscopie + biopsie et (écho)endoscopie avec ou sans cytoponction"
+        },
+        {
+          "key": "B",
+          "text": "La coelioscopie est indispensable afin de pouvoir placer une gastro- ou jéjunostomie qui elle est indispensable pour assurer la nutrition correcte du patient dans la prise en charge et ce quel que soit le diagnostic nutritionnel du patient"
+        },
+        {
+          "key": "C",
+          "text": "Le stade cTNM doit être défini/est indispensable pour le futur/la décision de la prise en charge du patient"
+        },
+        {
+          "key": "D",
+          "text": "On peut commencer par une radio-chimiothérapie néo-adjuvante pour ce patient et si la tumeur répond bien au traitement on peut alors faire un ‘watch-and-wait' et uniquement s’engager dans la chirurgie si jamais la tumeur venait à croître à nouveau",
+          "expected": true
+        }
       ],
       "answerStatus": "disputed",
       "answerNote": "La retranscription marque D. Cependant la proposition B (« jéjunostomie indispensable quel que soit l’état nutritionnel ») paraît elle aussi fausse : la question compterait alors 2 propositions fausses pour une consigne « 1 fausse ». Formulations longues reconstituées de mémoire ; à vérifier.",
-      "quality": ["uncertain-wording"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 7, "section": "Janvier 2025 — Cliniques", "originalNumber": "39" }],
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 7,
+          "section": "Janvier 2025 — Cliniques",
+          "originalNumber": "39"
+        }
+      ],
       "duplicateGroup": "oeso-jonction-watch-wait",
-      "hints": ["Une stratégie validée pour un autre cancer digestif est transposée ici.", "Pour quel cancer la surveillance après réponse complète (« watch and wait ») est-elle discutée ?", "La chirurgie reste-t-elle la référence après traitement néo-adjuvant d’un adénocarcinome de la jonction ?"],
-      "explanation": { "origin": "complement", "review": "to-validate", "text": "Pour un adénocarcinome de la jonction œso-gastrique résécable, le standard est un traitement **néo-adjuvant** (chimiothérapie périopératoire ou radio-chimiothérapie) **suivi de chirurgie**. La stratégie « watch-and-wait » est discutée dans le cancer du **rectum** (et dans certains carcinomes épidermoïdes de l’œsophage en réponse complète), pas comme option standard ici. Le stade cTNM conditionne la stratégie. Une jéjunostomie d’alimentation n’est pas systématique : elle dépend de l’état nutritionnel." },
-      "lessonLinks": ["oeso-cancers"]
+      "hints": [
+        "Une stratégie validée pour un autre cancer digestif est transposée ici.",
+        "Pour quel cancer la surveillance après réponse complète (« watch and wait ») est-elle discutée ?",
+        "La chirurgie reste-t-elle la référence après traitement néo-adjuvant d’un adénocarcinome de la jonction ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Pour un adénocarcinome de la jonction œso-gastrique résécable, le standard est un traitement **néo-adjuvant** (chimiothérapie périopératoire ou radio-chimiothérapie) **suivi de chirurgie**. La stratégie « watch-and-wait » est discutée dans le cancer du **rectum** (et dans certains carcinomes épidermoïdes de l’œsophage en réponse complète), pas comme option standard ici. Le stade cTNM conditionne la stratégie. Une jéjunostomie d’alimentation n’est pas systématique : elle dépend de l’état nutritionnel."
+      },
+      "lessonLinks": [
+        "oeso-cancers"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-GASTRO-QCMM-002",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "estomac",
+      "subchapter": "gastrites",
+      "tags": [
+        "Biermer"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Concernant l’Anémie de Biermer, 2 faux :",
+      "options": [
+        {
+          "key": "a",
+          "text": "Prédispose au Syndrome de Zollinger-Ellison",
+          "expected": true
+        },
+        {
+          "key": "b",
+          "text": "Est plus fréquent chez les hommes >50 ans",
+          "expected": true
+        },
+        {
+          "key": "c",
+          "text": "Diminue l’absorption en fer"
+        },
+        {
+          "key": "d",
+          "text": "Cause fréquemment une hypergastrinémie"
+        },
+        {
+          "key": "e",
+          "text": "Peut causer des troubles neurologiques"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 2,
+          "section": "Janvier 2025 — Dewit",
+          "originalNumber": "3"
+        },
+        {
+          "file": "jan2025",
+          "page": 2,
+          "section": "Dewit",
+          "originalNumber": "3"
+        }
+      ],
+      "hints": [
+        "Il faut cocher les deux propositions FAUSSES.",
+        "Qui est le plus souvent touché par cette maladie auto-immune ?",
+        "L’hypergastrinémie du Biermer vient-elle d’une tumeur ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Biermer : gastrite atrophique **auto-immune** du fundus, plus fréquente chez la **femme** de plus de 60 ans. L’achlorhydrie entraîne une hypergastrinémie **réactionnelle** (pas un Zollinger-Ellison, qui est un gastrinome avec hypersécrétion acide) et diminue l’absorption du **fer**. La carence en B12 peut donner des troubles **neurologiques** (sclérose combinée de la moelle)."
+      },
+      "lessonLinks": [
+        "est-gastrites"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-GASTRO-QCM-001",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "estomac",
+      "subchapter": "dyspepsie",
+      "tags": [
+        "vomissements"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Vomissements le matin dès le lever. 1 fausse",
+      "options": [
+        {
+          "key": "A",
+          "text": "Grossesse"
+        },
+        {
+          "key": "B",
+          "text": "Alcoolisme chronique"
+        },
+        {
+          "key": "C",
+          "text": "Hypertension intra crânienne"
+        },
+        {
+          "key": "D",
+          "text": "Sub occlusion grêle",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "Intoxication médicamenteuse"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 3,
+          "section": "Janvier 2025 — Dewit",
+          "originalNumber": "16"
+        }
+      ],
+      "hints": [
+        "Cherchez la cause dont les vomissements sont liés aux repas plutôt qu’au réveil.",
+        "Les vomissements matinaux à jeun ont des causes classiques.",
+        "Un obstacle digestif fait vomir après l’ingestion."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Vomissements **matinaux, à jeun** : grossesse, alcoolisme chronique (pituites), hypertension intracrânienne, intoxications / médicaments, insuffisance rénale. Une **sub-occlusion du grêle** donne des vomissements **post-prandiaux**, avec douleurs et ballonnement."
+      },
+      "lessonLinks": [
+        "est-dyspepsie"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-CHIR-QCM-002",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "CHIR",
+      "teacher": "Hubert",
+      "chapter": "estomac",
+      "subchapter": "ugd",
+      "tags": [
+        "perforation",
+        "péritonite"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "En cas de perforation gastroduodenale :",
+      "stemNote": "La consigne (vraie / fausse) n’a pas été retranscrite et la proposition D manque.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ulcère duodénal peut se compliquer d’un Cancer"
+        },
+        {
+          "key": "B",
+          "text": "Une contracture abdominale"
+        },
+        {
+          "key": "C",
+          "text": "Une chirurgie est toujours nécessaire en cas de péritonite",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "(proposition non retranscrite)"
+        },
+        {
+          "key": "E",
+          "text": "Le traitement recommandé est IPP 20mg/j en situation aigue"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription marque C, mais la consigne n’est pas connue et la proposition B (contracture abdominale) est elle aussi vraie. À rapprocher de la question de Léonard (2024) où « la perforation nécessite toujours une chirurgie en urgence » est marquée FAUSSE : perforation sans péritonite (traitement conservateur possible) et perforation avec péritonite généralisée (chirurgie) ne sont pas la même situation.",
+      "quality": [
+        "incomplete-options",
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 4,
+          "section": "Janvier 2025 — Hubert",
+          "originalNumber": "23"
+        },
+        {
+          "file": "qcm-nc",
+          "page": 26,
+          "section": "Chir Hubert (2025)",
+          "originalNumber": "23"
+        }
+      ],
+      "duplicateGroup": "est-perforation-chirurgie",
+      "hints": [
+        "Distinguez perforation bouchée et péritonite généralisée.",
+        "Quel signe clinique traduit l’irritation péritonéale ?",
+        "Quelle dose d’IPP utilise-t-on en situation aiguë ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Une perforation d’ulcère avec **péritonite généralisée** est une urgence **chirurgicale** (suture de l’ulcère + lavage, souvent par laparoscopie). Une perforation **bouchée**, vue tôt chez un patient stable et à jeun, peut être traitée médicalement (méthode de Taylor : aspiration, IPP IV à forte dose, antibiotiques) sous surveillance. La **contracture** (ventre de bois) est le signe typique. L’ulcère duodénal ne dégénère pas."
+      },
+      "lessonLinks": [
+        "est-ugd"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-CLIN-QCM-002",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "CLIN",
+      "chapter": "estomac",
+      "subchapter": "hemorragie",
+      "tags": [
+        "hémorragie digestive haute",
+        "endoscopie"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "RH : hémorragie digestive haute prise en charge (qlq chose dans le genre)",
+      "stemNote": "Énoncé reconstitué de mémoire (« quelque chose dans le genre »).",
+      "options": [
+        {
+          "key": "A",
+          "text": "TIPS"
+        },
+        {
+          "key": "B",
+          "text": "Embolisation (coagulation) par endoscopie",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Ipp 20mg"
+        },
+        {
+          "key": "D",
+          "text": "Une intervention chirurgicale (gastrectomie partielle? Je me souviens plus trop)"
+        },
+        {
+          "key": "E",
+          "text": "Ligature de l’ulcère par voie endoscopique"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [
+        "La formulation « embolisation par endoscopie » est probablement une approximation d’« hémostase endoscopique »."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 6,
+          "section": "Janvier 2025 — Cliniques",
+          "originalNumber": "35"
+        }
+      ],
+      "duplicateGroup": "est-hemorragie-ugd-endoscopie",
+      "hints": [
+        "Quel examen est à la fois diagnostique et thérapeutique ?",
+        "Le TIPS concerne quelle cause d’hémorragie ?",
+        "La dose d’IPP utilisée en aigu est-elle la dose d’entretien ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Hémorragie digestive haute sur ulcère : réanimation (2 voies veineuses, remplissage, transfusion restrictive), **IPP IV à forte dose**, puis **endoscopie dans les 24 h** avec **hémostase endoscopique** (injection d’adrénaline, clips, coagulation) si stigmates à haut risque. En cas d’échec : embolisation **radiologique** artérielle ou chirurgie. Le TIPS concerne l’hémorragie sur **varices** (hypertension portale)."
+      },
+      "lessonLinks": [
+        "est-hemorragie"
+      ]
     }
   ]
 }
