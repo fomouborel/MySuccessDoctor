@@ -160,3 +160,13 @@ test('question contestée sans réponse retenue : non évaluée, explication du 
   await expect(page.getByText(/Pas de correction de référence/)).toBeVisible();
   await expect(page.getByText(/Votes partagés/)).toBeVisible();
 });
+
+test('filtre Adulte / Pédiatrie disponible dans l’entraînement', async ({ page }) => {
+  await go(page, '/entrainement');
+  const select = page.getByLabel('Adulte / Pédiatrie');
+  await expect(select).toBeVisible();
+  await select.selectOption('adult');
+  await expect(page.getByRole('heading', { name: /question\(s\) disponible\(s\)/ })).toBeVisible();
+  await select.selectOption('pedia');
+  await expect(page.getByRole('heading', { name: /^0 question/ })).toBeVisible();
+});

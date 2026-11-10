@@ -1,5 +1,6 @@
 import { describe, expect, it, beforeEach } from 'vitest';
-import type { Question } from '../content/schema';
+import { audienceOf, type Question } from '../content/schema';
+import { applyFilters, EMPTY_FILTERS } from '../features/quizzes/Filters';
 import { emptyAnswer, grade, isGradable } from './scoring';
 import { DAY, chapterMastery, computeState, coverage, computeAllStates, dueQuestions, schedule, type Attempt } from './progress';
 import { DigestDB } from './db';
@@ -148,5 +149,19 @@ describe('sauvegarde', () => {
     backup.data.attempts.push(att('pirate', 1, 'correct') as never);
     expect(parseBackup(JSON.stringify(backup))).toMatchObject({ ok: false });
     expect(checksum('abc')).toHaveLength(8);
+  });
+});
+
+describe('public adulte / pédiatrie', () => {
+  it('une question est pédiatrique si elle est dans le chapitre Pédiatrie ou de discipline pédiatrique', () => {
+    expect(audienceOf(single)).toBe('adult');
+    expect(audienceOf({ ...single, chapter: 'pediatrie' })).toBe('pedia');
+    expect(audienceOf({ ...single, discipline: 'CHIRPED' })).toBe('pedia');
+  });
+  it('le filtre Adulte / Pédiatrie sélectionne les bonnes questions', () => {
+    const ped = { ...single, id: 'P1', chapter: 'pediatrie', discipline: 'PEDIA' } as Question;
+    const qs = [single, ped];
+    expect(applyFilters(qs, { ...EMPTY_FILTERS, audience: 'pedia' }, new Map()).map((q) => q.id)).toEqual(['P1']);
+    expect(applyFilters(qs, { ...EMPTY_FILTERS, audience: 'adult' }, new Map()).map((q) => q.id)).toEqual([single.id]);
   });
 });

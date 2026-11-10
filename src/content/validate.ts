@@ -59,6 +59,9 @@ export function validateContent(input: ContentInput): { errors: string[]; questi
     const chapter = chapters.find((c) => c.id === q.chapter);
     if (!chapter) errors.push(`${where} : chapitre inconnu ${q.chapter}`);
     else if (q.subchapter && !chapter.subchapters.some((s) => s.id === q.subchapter)) errors.push(`${where} : sous-chapitre inconnu ${q.subchapter}`);
+    // Décision : les questions pédiatriques sont rangées UNIQUEMENT dans le chapitre Pédiatrie.
+    if ((q.discipline === 'PEDIA' || q.discipline === 'CHIRPED') && q.chapter !== 'pediatrie')
+      errors.push(`${where} : question pédiatrique hors du chapitre « pediatrie »`);
     for (const l of q.lessonLinks ?? []) if (!lessonIds.has(l)) errors.push(`${where} : leçon liée inconnue ${l}`);
 
     if (input.mediaFiles) for (const m of q.media ?? []) if (!input.mediaFiles.includes(m.src)) errors.push(`${where} : image introuvable ${m.src}`);

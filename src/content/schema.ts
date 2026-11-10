@@ -21,6 +21,13 @@ export const DISCIPLINE_LABELS: Record<Discipline, string> = {
   CLIN: 'Cliniques',
 };
 
+/** Public visé par la question : partie adulte ou partie pédiatrique de l'examen. */
+export type Audience = 'adult' | 'pedia';
+export function audienceOf(q: { chapter: string; discipline: Discipline }): Audience {
+  return q.chapter === 'pediatrie' || q.discipline === 'PEDIA' || q.discipline === 'CHIRPED' ? 'pedia' : 'adult';
+}
+export const AUDIENCE_LABELS: Record<Audience, string> = { adult: 'Adulte', pedia: 'Pédiatrie' };
+
 /** Statut de fiabilité de la réponse attendue — voir docs/AUDIT-PHASE-1.md §7. */
 export const answerStatusSchema = z.enum(['official', 'proposed', 'disputed', 'inferred', 'unavailable']);
 export type AnswerStatus = z.infer<typeof answerStatusSchema>;

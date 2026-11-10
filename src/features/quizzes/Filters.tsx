@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { chapters, questions, sessionLabel } from '../../content';
 import type { Question } from '../../content/schema';
-import { DISCIPLINE_LABELS } from '../../content/schema';
+import { DISCIPLINE_LABELS, audienceOf } from '../../content/schema';
 import { STATUS_LABELS, type QuestionState, type QuestionStatus } from '../../services/progress';
 import { TYPE_LABELS } from '../../components/ui';
 
@@ -16,12 +16,14 @@ export interface FilterValues {
   status: string;
   answer: string;
   clinical: string;
+  audience: string;
 }
-export const EMPTY_FILTERS: FilterValues = { session: '', teacher: '', discipline: '', chapter: '', subchapter: '', type: '', difficulty: '', status: '', answer: '', clinical: '' };
+export const EMPTY_FILTERS: FilterValues = { session: '', teacher: '', discipline: '', chapter: '', subchapter: '', type: '', difficulty: '', status: '', answer: '', clinical: '', audience: '' };
 
 export function applyFilters(qs: Question[], f: FilterValues, states: Map<string, QuestionState>): Question[] {
   return qs.filter(
     (q) =>
+      (!f.audience || audienceOf(q) === f.audience) &&
       (!f.session || q.session === f.session) &&
       (!f.teacher || (q.teacher ?? '—') === f.teacher) &&
       (!f.discipline || q.discipline === f.discipline) &&
@@ -71,6 +73,17 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
                   {c.title}
                 </option>
               ))}
+          </select>
+        </label>
+        <label className="field">
+          Adulte / Pédiatrie
+          <select value={value.audience} onChange={set('audience')}>
+            <option value="">Les deux</option>
+            <option value="adult">Adulte ({questions.filter((q) => audienceOf(q) === 'adult').length})</option>
+            <option value="pedia">
+              Pédiatrie ({questions.filter((q) => audienceOf(q) === 'pedia').length}
+              {questions.some((q) => audienceOf(q) === 'pedia') ? '' : ' — chapitre à venir'})
+            </option>
           </select>
         </label>
         <label className="field">

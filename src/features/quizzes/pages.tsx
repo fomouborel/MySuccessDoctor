@@ -6,7 +6,7 @@ import { useProgress } from '../../state/ProgressContext';
 import { PracticeQuestion } from './QuestionView';
 import { Filters, applyFilters, useFilters } from './Filters';
 import { keepCasesTogether, saveSession, shuffle, type SessionSpec } from './session';
-import { StatusBadge, TYPE_LABELS, shortStem, AnswerStatusBadge } from '../../components/ui';
+import { StatusBadge, TYPE_LABELS, shortStem, AnswerStatusBadge, AudienceBadge } from '../../components/ui';
 
 export function useStartSession() {
   const navigate = useNavigate();
@@ -28,6 +28,7 @@ export function QuestionList({ qs, limit = 200 }: { qs: Question[]; limit?: numb
             <span className="row small muted" style={{ gap: '0.4rem', marginTop: 4 }}>
               <span>{TYPE_LABELS[q.type]}</span>·<span>{'★'.repeat(q.difficulty)}</span>·<AnswerStatusBadge status={q.answerStatus} />
               {q.clinical && <span className="badge teal">Cas clinique</span>}
+              <AudienceBadge q={q} />
             </span>
           </span>
           <StatusBadge status={states.get(q.id)?.status ?? 'new'} />

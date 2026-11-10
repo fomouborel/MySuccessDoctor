@@ -66,7 +66,7 @@ Un chapitre correspond à **un organe ou un grand ensemble physiopathologique** 
 | 8 | `pancreas` | Pancréas | à intégrer |
 | 9 | `foie` | Foie | à intégrer |
 | 10 | `urgences` | Abdomen aigu et chirurgie générale | à intégrer |
-| 11 | `pediatrie` | Pédiatrie digestive | à intégrer |
+| 11 | `pediatrie` | Pédiatrie digestive (toutes les questions d’enfant, voir § 6) | à intégrer |
 | 12 | `pharmaco` | Pharmacologie digestive | à intégrer |
 
 Un chapitre `pending` est visible dans « Mes cours » (grisé, « Intégration en cours ») mais n’est pas cliquable : aucun bouton factice.
@@ -182,15 +182,20 @@ Chaque question d’archives reçoit, dans `content/questions/*.json` :
 
 **Questions transversales** (anémies, diarrhées multi-causes) : rattachées au chapitre où se trouve la majorité des causes proposées (ex. carences en fer → `grele`).
 
-### Point en attente de décision : la pédiatrie
+### Décision : adulte et pédiatrie (tranchée le 10 novembre 2026)
 
-Les examens séparent les parties **adulte** (« Gastro-entérologie *adulte* », « Hépato *adulte* ») et **pédiatrique** (Smets, Reding). Jusqu’ici :
+Les examens séparent une partie **adulte** (« Gastro-entérologie adulte » Dewit, « Hépato adulte » Leclercq, chirurgie adulte) et une partie **pédiatrique** (Smets, Sokal, Reding).
 
-- les disciplines pédiatriques existent dans le modèle (`PEDIA`, `CHIRPED`) ;
-- les questions d’enfant ont été réservées au chapitre `pediatrie`, pas encore intégré ;
-- les libellés de discipline ne précisent pas encore « adulte ».
+| Point | Décision |
+|---|---|
+| **Libellés des disciplines** | **inchangés** : « Gastro-entérologie », « Hépatologie », « Chirurgie digestive », « Pédiatrie digestive », « Chirurgie pédiatrique »… |
+| **Rangement des questions d’enfant** | **uniquement dans le chapitre `pediatrie`**, même quand elles portent sur un organe couvert ailleurs (atrésie de l’œsophage, blocage alimentaire chez l’enfant, épigastralgies de l’adolescente…). Elles ne sont **pas** dupliquées dans les chapitres d’organe. |
+| **Disciplines pédiatriques** | `PEDIA` (Smets, Sokal) et `CHIRPED` (Reding). Le validateur **refuse** une question `PEDIA` ou `CHIRPED` rangée hors du chapitre `pediatrie`. |
+| **Public d’une question** | calculé automatiquement : **Pédiatrie** si `chapter = pediatrie` ou discipline `PEDIA` / `CHIRPED`, sinon **Adulte**. Une question d’enfant posée dans une autre discipline (ex. une QCM « clinique » ou de radiologie sur une invagination) est rangée dans `pediatrie` pour être comptée comme pédiatrique. |
+| **Filtre** | « Adulte / Pédiatrie » dans Entraînement et Anciens examens (banque complète) |
+| **Badge** | « 👶 Pédiatrie » sur chaque question d’enfant (rien n’est ajouté sur les questions adultes, pour ne pas surcharger l’affichage) |
 
-Proposition à valider : libellés « … adulte » / « … pédiatrique », filtre **Adulte / Pédiatrie**, et questions pédiatriques visibles dans le chapitre d’organe (avec l’étiquette Pédiatrie) **et** dans le chapitre Pédiatrie. Ce document sera mis à jour selon la décision.
+**Pour ENDOCRINO ACADEMY** : appliquer la même règle si les examens comportent une partie pédiatrique (endocrinologie pédiatrique dans son propre chapitre, filtre et badge identiques). Adapter la fonction `audienceOf` si la partie pédiatrique y porte un autre nom.
 
 ---
 

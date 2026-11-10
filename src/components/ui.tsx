@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import type { AnswerStatus, Question } from '../content/schema';
-import { DISCIPLINE_LABELS } from '../content/schema';
+import { DISCIPLINE_LABELS, audienceOf } from '../content/schema';
 import { sessionLabel } from '../content';
 import { STATUS_LABELS, type QuestionStatus, MASTERY_LABELS, type MasteryLevel } from '../services/progress';
 
@@ -59,11 +59,16 @@ export function QuestionMeta({ q }: { q: Question }) {
         {DISCIPLINE_LABELS[q.discipline]}
         {q.teacher ? ` · ${q.teacher}` : ''}
       </span>
+      <AudienceBadge q={q} />
       {q.formerTeacher && <span className="badge warn">Ancien titulaire</span>}
       {q.clinical && <span className="badge teal">Cas clinique</span>}
       <AnswerStatusBadge status={q.answerStatus} />
     </div>
   );
+}
+
+export function AudienceBadge({ q }: { q: Question }) {
+  return audienceOf(q) === 'pedia' ? <span className="badge pedia">👶 Pédiatrie</span> : null;
 }
 
 export function SourceLine({ q }: { q: Question }) {
