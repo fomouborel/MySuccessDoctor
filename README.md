@@ -41,3 +41,4 @@ npm run e2e               # tests de bout en bout (Playwright)
 
 - `docs/AUDIT-PHASE-1.md` — audit des sources
 - `docs/ARCHITECTURE-PHASE-2.md` — choix techniques et modèle de données
+- `docs/METHODE-ARBORESCENCE.md` — méthode de construction des chapitres, sous-chapitres, leçons et rattachement des questions (réutilisable pour d’autres applications, ex. ENDOCRINO ACADEMY)
