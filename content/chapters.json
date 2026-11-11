@@ -183,11 +183,63 @@
   {
     "id": "mici",
     "title": "MICI",
-    "short": "Maladie de Crohn, RCUH",
+    "short": "Maladie de Crohn, RCUH : diagnostic, poussées, complications, traitement et chirurgie",
     "icon": "🔥",
-    "status": "pending",
-    "subchapters": [],
-    "lessons": []
+    "status": "available",
+    "subchapters": [
+      {
+        "id": "crohn",
+        "title": "Maladie de Crohn : clinique, complications et manifestations extra-digestives"
+      },
+      {
+        "id": "rcuh",
+        "title": "RCUH : clinique, poussée et sévérité"
+      },
+      {
+        "id": "diagnostic",
+        "title": "Diagnostic, imagerie, anatomo-pathologie et suivi"
+      },
+      {
+        "id": "traitement",
+        "title": "Traitement médical"
+      },
+      {
+        "id": "chirurgie",
+        "title": "Chirurgie des MICI"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "mici-crohn",
+        "title": "Maladie de Crohn",
+        "file": "mici/01-crohn.md",
+        "minutes": 12
+      },
+      {
+        "id": "mici-rcuh",
+        "title": "Rectocolite ulcéro-hémorragique et poussée sévère",
+        "file": "mici/02-rcuh.md",
+        "minutes": 10
+      },
+      {
+        "id": "mici-diagnostic",
+        "title": "Diagnostic des MICI : endoscopie, imagerie, anatomo-pathologie, suivi",
+        "file": "mici/03-diagnostic.md",
+        "minutes": 10
+      },
+      {
+        "id": "mici-traitement",
+        "title": "Traitement médical des MICI",
+        "file": "mici/04-traitement.md",
+        "minutes": 10
+      },
+      {
+        "id": "mici-chirurgie",
+        "title": "Chirurgie des MICI",
+        "file": "mici/05-chirurgie.md",
+        "minutes": 8
+      }
+    ]
   },
   {
     "id": "colon",

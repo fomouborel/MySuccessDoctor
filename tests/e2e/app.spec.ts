@@ -181,3 +181,14 @@ test('Intestin grêle : question « combien ? » et question sur image', async (
   await expect(img).toBeVisible();
   expect(await img.evaluate((el) => (el as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
 });
+
+test('MICI : cas clinique Crohn sténosant en 4 étapes', async ({ page }) => {
+  await go(page, '/cas-cliniques');
+  await page.locator('.card', { hasText: '28 ans, tabagique' }).getByRole('button', { name: /le cas/ }).click();
+  await expect(page.getByText(/question 1 \/ 4/)).toBeVisible();
+  await page.getByRole('button', { name: /^B\. Sténose grêle/ }).click();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await expect(page.getByText('✅ Bonne réponse')).toBeVisible();
+  await page.getByRole('button', { name: /Question suivante/ }).click();
+  await expect(page.getByText(/Cas clinique — étape 2\/4/)).toBeVisible();
+});

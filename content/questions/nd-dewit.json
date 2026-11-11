@@ -4025,6 +4025,506 @@
       "lessonLinks": [
         "grele-carences"
       ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-022",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "traitement",
+      "tags": [
+        "Crohn",
+        "chirurgie",
+        "grossesse"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "A propos de la maladie de Crohn (2 réponses fausses)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rarement recours à la chirurgie parce que celle-ci n’est pas curative",
+          "expected": true,
+          "note": "elle n’est pas curative mais quasi 80 % de chirurgie à 20 ans",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "L’espérance de vie est la même que chez un individu normal",
+          "note": "oui mais attention aux complications",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Les patients ne doivent pas suivre un régime très strict"
+        },
+        {
+          "key": "D",
+          "text": "Les immunosuppresseurs sont très fréquemment indiqués dans le traitement de la maladie de Crohn.",
+          "note": "oui, 60 % à St-Luc",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Une femme enceinte doit arrêter son traitement pendant sa grossesse",
+          "expected": true,
+          "note": "faux, elle doit juste arrêter le méthotrexate",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 52,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "34"
+        }
+      ],
+      "duplicateGroup": "mici-crohn-chirurgie-rare",
+      "hints": [
+        "Il faut cocher les deux FAUSSES.",
+        "Quelle proportion de patients atteints de Crohn sera opérée au cours de sa vie ?",
+        "Quel immunosuppresseur est tératogène ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La chirurgie ne guérit pas le Crohn mais elle est **fréquente** (environ 3/4 des patients opérés au cours de leur vie). Pendant la grossesse, on **poursuit** le traitement (une poussée est plus dangereuse que la plupart des traitements), sauf le **méthotrexate** (tératogène, à arrêter avant la conception). Pas de régime strict ; immunosuppresseurs et biothérapies fréquents ; l’**arrêt du tabac** est essentiel."
+      },
+      "lessonLinks": [
+        "mici-traitement"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-023",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "présentation"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "En ce qui concerne la maladie de Crohn, 2 bonnes réponses.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elle peut se manifester en premier lieu comme une gastro-entérite aiguë",
+          "expected": true,
+          "note": "à voir ce qu’il y avait comme proposition D, parce que gastro-entérite oui mais qui dure !",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Une atteinte strictement proctologique est possible.",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Les aminosalicylés sont un traitement essentiel dans le traitement de la maladie de Crohn",
+          "note": "ils sont discutés",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "(proposition non retranscrite)"
+        },
+        {
+          "key": "E",
+          "text": "la chirurgie est rare mais elle doit à tout prix être évitée parce qu’elle ne guérit pas la maladie",
+          "note": "elle doit être évitée mais elle n’est pas rare…",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 52,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "35"
+        }
+      ],
+      "hints": [
+        "Le Crohn peut toucher n’importe quel segment du tube digestif.",
+        "Une présentation aiguë est-elle possible ?",
+        "Quel traitement a une efficacité surtout démontrée dans la RCUH ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le Crohn peut débuter de façon aiguë (diarrhée, douleur en FID mimant une gastro-entérite ou une appendicite) et toucher **tout le tube digestif**, y compris de façon **isolée** la région ano-périnéale (fissures atypiques, fistules, abcès). Les **aminosalicylés** ont une efficacité modeste et discutée dans le Crohn (ils sont le traitement de base de la RCUH)."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-035",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "diarrhée sanglante",
+        "endoscopie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Un jeune patient de 30 ans vient pour des diarrhées sanglantes c’est son 3e épisode. En plus d’une biologie habituelle, on lui fait (une réponse attendue) :",
+      "options": [
+        {
+          "key": "A",
+          "text": "Une rectosigmoidoscopie",
+          "expected": true,
+          "note": "+1 ? + biopsie en cas de diarrhée dysentérique",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Un dosage ANCA/ANSA"
+        },
+        {
+          "key": "C",
+          "text": "Une échographie centrée sur l’intestin"
+        },
+        {
+          "key": "D",
+          "text": "Un lavement baryté"
+        },
+        {
+          "key": "E",
+          "text": "Un dosage des calprotectines"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 52,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "36"
+        }
+      ],
+      "hints": [
+        "Le sang indique une atteinte de la muqueuse colique ou rectale.",
+        "Quel examen permet de voir ET de biopsier rapidement le rectum ?",
+        "Les anticorps orientent mais ne font pas le diagnostic."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Diarrhée sanglante récidivante chez un sujet jeune : évoquer une **RCUH** (ou un Crohn colique) → **rectosigmoïdoscopie (ou coloscopie) avec biopsies** + coproculture (éliminer une infection). La calprotectine confirme une inflammation mais ne remplace pas l’endoscopie ; les ANCA / ASCA ne sont qu’une aide."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-024",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "traitement",
+      "tags": [
+        "Crohn",
+        "fistule",
+        "tuberculose",
+        "maladie cœliaque"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Lesquelles de ces propositions suivantes sont fausses? (deux réponses)",
+      "options": [
+        {
+          "key": "A",
+          "text": "La fistule d’un Crohn iléal se traite par corticoïdes",
+          "expected": true,
+          "note": "inutiles et pourraient favoriser la formation d’abcès",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Tuberculose se dd difficilement d’un crohn cliniquement et par endoscopie",
+          "note": "IDR et biopsie des lésions avec mise en culture",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Traitement maladie cœliaque par éviction de farine de blé, riz, orge",
+          "expected": true,
+          "note": "blé, seigle et orge",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "(autres propositions non retranscrites)"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 53,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "39"
+        }
+      ],
+      "hints": [
+        "Il faut cocher les deux FAUSSES.",
+        "Les corticoïdes favorisent-ils la cicatrisation d’une fistule ou une infection ?",
+        "Le riz contient-il du gluten ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Les fistules du Crohn se traitent par **anti-TNF** (± immunosuppresseur), drainage des abcès, antibiotiques, parfois chirurgie ; les **corticoïdes** ne ferment pas les fistules et favorisent les abcès. La **tuberculose iléo-cæcale** est un diagnostic différentiel difficile (cultures, PCR, IGRA avant toute immunosuppression). Maladie cœliaque : éviction **blé, seigle, orge** ; le riz est autorisé."
+      },
+      "lessonLinks": [
+        "mici-traitement",
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-036",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "manifestations extra-digestives"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Quelle pathologie n’est pas associée à la Maladie de Crohn ? (1 réponse)",
+      "options": [
+        {
+          "key": "1",
+          "text": "spondylarthrite ankylosante",
+          "note": "+ arthrites périphériques et/ou axiales (sacro-iliite)",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "2",
+          "text": "pancréatite auto-immune de type II",
+          "note": "associée dans 20 % des cas à une MICI",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "3",
+          "text": "dermatite herpétique",
+          "expected": true,
+          "note": "maladie cœliaque",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "4",
+          "text": "Pyoderma grangrenosum"
+        },
+        {
+          "key": "5",
+          "text": "érythème noueux"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "NB des archives : + uvéite, épisclérite au niveau oculaire et cholangite sclérosante au niveau biliaire."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 53,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "40"
+        }
+      ],
+      "duplicateGroup": "mici-extradigestif",
+      "hints": [
+        "Une seule manifestation cutanée appartient à une autre maladie digestive.",
+        "Laquelle est liée au gluten ?",
+        "Érythème noueux et pyoderma sont des classiques des MICI."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Manifestations extra-digestives des MICI : **articulaires** (arthrites périphériques, spondylarthrite, sacro-iliite), **cutanées** (érythème noueux, pyoderma gangrenosum), **oculaires** (uvéite, épisclérite), **hépato-biliaires** (cholangite sclérosante primitive), lithiases rénales et biliaires (Crohn iléal), thromboses. La **dermatite herpétiforme** est associée à la **maladie cœliaque**."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-037",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "traitement",
+      "tags": [
+        "Crohn",
+        "chirurgie",
+        "tabac"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Parmi les propositions suivantes concernant la maladie de crohn, quelle est la réponse fausse",
+      "options": [
+        {
+          "key": "A",
+          "text": "L’usage des immunosuppresseurs est fréquent",
+          "note": "60 % à St-Luc",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Une femme enceinte peut continuer son traitement",
+          "note": "oui sauf méthotrexate",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "La chirurgie est rare, il faut à tout prix l’éviter car elle ne guérit pas",
+          "expected": true,
+          "note": "elle ne guérit pas mais elle n’est pas rare, 80 % à 20 ans de maladie",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Les patient ne doivent pas suivre un régime strict"
+        },
+        {
+          "key": "E",
+          "text": "Le tabac est à arrêter afin de permettre une efficacité maximale",
+          "note": "oui >< RCUH",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 55,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "47"
+        }
+      ],
+      "duplicateGroup": "mici-crohn-chirurgie-rare",
+      "hints": [
+        "Question très récurrente (Dewit et Kartheuser).",
+        "La chirurgie est-elle rare dans le Crohn ?",
+        "Le tabac aggrave-t-il le Crohn ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La chirurgie **n’est pas rare** dans le Crohn (≈ 3/4 des patients), même si elle n’est pas curative et qu’on cherche à l’économiser (résections limitées, stricturoplasties). Le **tabac aggrave** le Crohn (alors qu’il semble « protéger » de la RCUH)."
+      },
+      "lessonLinks": [
+        "mici-traitement"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QROC-008",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "sténose",
+        "occlusion",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "type": "qroc",
+      "stem": "Jeune homme de 30 ans ± (?) qui se présente pour ballonnement important, arrêt des matières et des gaz. A l’auscultation, on entend des bruits métalliques. Sachant que le patient souffre de la maladie de Crohn depuis 8 ans (?) Quel est votre diagnostic ?",
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 111,
+          "section": "QROC — DEWIT",
+          "originalNumber": "8"
+        },
+        {
+          "file": "qroc-nc",
+          "page": 1,
+          "section": "Dewit",
+          "originalNumber": "8"
+        }
+      ],
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Occlusion du grêle sur sténose (fibreuse et/ou inflammatoire) compliquant la maladie de Crohn"
+        ],
+        "keywords": [
+          "occlusion",
+          "sténose",
+          "Crohn",
+          "grêle"
+        ],
+        "optional": [
+          "Scanner / entéro-IRM pour préciser la sténose (inflammatoire ou fibreuse)",
+          "Traitement initial conservateur (sonde gastrique), puis selon la nature de la sténose : anti-inflammatoires ou chirurgie (résection courte, stricturoplastie)"
+        ],
+        "majorErrors": [
+          "Poussée simple sans évoquer l’occlusion",
+          "Iléus paralytique (bruits métalliques = obstacle mécanique)"
+        ],
+        "exampleAnswer": "Une occlusion du grêle sur sténose compliquant la maladie de Crohn (ballonnement, arrêt des matières et des gaz, bruits métalliques de lutte)."
+      },
+      "hints": [
+        "Les bruits métalliques traduisent quoi ?",
+        "Quelle complication du Crohn ancien rétrécit le grêle ?",
+        "Inflammatoire ou fibreuse : il faudra le préciser."
+      ],
+      "lessonLinks": [
+        "mici-crohn"
+      ]
     }
   ]
 }

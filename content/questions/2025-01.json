@@ -657,6 +657,294 @@
       "lessonLinks": [
         "grele-carences"
       ]
+    },
+    {
+      "id": "DIGEST-2025-01-GASTRO-QCMM-003",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "manifestations extra-digestives",
+        "complications"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "stem": "symptômes crohn",
+      "stemNote": "Retranscription très partielle : la consigne exacte (« lesquels », « combien ») n’est pas connue. Le prénom du retranscripteur a été retiré.",
+      "options": [
+        {
+          "key": "1",
+          "text": "Spondylarthrite axiale"
+        },
+        {
+          "key": "2",
+          "text": "cholangite sclérosante"
+        },
+        {
+          "key": "3",
+          "text": "Lithiases biliaires"
+        },
+        {
+          "key": "4",
+          "text": "fistules iléo-vésicales (ou qqch du style)"
+        },
+        {
+          "key": "5",
+          "text": "adénocarcinome grêle"
+        },
+        {
+          "key": "6",
+          "text": "ulcère oesophagien"
+        },
+        {
+          "key": "7",
+          "text": "épisclérite"
+        },
+        {
+          "key": "8",
+          "text": "fistules ano-vaginales"
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 1,
+          "section": "Janvier 2025 — Dewit",
+          "originalNumber": "2"
+        },
+        {
+          "file": "jan2025",
+          "page": 1,
+          "section": "Dewit",
+          "originalNumber": "2"
+        }
+      ],
+      "duplicateGroup": "mici-complications-crohn",
+      "hints": [
+        "Pensez aux manifestations extra-digestives et aux complications digestives.",
+        "Le Crohn peut toucher tout le tube digestif.",
+        "L’iléon malade perturbe le cycle des sels biliaires."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** Toutes ces propositions peuvent être associées au Crohn : spondylarthrite, cholangite sclérosante (plus rare que dans la RCUH), lithiases biliaires (Crohn iléal), fistules entéro-vésicales et ano-vaginales, adénocarcinome du grêle, ulcérations œsophagiennes (Crohn œsophagien, rare), épisclérite."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-CHIR-QCM-003",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "CHIR",
+      "teacher": "Hubert",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Concernant la maladie de Crohn laquelle est vrai (1 bonne rep)",
+      "options": [
+        {
+          "key": "A",
+          "text": "elle est surtout diagnotiquée après 70ans"
+        },
+        {
+          "key": "B",
+          "text": "Une réponse fausse (trou de mémoire)"
+        },
+        {
+          "key": "C",
+          "text": "Peut causer des lésions ano-périneales",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Ne présente jamais d’occlusion intestinale"
+        },
+        {
+          "key": "E",
+          "text": "Nécessite tjrs un traitement par stricturoplastie"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 4,
+          "section": "Janvier 2025 — Hubert",
+          "originalNumber": "17"
+        },
+        {
+          "file": "qcm-nc",
+          "page": 26,
+          "section": "Chir Hubert (2025)",
+          "originalNumber": "17"
+        }
+      ],
+      "duplicateGroup": "mici-crohn-vraie",
+      "hints": [
+        "Méfiez-vous des mots « jamais » et « toujours ».",
+        "À quel âge le Crohn est-il surtout diagnostiqué ?",
+        "La région anale fait-elle partie du tube digestif ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Crohn : diagnostic surtout entre **15 et 30 ans** (second pic plus tardif), atteinte possible de la bouche à l’anus, **lésions ano-périnéales** fréquentes (fissures, fistules, abcès), complications **sténosantes** (occlusion) et **pénétrantes** (fistules). La stricturoplastie n’est qu’une option chirurgicale parmi d’autres."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-CHIR-QCM-004",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "CHIR",
+      "teacher": "Hubert",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "RCUH",
+        "chirurgie"
+      ],
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Quel est le traitement chirurgical de choix pour une patient ayant RCUH et n’ayant pas de problème sphincétrien, ni d’atteinte au niveau du rectum ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Colectomie + anastomose iléoanale"
+        },
+        {
+          "key": "B",
+          "text": "Hartmann"
+        },
+        {
+          "key": "C",
+          "text": "Appendicectomie"
+        },
+        {
+          "key": "D",
+          "text": "Hemi-colectomie droite"
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording",
+        "incomplete-options"
+      ],
+      "sourceComments": [
+        "Aucune réponse marquée. La mention « ni d’atteinte au niveau du rectum » est surprenante (le rectum est presque toujours atteint dans la RCUH) : formulation peut-être mal retenue."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 4,
+          "section": "Janvier 2025 — Hubert",
+          "originalNumber": "21"
+        },
+        {
+          "file": "qcm-nc",
+          "page": 26,
+          "section": "Chir Hubert (2025)",
+          "originalNumber": "21"
+        }
+      ],
+      "duplicateGroup": "mici-chirurgie-rcuh",
+      "hints": [
+        "Dans la RCUH, quelle partie du tube digestif est malade ?",
+        "Retirer tout l’organe malade guérit-il la RCUH ?",
+        "Les sphincters sont bons : peut-on éviter une stomie définitive ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** L’intervention de référence de la RCUH est la **coloproctectomie totale avec anastomose iléo-anale sur réservoir en J** (si les sphincters sont bons) : elle retire tout le côlon et le rectum malades. Parmi les propositions, A est la seule cohérente. En urgence (colite grave), on fait d’abord une colectomie subtotale avec double stomie. Si les sphincters sont insuffisants : coloproctectomie avec iléostomie définitive."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-CLIN-QCM-003",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "CLIN",
+      "chapter": "mici",
+      "subchapter": "rcuh",
+      "tags": [
+        "RCUH",
+        "poussée",
+        "colite grave"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "RCUH poussée aigue : (la fausse)",
+      "options": [
+        {
+          "key": "A",
+          "text": "héparine bas poids moléculaire en prévention à tous les patients"
+        },
+        {
+          "key": "B",
+          "text": "échec de R/ médical on fait alors une coloproctectomie et double stomie"
+        },
+        {
+          "key": "C",
+          "text": "rectosigmoidoscopie est contre-indiquée",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "le dosage de l’albumine et la FC font partie de l’évaluation de la sévérité"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Commentaire des archives : « On donne des HBPM toujours ! Et l’endoscopie n’est pas contre-indiquée pour les poussées, au contraire on les objective et on exclut une surinfection. »"
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 7,
+          "section": "Janvier 2025 — Cliniques",
+          "originalNumber": "38"
+        }
+      ],
+      "duplicateGroup": "mici-poussee-rcuh",
+      "hints": [
+        "Quel examen permet de confirmer la poussée et de rechercher un CMV ?",
+        "Les MICI en poussée augmentent-elles le risque de thrombose ?",
+        "Quels paramètres composent le score de Truelove et Witts ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Poussée de RCUH : une **rectosigmoïdoscopie** prudente, sans préparation et peu insufflée, est **recommandée** (confirmer la poussée, évaluer la sévérité, biopsies pour un CMV) ; c’est la coloscopie complète qui est évitée dans la colite grave (risque de perforation). **HBPM préventive** chez tout patient hospitalisé (risque thrombotique élevé). Sévérité (Truelove et Witts) : nombre de selles sanglantes, fréquence cardiaque, température, Hb, VS / CRP ; l’**albumine** basse est un signe de gravité. Échec du traitement médical d’une colite grave → **colectomie subtotale** avec iléostomie et sigmoïdostomie (« double stomie »)."
+      },
+      "lessonLinks": [
+        "mici-rcuh"
+      ]
     }
   ]
 }

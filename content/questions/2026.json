@@ -867,6 +867,271 @@
       "lessonLinks": [
         "grele-carences"
       ]
+    },
+    {
+      "id": "DIGEST-2026-01-GASTRO-COMB-003",
+      "revision": 1,
+      "session": "2026-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "complications"
+      ],
+      "difficulty": 2,
+      "type": "count",
+      "countOf": "true",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "stem": "Conséquences maladie de Crohn (pas formuler comme ça mais c’est l’idée) -> dire combien sont vraies",
+      "stemNote": "Seules 3 propositions ont été retranscrites ; les choix de réponse ne sont pas connus.",
+      "statements": [
+        {
+          "key": "a",
+          "text": "Spondylarthrite anylosante"
+        },
+        {
+          "key": "b",
+          "text": "Uvéite"
+        },
+        {
+          "key": "c",
+          "text": "Lithiase rénale"
+        },
+        {
+          "key": "d",
+          "text": "..."
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "incomplete-options",
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "jan2026",
+          "page": 2,
+          "section": "Janvier 2026 — QCM",
+          "originalNumber": "7"
+        }
+      ],
+      "duplicateGroup": "mici-complications-crohn",
+      "hints": [
+        "Pensez articulaire, oculaire, rénal.",
+        "Le Crohn iléal favorise une lithiase particulière.",
+        "Question déjà posée en 2024 et 2025."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire.** Spondylarthrite, uvéite et lithiase rénale (oxalique, Crohn iléal) sont des associations du Crohn. Les autres propositions n’ont pas été retranscrites."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-2026-01-CHIR-QCM-001",
+      "revision": 1,
+      "session": "2026-01",
+      "discipline": "CHIR",
+      "teacher": "Hubert",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "épidémiologie"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Crohn : la vraie",
+      "stemNote": "Discipline déduite (bloc chirurgie de la retranscription).",
+      "options": [
+        {
+          "key": "a",
+          "text": "touche préférentiellement le rectum"
+        },
+        {
+          "key": "b",
+          "text": "diagno entre 15 et 30ans",
+          "expected": true
+        },
+        {
+          "key": "c",
+          "text": "jamais liée à érythème noueux"
+        },
+        {
+          "key": "d",
+          "text": "jamais"
+        },
+        {
+          "key": "e",
+          "text": "traitée uniquement par stricturoplasties"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "jan2026",
+          "page": 4,
+          "section": "Janvier 2026 — QCM",
+          "originalNumber": "20"
+        }
+      ],
+      "duplicateGroup": "mici-crohn-vraie",
+      "hints": [
+        "Méfiez-vous de « jamais » et « uniquement ».",
+        "Quelle MICI atteint le rectum de façon constante ?",
+        "Le Crohn est une maladie du sujet jeune."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le Crohn est surtout diagnostiqué entre **15 et 30 ans** ; il atteint surtout l’**iléon terminal** et le côlon (le rectum est souvent épargné, à l’inverse de la RCUH) ; l’érythème noueux est une manifestation classique."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-2026-01-CLIN-QCM-003",
+      "revision": 1,
+      "session": "2026-01",
+      "discipline": "CLIN",
+      "chapter": "mici",
+      "subchapter": "rcuh",
+      "tags": [
+        "RCUH",
+        "poussée"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Poussée aiguë de RCHU( 1 vraie)",
+      "options": [
+        {
+          "key": "a",
+          "text": "sigmoïdospocie est contre-indiquée"
+        },
+        {
+          "key": "b",
+          "text": "antibiothérapie en IV pour éviter surinfection"
+        },
+        {
+          "key": "c",
+          "text": "INR, albumine, CRP pour évaluer degré de sévérité"
+        },
+        {
+          "key": "d",
+          "text": "HBPM systématique",
+          "expected": true
+        },
+        {
+          "key": "e",
+          "text": "Opération Hartman si échec de traitement médicale"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Question très proche de celle des cliniques de janvier 2025."
+      ],
+      "provenance": [
+        {
+          "file": "jan2026",
+          "page": 7,
+          "section": "Janvier 2026 — Cliniques",
+          "originalNumber": "31"
+        }
+      ],
+      "duplicateGroup": "mici-poussee-rcuh",
+      "hints": [
+        "Quel risque est fortement augmenté chez un patient hospitalisé pour une poussée ?",
+        "Les antibiotiques sont-ils systématiques ?",
+        "Quelle intervention fait-on en cas d’échec : Hartmann ou autre chose ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**HBPM préventive systématique** (risque thrombo-embolique). La rectosigmoïdoscopie est indiquée ; les antibiotiques ne sont pas systématiques ; l’INR ne fait pas partie des scores de sévérité ; en cas d’échec : **colectomie subtotale** (pas de Hartmann)."
+      },
+      "lessonLinks": [
+        "mici-rcuh"
+      ]
+    },
+    {
+      "id": "DIGEST-2026-01-CHIR-QROC-002",
+      "revision": 1,
+      "session": "2026-01",
+      "discipline": "CHIR",
+      "teacher": "Hubert",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "RCUH",
+        "chirurgie",
+        "sphincters"
+      ],
+      "difficulty": 2,
+      "type": "qroc",
+      "stem": "intervention recommandée chez RCUH avec insuffisance sphinctérienne.",
+      "answerStatus": "unavailable",
+      "quality": [],
+      "sourceComments": [
+        "Question reprise dans le résumé final de la retranscription."
+      ],
+      "provenance": [
+        {
+          "file": "jan2026",
+          "page": 10,
+          "section": "Janvier 2026 — QROC Hubert",
+          "originalNumber": "10"
+        }
+      ],
+      "duplicateGroup": "mici-chirurgie-rcuh",
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Coloproctectomie totale",
+          "avec iléostomie définitive (pas d’anastomose iléo-anale)"
+        ],
+        "keywords": [
+          "coloproctectomie",
+          "iléostomie définitive",
+          "sphincters"
+        ],
+        "optional": [
+          "Si les sphincters sont bons : coloproctectomie totale avec anastomose iléo-anale sur réservoir en J"
+        ],
+        "majorErrors": [
+          "Anastomose iléo-anale malgré l’insuffisance sphinctérienne (incontinence)",
+          "Hartmann"
+        ],
+        "exampleAnswer": "Une coloproctectomie totale avec iléostomie terminale définitive : l’anastomose iléo-anale est contre-indiquée en cas d’insuffisance sphinctérienne (risque d’incontinence)."
+      },
+      "hints": [
+        "Dans la RCUH, quel organe faut-il retirer en totalité ?",
+        "Peut-on rétablir la continuité si les sphincters ne fonctionnent pas ?",
+        "Que reste-t-il alors comme solution pour les selles ?"
+      ],
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
     }
   ]
 }

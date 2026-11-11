@@ -2,75 +2,334 @@
   "source": "Compilation DIGEST — partie QROC, section DEWIT (non datée) — questions du chapitre Œsophage",
   "questions": [
     {
-      "id": "DIGEST-ND-GASTRO-QROC-001", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
-      "chapter": "oesophage", "subchapter": "oesophagites", "tags": ["œsophagite médicamenteuse", "cas clinique"], "clinical": true, "difficulty": 2,
+      "id": "DIGEST-ND-GASTRO-QROC-001",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "oesophagites",
+      "tags": [
+        "œsophagite médicamenteuse",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
       "type": "qroc",
       "stem": "Situation clinique sur personne âgée, odynophagie, douleur rétrosternale, apparu brusquement depuis qqh alité en gros ac acdt, prends des médicaments (glucophage, etc .. pour une maladie chronique ) … Hypothèse diagnostic",
       "stemNote": "Énoncé partiel reconstitué de mémoire.",
-      "answerStatus": "unavailable", "quality": ["uncertain-wording"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 111, "section": "QROC — DEWIT", "originalNumber": "1" }, { "file": "qroc-nc", "page": 1, "section": "Dewit", "originalNumber": "1" }],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 111,
+          "section": "QROC — DEWIT",
+          "originalNumber": "1"
+        },
+        {
+          "file": "qroc-nc",
+          "page": 1,
+          "section": "Dewit",
+          "originalNumber": "1"
+        }
+      ],
       "duplicateGroup": "oeso-medicamenteuse-age",
-      "model": { "origin": "complement", "review": "to-validate",
-        "essentials": ["Œsophagite médicamenteuse (« pill esophagitis »)"],
-        "keywords": ["médicamenteuse", "comprimé", "décubitus", "odynophagie"],
-        "optional": ["Facteurs : alitement, prise sans eau, troubles moteurs, sujet âgé", "Médicaments en cause : potassium, AINS, bisphosphonates, doxycycline, fer…"],
-        "majorErrors": ["Ne pas évoquer la prise médicamenteuse alors qu’elle est donnée dans l’énoncé"],
-        "exampleAnswer": "Œsophagite médicamenteuse : odynophagie et douleur rétrosternale brutales chez un sujet âgé alité prenant des comprimés, favorisée par la prise en décubitus et sans eau." },
-      "hints": ["L’énoncé insiste sur l’alitement et les médicaments.", "Un comprimé qui stagne dans l’œsophage agresse la muqueuse.", "Odynophagie brutale = lésion muqueuse aiguë."],
-      "lessonLinks": ["oeso-rgo"]
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Œsophagite médicamenteuse (« pill esophagitis »)"
+        ],
+        "keywords": [
+          "médicamenteuse",
+          "comprimé",
+          "décubitus",
+          "odynophagie"
+        ],
+        "optional": [
+          "Facteurs : alitement, prise sans eau, troubles moteurs, sujet âgé",
+          "Médicaments en cause : potassium, AINS, bisphosphonates, doxycycline, fer…"
+        ],
+        "majorErrors": [
+          "Ne pas évoquer la prise médicamenteuse alors qu’elle est donnée dans l’énoncé"
+        ],
+        "exampleAnswer": "Œsophagite médicamenteuse : odynophagie et douleur rétrosternale brutales chez un sujet âgé alité prenant des comprimés, favorisée par la prise en décubitus et sans eau."
+      },
+      "hints": [
+        "L’énoncé insiste sur l’alitement et les médicaments.",
+        "Un comprimé qui stagne dans l’œsophage agresse la muqueuse.",
+        "Odynophagie brutale = lésion muqueuse aiguë."
+      ],
+      "lessonLinks": [
+        "oeso-rgo"
+      ]
     },
     {
-      "id": "DIGEST-ND-GASTRO-QROC-002", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
-      "chapter": "oesophage", "subchapter": "oesophagites", "tags": ["œsophagite médicamenteuse", "cas clinique"], "clinical": true, "difficulty": 2,
+      "id": "DIGEST-ND-GASTRO-QROC-002",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "oesophagites",
+      "tags": [
+        "œsophagite médicamenteuse",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
       "type": "qroc",
       "stem": "Homme de 86 ans qui arrive aux urgences pour une douleur médio-thoracique persistante et dysphagie. Apparition d’une odynophagie. A l’hopital, administration de lopéramide et potassium per os.",
       "stemNote": "La question posée (probablement « hypothèse diagnostique ») n’a pas été retranscrite.",
-      "answerStatus": "unavailable", "quality": ["uncertain-wording", "stem-only"], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 112, "section": "QROC — DEWIT", "originalNumber": "74" }, { "file": "qroc-nc", "page": 1, "section": "Dewit", "originalNumber": "74" }],
+      "answerStatus": "unavailable",
+      "quality": [
+        "uncertain-wording",
+        "stem-only"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 112,
+          "section": "QROC — DEWIT",
+          "originalNumber": "74"
+        },
+        {
+          "file": "qroc-nc",
+          "page": 1,
+          "section": "Dewit",
+          "originalNumber": "74"
+        }
+      ],
       "duplicateGroup": "oeso-medicamenteuse-age",
-      "model": { "origin": "complement", "review": "to-validate",
-        "essentials": ["Œsophagite médicamenteuse (comprimé de potassium)"],
-        "keywords": ["potassium", "médicamenteuse", "odynophagie"],
-        "optional": ["Endoscopie : ulcération au tiers moyen (compression aortique)", "Prévention : boire un grand verre d’eau, rester assis 30 min"],
-        "majorErrors": ["Ignorer la prise de potassium per os"],
-        "exampleAnswer": "Œsophagite médicamenteuse, très probablement due au chlorure de potassium per os, chez un patient âgé ; confirmation endoscopique (ulcération typiquement au tiers moyen)." },
-      "hints": ["Quels médicaments ont été donnés à l’hôpital ?", "Certains comprimés sont très caustiques pour la muqueuse.", "L’odynophagie est apparue après."],
-      "lessonLinks": ["oeso-rgo"]
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Œsophagite médicamenteuse (comprimé de potassium)"
+        ],
+        "keywords": [
+          "potassium",
+          "médicamenteuse",
+          "odynophagie"
+        ],
+        "optional": [
+          "Endoscopie : ulcération au tiers moyen (compression aortique)",
+          "Prévention : boire un grand verre d’eau, rester assis 30 min"
+        ],
+        "majorErrors": [
+          "Ignorer la prise de potassium per os"
+        ],
+        "exampleAnswer": "Œsophagite médicamenteuse, très probablement due au chlorure de potassium per os, chez un patient âgé ; confirmation endoscopique (ulcération typiquement au tiers moyen)."
+      },
+      "hints": [
+        "Quels médicaments ont été donnés à l’hôpital ?",
+        "Certains comprimés sont très caustiques pour la muqueuse.",
+        "L’odynophagie est apparue après."
+      ],
+      "lessonLinks": [
+        "oeso-rgo"
+      ]
     },
     {
-      "id": "DIGEST-ND-GASTRO-QROC-003", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
-      "chapter": "oesophage", "subchapter": "oesophagites", "tags": ["œsophagite à éosinophiles", "cas clinique"], "clinical": true, "difficulty": 1,
-      "caseId": "cas-dysphagie-32ans", "caseStep": 1,
+      "id": "DIGEST-ND-GASTRO-QROC-003",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "oesophagites",
+      "tags": [
+        "œsophagite à éosinophiles",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-dysphagie-32ans",
+      "caseStep": 1,
       "type": "qroc",
       "stem": "Homme jeune de 32 ans, sans antécédents particuliers mis à part allergie aux acariens et psoriasis. Dysphagie depuis 1 ans sans altération de l'état général. Douleur thoracique. Quel est le diagnostic le plus probable (2 points)?",
-      "answerStatus": "unavailable", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 112, "section": "QROC — DEWIT", "originalNumber": "84" }, { "file": "qroc-nc", "page": 2, "section": "Dewit", "originalNumber": "84" }],
+      "answerStatus": "unavailable",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 112,
+          "section": "QROC — DEWIT",
+          "originalNumber": "84"
+        },
+        {
+          "file": "qroc-nc",
+          "page": 2,
+          "section": "Dewit",
+          "originalNumber": "84"
+        }
+      ],
       "duplicateGroup": "oeso-eoe-blocage",
-      "model": { "origin": "complement", "review": "to-validate",
-        "essentials": ["Œsophagite à éosinophiles"],
-        "keywords": ["éosinophiles", "atopie", "homme jeune", "dysphagie chronique"],
-        "optional": ["Diagnostic différentiel : achalasie, RGO compliqué"],
-        "majorErrors": ["Cancer (pas d’AEG, âge jeune)"],
-        "exampleAnswer": "Une œsophagite à éosinophiles : homme jeune atopique (allergie aux acariens), dysphagie chronique sans altération de l’état général, douleurs thoraciques." },
-      "hints": ["Terrain atopique.", "Dysphagie chronique sans AEG chez un homme jeune.", "Œsophagite inflammatoire d’origine allergique."],
-      "lessonLinks": ["oeso-rgo", "oeso-dysphagie"]
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Œsophagite à éosinophiles"
+        ],
+        "keywords": [
+          "éosinophiles",
+          "atopie",
+          "homme jeune",
+          "dysphagie chronique"
+        ],
+        "optional": [
+          "Diagnostic différentiel : achalasie, RGO compliqué"
+        ],
+        "majorErrors": [
+          "Cancer (pas d’AEG, âge jeune)"
+        ],
+        "exampleAnswer": "Une œsophagite à éosinophiles : homme jeune atopique (allergie aux acariens), dysphagie chronique sans altération de l’état général, douleurs thoraciques."
+      },
+      "hints": [
+        "Terrain atopique.",
+        "Dysphagie chronique sans AEG chez un homme jeune.",
+        "Œsophagite inflammatoire d’origine allergique."
+      ],
+      "lessonLinks": [
+        "oeso-rgo",
+        "oeso-dysphagie"
+      ]
     },
     {
-      "id": "DIGEST-ND-GASTRO-QROC-004", "revision": 1, "session": "ND", "discipline": "GASTRO", "teacher": "Dewit",
-      "chapter": "oesophage", "subchapter": "oesophagites", "tags": ["œsophagite à éosinophiles", "cas clinique"], "clinical": true, "difficulty": 1,
-      "caseId": "cas-dysphagie-32ans", "caseStep": 2,
+      "id": "DIGEST-ND-GASTRO-QROC-004",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "oesophage",
+      "subchapter": "oesophagites",
+      "tags": [
+        "œsophagite à éosinophiles",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-dysphagie-32ans",
+      "caseStep": 2,
       "type": "qroc",
       "stem": "comment confirmer le diagnostic?",
-      "answerStatus": "unavailable", "quality": [], "sourceComments": [],
-      "provenance": [{ "file": "compilation", "page": 112, "section": "QROC — DEWIT", "originalNumber": "85" }, { "file": "qroc-nc", "page": 2, "section": "Dewit", "originalNumber": "85" }],
-      "model": { "origin": "complement", "review": "to-validate",
-        "essentials": ["Endoscopie haute avec biopsies œsophagiennes étagées", "≥ 15 éosinophiles par champ à fort grossissement"],
-        "keywords": ["endoscopie", "biopsies", "éosinophiles"],
-        "optional": ["Aspects : sillons, anneaux (trachéalisation), exsudats", "Biopsies même si l’œsophage paraît normal"],
-        "majorErrors": ["Manométrie ou pH-métrie pour confirmer"],
-        "exampleAnswer": "Par une gastroscopie avec biopsies étagées de l’œsophage (proximal et distal), montrant un infiltrat d’au moins 15 éosinophiles par champ à fort grossissement." },
-      "hints": ["Le diagnostic est histologique.", "Quel examen permet de prélever ?", "Quel seuil d’éosinophiles est retenu ?"],
-      "lessonLinks": ["oeso-rgo"]
+      "answerStatus": "unavailable",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 112,
+          "section": "QROC — DEWIT",
+          "originalNumber": "85"
+        },
+        {
+          "file": "qroc-nc",
+          "page": 2,
+          "section": "Dewit",
+          "originalNumber": "85"
+        }
+      ],
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Endoscopie haute avec biopsies œsophagiennes étagées",
+          "≥ 15 éosinophiles par champ à fort grossissement"
+        ],
+        "keywords": [
+          "endoscopie",
+          "biopsies",
+          "éosinophiles"
+        ],
+        "optional": [
+          "Aspects : sillons, anneaux (trachéalisation), exsudats",
+          "Biopsies même si l’œsophage paraît normal"
+        ],
+        "majorErrors": [
+          "Manométrie ou pH-métrie pour confirmer"
+        ],
+        "exampleAnswer": "Par une gastroscopie avec biopsies étagées de l’œsophage (proximal et distal), montrant un infiltrat d’au moins 15 éosinophiles par champ à fort grossissement."
+      },
+      "hints": [
+        "Le diagnostic est histologique.",
+        "Quel examen permet de prélever ?",
+        "Quel seuil d’éosinophiles est retenu ?"
+      ],
+      "lessonLinks": [
+        "oeso-rgo"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-RADIO-QROC-001",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "RADIO",
+      "teacher": "Danse",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "Crohn",
+        "imagerie",
+        "entéro-IRM"
+      ],
+      "difficulty": 2,
+      "type": "qroc",
+      "stem": "2 examens a faire dans le bilan de Crohn’s",
+      "answerStatus": "disputed",
+      "answerNote": "Plusieurs réponses sont proposées et débattues dans les archives : entéro-IRM + coloscopie, entéro-IRM + échographie (« non, uniquement complications » / « si, elle montre l’épaississement »), endoscopie + biologie. Il s’agit d’une QROC de radiologie : on attend vraisemblablement des examens d’imagerie.",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 122,
+          "section": "QROC — Radio",
+          "originalNumber": "88"
+        },
+        {
+          "file": "qroc-nc",
+          "page": 5,
+          "section": "Imagerie Danse",
+          "originalNumber": "88"
+        }
+      ],
+      "model": {
+        "origin": "complement",
+        "review": "to-validate",
+        "essentials": [
+          "Entéro-IRM",
+          "Échographie intestinale"
+        ],
+        "keywords": [
+          "entéro-IRM",
+          "échographie",
+          "non irradiant",
+          "iléo-coloscopie"
+        ],
+        "optional": [
+          "L’iléo-coloscopie avec biopsies reste indispensable au diagnostic (examen endoscopique, pas radiologique)",
+          "Scanner réservé à l’urgence (abcès, perforation)"
+        ],
+        "majorErrors": [
+          "Scanner répété en suivi (irradiation)"
+        ],
+        "exampleAnswer": "En imagerie : l’entéro-IRM (examen de référence du grêle : extension, activité, sténoses, fistules) et l’échographie intestinale (non irradiante, épaississement pariétal). Le diagnostic repose aussi sur l’iléo-coloscopie avec biopsies."
+      },
+      "hints": [
+        "C’est une question de radiologie.",
+        "Patients jeunes, examens répétés : évitez l’irradiation.",
+        "Quel examen étudie tout le grêle en coupe ?"
+      ],
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
     }
   ]
 }

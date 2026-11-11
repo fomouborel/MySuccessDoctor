@@ -1342,6 +1342,823 @@
       "lessonLinks": [
         "grele-occlusion"
       ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-017",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "masse FID",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-ileocaecal-fievre",
+      "caseStep": 1,
+      "type": "single",
+      "stem": "Femme de 24 ans, fièvre, masse FID, diarrhées, perte poids",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tumeur caecale perforée"
+        },
+        {
+          "key": "B",
+          "text": "Appendicite plastronnée"
+        },
+        {
+          "key": "C",
+          "text": "Crohn ilio-caecale",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Colite infectieuse"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Cas posé au moins 4 fois (Kartheuser ×2, janvier 2022, janvier 2023)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 82,
+          "section": "KARTHEUSER",
+          "originalNumber": "7 (2e occurrence)"
+        }
+      ],
+      "duplicateGroup": "mici-femme-24-ans-fid",
+      "hints": [
+        "L’âge et la perte de poids comptent.",
+        "Diarrhée chronique + masse inflammatoire de la fosse iliaque droite…",
+        "Quel segment est le plus souvent atteint par la MICI qui touche tout le tube digestif ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Femme jeune, diarrhée, amaigrissement, fièvre et **masse de la FID** (anses épaissies, abcès) : **maladie de Crohn iléo-cæcale**. Diagnostics différentiels : appendicite compliquée (pas de diarrhée chronique ni d’amaigrissement), tuberculose iléo-cæcale, lymphome, Yersinia ; la tumeur cæcale est rare à cet âge."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-018",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "résection iléo-cæcale",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "caseId": "cas-crohn-ileocaecal-fievre",
+      "caseStep": 2,
+      "type": "single",
+      "stem": "(En rapport avec la question précédente) Quelle intervention doit être réalisée ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "laparoscopie diagnostique"
+        },
+        {
+          "key": "B",
+          "text": "résection iléo-caecale",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "structuroplastie"
+        },
+        {
+          "key": "D",
+          "text": "résection segmentaire"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 82,
+          "section": "KARTHEUSER",
+          "originalNumber": "8 (2e occurrence)"
+        }
+      ],
+      "duplicateGroup": "mici-operation-ileocaecale",
+      "hints": [
+        "Le segment atteint inclut la valvule et le cæcum.",
+        "La stricturoplastie convient à une sténose courte sans abcès.",
+        "Quelle résection emporte l’iléon terminal et le cæcum ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Crohn iléo-cæcal compliqué (masse inflammatoire, abcès, sténose) : **résection iléo-cæcale** (souvent par laparoscopie), après drainage d’un éventuel abcès et optimisation nutritionnelle. La stricturoplastie est réservée aux sténoses courtes multiples du grêle, sans abcès."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-019",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "traitement",
+      "tags": [
+        "Crohn",
+        "chirurgie"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Question sur Crohn : quelle est la réponse fausse ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "L’usage des immunosuppresseurs est fréquent"
+        },
+        {
+          "key": "B",
+          "text": "Une femme enceinte peut continuer son traitement"
+        },
+        {
+          "key": "C",
+          "text": "La chirurgie est rare, il faut à tout prix l’éviter car elle ne guérit pas",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Les patient ne doivent pas suivre un régime strict"
+        },
+        {
+          "key": "E",
+          "text": "Le tabac est à arrêter afin de permettre une efficacité maximale du traitement"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 83,
+          "section": "KARTHEUSER",
+          "originalNumber": "10"
+        }
+      ],
+      "duplicateGroup": "mici-crohn-chirurgie-rare",
+      "hints": [
+        "Question jumelle de la section Dewit.",
+        "La chirurgie est-elle rare dans le Crohn ?",
+        "Le tabac aggrave-t-il le Crohn ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La chirurgie n’est pas rare dans le Crohn (≈ 3/4 des patients au cours de la vie)."
+      },
+      "lessonLinks": [
+        "mici-traitement"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCMM-007",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "sténose",
+        "stricturoplastie"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Quel est l’intervention en cas de sténose de 12cm de l’avant-dernière anse du grêle ? 2 vraies",
+      "options": [
+        {
+          "key": "A",
+          "text": "Laparotomie exploratrice"
+        },
+        {
+          "key": "B",
+          "text": "stricturoplastie",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "résection segmentaire grêle courte",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "résection iléo-caecale"
+        },
+        {
+          "key": "E",
+          "text": "hémicolectomie droite"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 83,
+          "section": "KARTHEUSER",
+          "originalNumber": "16"
+        }
+      ],
+      "duplicateGroup": "mici-stenose-grele-intervention",
+      "hints": [
+        "La sténose est localisée et à distance du cæcum.",
+        "Principe : économiser le grêle.",
+        "Deux gestes limités sont possibles."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Sténose localisée du grêle dans le Crohn : geste **économe** : **résection segmentaire courte** ou **stricturoplastie** (élargissement sans résection, pour les sténoses courtes, surtout multiples, sans abcès ni suspicion de cancer). La résection iléo-cæcale est réservée à l’atteinte de la région iléo-cæcale."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-020",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "RCUH",
+        "cancer colorectal",
+        "coloproctectomie"
+      ],
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Question sur cancer du côlon RCUH descendant gauche, avec dilatation du côlon droit et caecum > 15 cm, on doit faire la résection de toutes ces structures SAUF UNE:",
+      "options": [
+        {
+          "key": "A",
+          "text": "appendicite",
+          "note": "lire « appendice »",
+          "noteOrigin": "complement"
+        },
+        {
+          "key": "B",
+          "text": "+/- 10 cm iléon terminale",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Côlon D"
+        },
+        {
+          "key": "D",
+          "text": "Rectum"
+        },
+        {
+          "key": "E",
+          "text": "Sigmoïde"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 84,
+          "section": "KARTHEUSER",
+          "originalNumber": "18"
+        }
+      ],
+      "hints": [
+        "Dans la RCUH, quelle partie du tube digestif est malade ?",
+        "L’iléon est-il atteint dans la RCUH ?",
+        "On retire tout le côlon et le rectum malades, mais on préserve…"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Cancer sur RCUH : **coloproctectomie totale** (tout le côlon, appendice compris, et le rectum, organes malades et à risque), avec anastomose iléo-anale ou iléostomie. L’iléon n’est pas atteint par la RCUH : on le **préserve** (il sert à confectionner le réservoir)."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-021",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "sténose",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-stenose-grele",
+      "caseStep": 1,
+      "type": "single",
+      "stem": "Un jeune homme de 28 ans, tabagique, douleurs abdominales crampiformes postprandiales; des borborygmes et une perte de poids. Il a une maladie de Crohn connue. Il a déjà bénéficié de plusieurs types de traitements médicaux. Quel est le diagnostic le plus probable ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Poussée de maladie de Crohn"
+        },
+        {
+          "key": "B",
+          "text": "Sténose grêle compliquant la maladie de Crohn",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "stenose colique compliquant la maladie de Crohn"
+        },
+        {
+          "key": "D",
+          "text": "Appendicite aigue"
+        },
+        {
+          "key": "E",
+          "text": "aucune des propostions ci-dessus"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 85,
+          "section": "KARTHEUSER",
+          "originalNumber": "26"
+        }
+      ],
+      "duplicateGroup": "mici-crohn-stenose",
+      "hints": [
+        "Douleurs crampoïdes post-prandiales et borborygmes : quel syndrome ?",
+        "Le segment le plus souvent atteint par le Crohn.",
+        "Plusieurs traitements déjà essayés : maladie ancienne."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Syndrome de **Koenig** (crampes post-prandiales, borborygmes) chez un Crohn ancien, fumeur, multi-traité : **sténose du grêle**."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCMM-008",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "Crohn",
+        "imagerie",
+        "entéro-IRM",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "caseId": "cas-crohn-stenose-grele",
+      "caseStep": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "quels examens à faire pour confirmer (2 réponses)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Échographie abdominale",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Entéro-IRM",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Scanner abdominal"
+        },
+        {
+          "key": "D",
+          "text": "Entéro-bertrand"
+        },
+        {
+          "key": "E",
+          "text": "Entéroscopie double ballon"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [
+        "« Entéro-bertrand » : probablement une erreur de retranscription (entéro-scanner ?)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 85,
+          "section": "KARTHEUSER",
+          "originalNumber": "27"
+        }
+      ],
+      "hints": [
+        "Patient jeune, maladie chronique : quels examens n’irradient pas ?",
+        "Lequel est l’examen de référence pour le grêle dans le Crohn ?",
+        "L’échographie digestive est très utilisée par les équipes spécialisées."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Bilan d’une sténose du grêle dans le Crohn : **entéro-IRM** (référence : longueur, inflammation vs fibrose, fistules) et **échographie intestinale** (non irradiante, épaississement pariétal). Le scanner irradie (réservé à l’urgence) ; l’entéroscopie est invasive."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-022",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "occlusion",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-stenose-grele",
+      "caseStep": 3,
+      "type": "single",
+      "stem": "Quel risque majeur court cette patiente ?",
+      "stemNote": "La retranscription dit « cette patiente » alors que le cas décrit un jeune homme. La même question figure aussi, isolée, plus haut dans la section Kartheuser (n° 15).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hemorragie digestive basse"
+        },
+        {
+          "key": "B",
+          "text": "Occlusion intestinale",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Peritonite"
+        },
+        {
+          "key": "D",
+          "text": "Denutrition - cachexie"
+        },
+        {
+          "key": "E",
+          "text": "Aucun"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 85,
+          "section": "KARTHEUSER",
+          "originalNumber": "28"
+        },
+        {
+          "file": "compilation",
+          "page": 83,
+          "section": "KARTHEUSER",
+          "originalNumber": "15"
+        }
+      ],
+      "hints": [
+        "Une sténose rétrécit la lumière.",
+        "Quelle complication aiguë en découle ?",
+        "Le syndrome de Koenig en est le stade précurseur."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Une sténose du grêle expose surtout à l’**occlusion** (et, dans le Crohn, aux fistules et abcès en amont)."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCMM-009",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "sténose",
+        "stricturoplastie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "caseId": "cas-crohn-stenose-grele",
+      "caseStep": 4,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Quel est l’intervention en cas de sténose courte du grêle? 2 vraies",
+      "options": [
+        {
+          "key": "A",
+          "text": "Laparotomie exploratrice"
+        },
+        {
+          "key": "B",
+          "text": "stricturoplastie",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "résection segmentaire grêle courte",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "résection iléo-caecale"
+        },
+        {
+          "key": "E",
+          "text": "hémicolectomie droite"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 86,
+          "section": "KARTHEUSER",
+          "originalNumber": "29"
+        }
+      ],
+      "duplicateGroup": "mici-stenose-grele-intervention",
+      "hints": [
+        "Principe : économiser le grêle.",
+        "Deux gestes limités.",
+        "Un des deux évite toute résection."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Sténose courte : **stricturoplastie** ou **résection segmentaire courte** (± dilatation endoscopique au ballonnet si accessible)."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-023",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "masse FID",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-24-ans",
+      "caseStep": 1,
+      "type": "single",
+      "stem": "Une femme de 24 ans se présente avec une masse en FID accompagnée de diarrhées et perte de poids. Quel est le diagnostic le plus probable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tumeur caecale perforée"
+        },
+        {
+          "key": "B",
+          "text": "Appendicite plastronnée"
+        },
+        {
+          "key": "C",
+          "text": "Crohn",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "RCUH"
+        },
+        {
+          "key": "E",
+          "text": "Colite infectieuse"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 87,
+          "section": "KARTHEUSER",
+          "originalNumber": "39"
+        }
+      ],
+      "duplicateGroup": "mici-femme-24-ans-fid",
+      "hints": [
+        "Âge, diarrhée chronique, amaigrissement.",
+        "Une masse de la FID évoque une atteinte iléo-cæcale.",
+        "La RCUH atteint-elle l’iléon ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Tableau typique de **Crohn iléo-cæcal** ; la RCUH n’atteint pas l’iléon et ne donne pas de masse."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-024",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "chirurgie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "caseId": "cas-crohn-24-ans",
+      "caseStep": 2,
+      "type": "single",
+      "stem": "Quelles sont ses chances de subir une opération pour cette maladie au cours de sa vie?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10%"
+        },
+        {
+          "key": "B",
+          "text": "20%"
+        },
+        {
+          "key": "C",
+          "text": "75%",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "90%"
+        },
+        {
+          "key": "E",
+          "text": "100%"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Ailleurs dans les archives : « quasi 80 % de chirurgie à 20 ans d’évolution »."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 88,
+          "section": "KARTHEUSER",
+          "originalNumber": "40"
+        }
+      ],
+      "hints": [
+        "La chirurgie est-elle rare dans le Crohn ?",
+        "Environ trois patients sur quatre…",
+        "Les biothérapies ont diminué ce chiffre, mais il reste élevé."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Environ **3/4** des patients atteints de Crohn sont opérés au moins une fois au cours de leur vie (chiffre historique, en baisse avec les biothérapies), et la récidive après résection est fréquente."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-025",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "résection iléo-cæcale",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-24-ans",
+      "caseStep": 3,
+      "type": "single",
+      "stem": "Quelle opération devra-t-elle subir?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stricturoplastie"
+        },
+        {
+          "key": "B",
+          "text": "Ablation du colon"
+        },
+        {
+          "key": "C",
+          "text": "résection iléo-caecale",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 88,
+          "section": "KARTHEUSER",
+          "originalNumber": "41"
+        }
+      ],
+      "duplicateGroup": "mici-operation-ileocaecale",
+      "hints": [
+        "Le segment atteint est iléo-cæcal.",
+        "On retire seulement le segment malade.",
+        "Le côlon est-il atteint ici ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Atteinte iléo-cæcale → **résection iléo-cæcale**."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
     }
   ]
 }

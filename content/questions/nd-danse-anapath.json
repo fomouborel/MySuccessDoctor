@@ -676,6 +676,275 @@
       "lessonLinks": [
         "grele-malabsorption"
       ]
+    },
+    {
+      "id": "DIGEST-AP2015-ANAPATH-QCM-002",
+      "revision": 1,
+      "session": "AP2015",
+      "discipline": "ANAPATH",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "RCUH",
+        "anatomo-pathologie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Femme, 35 ans, antécédents de rectorragies et de douleurs abdominales par poussées. Poussée aigüe, a subi une coloprotectomie",
+      "stemNote": "La question portait sur la pièce opératoire (image non identifiable avec certitude dans les archives).",
+      "options": [
+        {
+          "key": "a",
+          "text": "colite aspécifique"
+        },
+        {
+          "key": "b",
+          "text": "colite infectieuse"
+        },
+        {
+          "key": "c",
+          "text": "crohn colique"
+        },
+        {
+          "key": "d",
+          "text": "adenocacrcinome colique"
+        },
+        {
+          "key": "e",
+          "text": "colite ulcéreuse",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "image-missing"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 104,
+          "section": "ANAPATH — 2015",
+          "originalNumber": "2"
+        }
+      ],
+      "hints": [
+        "Rectorragies récidivantes par poussées.",
+        "Une coloproctectomie retire le côlon ET le rectum.",
+        "Quelle MICI atteint toujours le rectum ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Rectorragies par poussées et coloproctectomie (intervention de référence de la RCUH) : **colite ulcéreuse** (RCUH)."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-AP2016-ANAPATH-QCM-001",
+      "revision": 1,
+      "session": "AP2016",
+      "discipline": "ANAPATH",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "RCUH",
+        "anatomo-pathologie",
+        "image"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Photo",
+      "stemNote": "Question posée sur une photo absente des archives (« je ne trouve pas la photo dans le cours », « c’est sûrement la même que la 2e question » de 2015). Sans l’image, elle ne sert que de rappel.",
+      "options": [
+        {
+          "key": "a",
+          "text": "Crohn"
+        },
+        {
+          "key": "b",
+          "text": "(proposition non retranscrite)"
+        },
+        {
+          "key": "c",
+          "text": "Colite Pseudomembraneuse"
+        },
+        {
+          "key": "d",
+          "text": "Colite ulcéreuse",
+          "expected": true
+        },
+        {
+          "key": "e",
+          "text": "Colite infectieuse"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "image-missing",
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 105,
+          "section": "ANAPATH — 2016",
+          "originalNumber": "1"
+        }
+      ],
+      "hints": [
+        "Sans l’image, pensez aux aspects macroscopiques typiques.",
+        "Atteinte continue depuis le rectum…",
+        "Pseudo-polypes, muqueuse hémorragique."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Aspect attendu (d’après la réponse des archives) : **colite ulcéreuse** — atteinte continue, muqueuse hémorragique, pseudo-polypes."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-AP2017-ANAPATH-QCM-002",
+      "revision": 1,
+      "session": "AP2017",
+      "discipline": "ANAPATH",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "Crohn",
+        "anatomo-pathologie",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "type": "single",
+      "stem": "jeune femme de 30 ans avec atcd de diarrhée grave, présente un symptôme fébrile et un syndrome inflammatoire récent. Elle ne répond pas à son traitement. On fait une exérèse suite à la symptomatologie => Coupe macroscopique",
+      "stemNote": "Coupe macroscopique non disponible dans les archives.",
+      "options": [
+        {
+          "key": "a",
+          "text": "Yersina"
+        },
+        {
+          "key": "b",
+          "text": "Ischémie"
+        },
+        {
+          "key": "c",
+          "text": "Maladie de Crohn",
+          "expected": true
+        },
+        {
+          "key": "d",
+          "text": "Colite ulcéreuse"
+        },
+        {
+          "key": "e",
+          "text": "Cancer infiltrant colon droit"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "image-missing"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 107,
+          "section": "ANAPATH — 2017",
+          "originalNumber": "2"
+        }
+      ],
+      "duplicateGroup": "mici-aspects-crohn-rcuh",
+      "hints": [
+        "Jeune femme, maladie chronique résistante au traitement.",
+        "Fièvre + syndrome inflammatoire : complication pénétrante ?",
+        "Quelle MICI est transmurale ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Aspects macroscopiques du **Crohn** : lésions **segmentaires** séparées par de la muqueuse saine, ulcérations **serpigineuses / aphtoïdes**, aspect **pavimenteux**, paroi épaissie, sténoses, fistules, graisse mésentérique « rampante »."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-AP2020-ANAPATH-QCMM-001",
+      "revision": 1,
+      "session": "AP2020",
+      "discipline": "ANAPATH",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "Crohn",
+        "anatomo-pathologie"
+      ],
+      "difficulty": 1,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Aspects macroscopiques spécifiques de la maladie de Crohn (2 réponses)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lesions serpigineuses, paves",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Présence de sang et de mucus sur la muqueuse (par sur que c’est exactement la proposition)"
+        },
+        {
+          "key": "C",
+          "text": "Présence de pseudopolypes"
+        },
+        {
+          "key": "D",
+          "text": "Lésions segmentaires, séparées par de la muqueuse saine",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "Lésions continues, non séparées par de la muqueuse saine"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 110,
+          "section": "ANAPATH — 2020",
+          "originalNumber": "2"
+        }
+      ],
+      "duplicateGroup": "mici-aspects-crohn-rcuh",
+      "hints": [
+        "Comparez Crohn et RCUH.",
+        "Atteinte continue ou discontinue ?",
+        "Aspect « pavimenteux »."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Crohn : lésions **segmentaires** (intervalles de muqueuse saine), ulcérations **serpigineuses**, aspect **en pavé**. Sang, mucus, pseudo-polypes et atteinte **continue** sont plutôt ceux de la RCUH."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
     }
   ]
 }

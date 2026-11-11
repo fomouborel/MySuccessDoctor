@@ -789,6 +789,313 @@
       "lessonLinks": [
         "grele-carences"
       ]
+    },
+    {
+      "id": "DIGEST-2024-01-GASTRO-COMB-002",
+      "revision": 1,
+      "session": "2024-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "complications",
+        "manifestations extra-digestives"
+      ],
+      "difficulty": 2,
+      "type": "count",
+      "countOf": "true",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "expectedChoice": "8",
+      "stem": "Complication maladie de crohn : (combien sont vraies)",
+      "stemNote": "Les choix de réponse n’ont pas été retranscrits ; ils sont remplacés ici par 5 à 9.",
+      "statements": [
+        {
+          "key": "A",
+          "text": "Adenocarcinome colon",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Uvéite",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Dermatite herpétiforme",
+          "expected": false,
+          "note": "seule réponse fausse",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Fistule ilio-vésicale",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "Lithiases renales",
+          "expected": true
+        },
+        {
+          "key": "F",
+          "text": "Ulcère duodénale",
+          "expected": true
+        },
+        {
+          "key": "G",
+          "text": "Sacro-iliite",
+          "expected": true
+        },
+        {
+          "key": "H",
+          "text": "Cholangite sclérosante Primitive",
+          "expected": true
+        },
+        {
+          "key": "I",
+          "text": "Fistule ano-vulvaire",
+          "expected": true
+        }
+      ],
+      "answerStatus": "inferred",
+      "answerNote": "La retranscription indique seulement « dermatite herpétiforme : seule réponse fausse » ; le nombre 8 en est déduit.",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 9,
+          "section": "Janvier 2024 — Dewit",
+          "originalNumber": "4"
+        }
+      ],
+      "duplicateGroup": "mici-complications-crohn",
+      "hints": [
+        "Une seule manifestation appartient à une autre maladie.",
+        "Le Crohn peut toucher le duodénum.",
+        "Laquelle est liée au gluten ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Toutes sont des complications ou associations possibles du Crohn (cancer colique sur colite ancienne, uvéite, fistules, lithiases rénales oxaliques, atteinte duodénale ulcérée, sacro-iliite, cholangite sclérosante, fistules ano-vulvaires), sauf la **dermatite herpétiforme** (maladie cœliaque) : 8 sur 9."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-2024-01-GASTRO-QCM-003",
+      "revision": 1,
+      "session": "2024-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "rcuh",
+      "tags": [
+        "RCUH",
+        "poussée",
+        "sévérité"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "paramètres que l’on regarde lors d’une poussée de RCUH (1 fausse):",
+      "options": [
+        {
+          "key": "A",
+          "text": "hemoglobine"
+        },
+        {
+          "key": "B",
+          "text": "albumine"
+        },
+        {
+          "key": "C",
+          "text": "fièvre"
+        },
+        {
+          "key": "D",
+          "text": "Diarrhee et selles sanguinolentes"
+        },
+        {
+          "key": "E",
+          "text": "Leucocytose",
+          "expected": true,
+          "note": "+1",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 11,
+          "section": "Janvier 2024 — Dewit",
+          "originalNumber": "16"
+        }
+      ],
+      "duplicateGroup": "mici-poussee-rcuh",
+      "hints": [
+        "Pensez au score de Truelove et Witts.",
+        "Quels paramètres biologiques reflètent la perte de sang et la dénutrition ?",
+        "Un paramètre est trop peu spécifique (corticoïdes, infection)."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Sévérité d’une poussée de RCUH (Truelove et Witts) : **nombre de selles sanglantes** (≥ 6 / j), **fréquence cardiaque** (> 90), **température** (> 37,8 °C), **hémoglobine** (< 10,5 g/dl), **VS / CRP** ; l’**hypoalbuminémie** est aussi un marqueur de gravité. La leucocytose ne fait pas partie des critères classiques."
+      },
+      "lessonLinks": [
+        "mici-rcuh"
+      ]
+    },
+    {
+      "id": "DIGEST-2024-01-CHIR-QCM-004",
+      "revision": 1,
+      "session": "2024-01",
+      "discipline": "CHIR",
+      "teacher": "Léonard",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "sténose",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Patient avec ileite Crohn sous traitement IS, vomissements fréquents depuis qqls semaines, ballonnement, borborygmes… cause",
+      "options": [
+        {
+          "key": "a",
+          "text": "Sténose fibreuse du grêle",
+          "expected": true
+        },
+        {
+          "key": "b",
+          "text": "Occlusion sur brèche"
+        },
+        {
+          "key": "c",
+          "text": "Intolérance traitement"
+        },
+        {
+          "key": "d",
+          "text": "Extension colique de la maladie au colon"
+        },
+        {
+          "key": "e",
+          "text": "Fistule"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 14,
+          "section": "Janvier 2024 — Léonard",
+          "originalNumber": "1"
+        }
+      ],
+      "duplicateGroup": "mici-crohn-stenose",
+      "hints": [
+        "Ballonnement, borborygmes, vomissements : un syndrome de quel type ?",
+        "Le patient est déjà sous traitement : l’inflammation est-elle seule en cause ?",
+        "Une inflammation chronique cicatrise en…"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Syndrome sub-occlusif (syndrome de Koenig) chez un Crohn iléal traité : **sténose** du grêle, souvent **fibreuse** (cicatricielle) quand elle persiste malgré l’immunosuppression. L’entéro-IRM précise si la sténose est inflammatoire (traitement médical) ou fibreuse (dilatation endoscopique si courte, ou chirurgie)."
+      },
+      "lessonLinks": [
+        "mici-crohn",
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-2024-01-CHIR-QCM-005",
+      "revision": 1,
+      "session": "2024-01",
+      "discipline": "CHIR",
+      "teacher": "Léonard",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "chirurgie",
+        "fistule",
+        "adolescent"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Ado Crohn depuis 6 ans, jamais de poussée, pas de complication, examen normal, il vous demande qu'est ce qui vous ferez l'introduire à un chirurgien",
+      "options": [
+        {
+          "key": "A",
+          "text": "échec de traitement anti-Tnf"
+        },
+        {
+          "key": "B",
+          "text": "Fistulisation",
+          "expected": true,
+          "note": "+1 +1 +1",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "A 10 ans d'évolution pour la prévention de cancer"
+        },
+        {
+          "key": "D",
+          "text": "Jamais, il faut conserver l’intestin grêle"
+        },
+        {
+          "key": "E",
+          "text": "Lors de la prochaine poussée"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Question posée dans la partie chirurgie adulte (Léonard) : rangée ici malgré l’âge du patient (adolescent)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 14,
+          "section": "Janvier 2024 — Léonard",
+          "originalNumber": "3"
+        }
+      ],
+      "hints": [
+        "Quelles complications du Crohn relèvent souvent du chirurgien ?",
+        "Une chirurgie « préventive » du cancer est-elle logique ici ?",
+        "Une poussée simple se traite-t-elle chirurgicalement ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Indications chirurgicales du Crohn : **complications** (sténose symptomatique, **fistule** ou abcès, perforation, hémorragie, cancer) et échec du traitement médical. Une poussée simple se traite médicalement ; il n’y a pas de chirurgie « préventive » à 10 ans. L’échec des anti-TNF peut conduire au chirurgien, mais d’autres biothérapies existent d’abord : la réponse retenue par les votes est la fistulisation."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
     }
   ]
 }

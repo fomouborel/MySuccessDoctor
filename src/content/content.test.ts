@@ -34,6 +34,7 @@ describe('contenu pédagogique', () => {
     expect(questions.filter((q) => q.chapter === 'oesophage').length).toBe(70);
     expect(questions.filter((q) => q.chapter === 'estomac').length).toBe(51);
     expect(questions.filter((q) => q.chapter === 'grele').length).toBe(49);
+    expect(questions.filter((q) => q.chapter === 'mici').length).toBe(44);
   });
   it('chaque chapitre disponible a des questions et des leçons', () => {
     for (const c of chapters.filter((c) => c.status === 'available')) {

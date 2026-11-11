@@ -1081,6 +1081,396 @@
       "lessonLinks": [
         "grele-occlusion"
       ]
+    },
+    {
+      "id": "DIGEST-2022-01-CHIR-QCM-007",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "CHIR",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "masse FID",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-24-ans-2022",
+      "caseStep": 1,
+      "type": "single",
+      "stem": "Femme de 24 ans, fièvre, masse FID, diarrhées, perte poids",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tumeur caecale"
+        },
+        {
+          "key": "B",
+          "text": "(proposition non retranscrite)"
+        },
+        {
+          "key": "C",
+          "text": "Crohn",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Colite infectieuse"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 32,
+          "section": "Janvier 2022",
+          "originalNumber": "8"
+        }
+      ],
+      "duplicateGroup": "mici-femme-24-ans-fid",
+      "hints": [
+        "Cas classique.",
+        "Masse de la FID + diarrhée + amaigrissement.",
+        "Quelle MICI atteint l’iléon ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Crohn iléo-cæcal."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-CHIR-QCM-008",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "CHIR",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "résection iléo-cæcale",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-24-ans-2022",
+      "caseStep": 2,
+      "type": "single",
+      "stem": "Dans ce cas-là, quelle intervention faisons-nous?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Résection iléocaecale",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Colectomie D"
+        },
+        {
+          "key": "C",
+          "text": "Laparoscopie diagnostique"
+        },
+        {
+          "key": "D",
+          "text": "Structuroplastie"
+        },
+        {
+          "key": "E",
+          "text": "Résection segmentaire"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 33,
+          "section": "Janvier 2022",
+          "originalNumber": "9"
+        }
+      ],
+      "duplicateGroup": "mici-operation-ileocaecale",
+      "hints": [
+        "Segment iléo-cæcal.",
+        "Résection économe du segment malade.",
+        "Le côlon droit entier doit-il être retiré ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Résection iléo-cæcale."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-ANAPATH-QCM-002",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "ANAPATH",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "RCUH",
+        "anatomo-pathologie"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Patient diagnostiqué avec une RCUH. Qu’est-ce qui est le moins typique au niveau microscopique",
+      "stemNote": "Plusieurs propositions décrivent en réalité l’aspect macroscopique / endoscopique.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Muqueuse intestinale humide recouverte de sang et de mucus"
+        },
+        {
+          "key": "B",
+          "text": "Ulcérations serpigineuses avec aspect en pavé",
+          "expected": true,
+          "note": "pavé c’est Crohn",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Atteinte inflammatoire continue"
+        },
+        {
+          "key": "D",
+          "text": "Pseudo-polype"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 36,
+          "section": "Janvier 2022 — Anatomo-pathologie",
+          "originalNumber": "35"
+        }
+      ],
+      "duplicateGroup": "mici-aspects-crohn-rcuh",
+      "hints": [
+        "Une proposition décrit l’autre MICI.",
+        "Atteinte continue ou segmentaire ?",
+        "Les ulcérations « en pavé » sont typiques de…"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "RCUH : atteinte **continue** à partir du rectum, muqueuse granitée, hémorragique, mucus, **pseudo-polypes** ; histologie : abcès cryptiques, distorsion glandulaire, déplétion mucipare, inflammation limitée à la muqueuse. Les **ulcérations serpigineuses, aspect pavimenteux**, lésions segmentaires, granulomes et atteinte transmurale sont typiques du **Crohn**."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QCM-006",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "GASTRO",
+      "chapter": "mici",
+      "subchapter": "diagnostic",
+      "tags": [
+        "Crohn",
+        "suivi",
+        "imagerie"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Qu’est ce qui n’est pas utilisé pour le suivi de la maladie de crohn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "La calprotectine"
+        },
+        {
+          "key": "B",
+          "text": "US"
+        },
+        {
+          "key": "C",
+          "text": "CT-scan",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "enterocoloscopie"
+        },
+        {
+          "key": "E",
+          "text": "entro-IRM"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 38,
+          "section": "Janvier 2022",
+          "originalNumber": "64"
+        }
+      ],
+      "hints": [
+        "Patients jeunes, examens répétés pendant des décennies.",
+        "Quel examen expose aux rayons X ?",
+        "Les autres ne sont pas irradiants."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Suivi du Crohn (patients jeunes, examens répétés) : **calprotectine** fécale, **échographie** intestinale, **entéro-IRM**, iléo-coloscopie. Le **scanner** est évité en suivi (irradiation cumulative) et réservé aux urgences (abcès, perforation, occlusion)."
+      },
+      "lessonLinks": [
+        "mici-diagnostic"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QROC-002",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "rcuh",
+      "tags": [
+        "RCUH",
+        "poussée",
+        "sévérité",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "caseId": "cas-rcuh-poussee-2022",
+      "caseStep": 1,
+      "type": "qroc",
+      "stem": "Patient RCUH qui se présente pour une poussée. Quel examen biologique supplémentaire peut-on faire? (ils avaient déjà dosé anémie, CRP, bilan rénal, hépatique)",
+      "answerStatus": "disputed",
+      "answerNote": "Débat entre étudiants : « calprotectine » ou « albumine » (marquée en rouge, critère de sévérité vu au cours de clinique). Les deux arguments sont présentés.",
+      "quality": [],
+      "sourceComments": [
+        "Arguments des archives : l’albumine est un marqueur de sévérité ; la calprotectine sert surtout au suivi, mais reflète aussi l’inflammation des MICI."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 41,
+          "section": "Janvier 2022 — QROC Dewit",
+          "originalNumber": "(QROC Dewit)"
+        }
+      ],
+      "model": {
+        "origin": "archives",
+        "review": "to-validate",
+        "essentials": [
+          "Albuminémie (marqueur de sévérité de la poussée)"
+        ],
+        "keywords": [
+          "albumine",
+          "sévérité",
+          "calprotectine",
+          "coproculture",
+          "Clostridioides difficile"
+        ],
+        "optional": [
+          "Calprotectine fécale (activité inflammatoire)",
+          "Coproculture et recherche de Clostridioides difficile (surinfection)",
+          "Sérologie CMV / biopsies si colite sévère corticorésistante"
+        ],
+        "majorErrors": [],
+        "exampleAnswer": "L’albuminémie, marqueur de sévérité de la poussée (avec Hb, CRP, fréquence cardiaque, nombre de selles sanglantes). On recherche aussi une surinfection (coproculture, toxine de Clostridioides difficile) ; la calprotectine fécale objective l’inflammation."
+      },
+      "hints": [
+        "La question vise probablement un marqueur de gravité.",
+        "Quel paramètre reflète la dénutrition et la perte protéique ?",
+        "Pensez aussi à exclure une infection."
+      ],
+      "lessonLinks": [
+        "mici-rcuh"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QCM-007",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "mici",
+      "subchapter": "traitement",
+      "tags": [
+        "RCUH",
+        "poussée",
+        "aminosalicylés",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "caseId": "cas-rcuh-poussee-2022",
+      "caseStep": 2,
+      "type": "single",
+      "stem": "Quel traitement donner au patient?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HBPM"
+        },
+        {
+          "key": "B",
+          "text": "Corticoïdes IV"
+        },
+        {
+          "key": "C",
+          "text": "Amino-salicylés",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Antibiotiques"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription marque les aminosalicylés. Le bon choix dépend de la sévérité, non précisée : poussée légère à modérée → aminosalicylés (oraux + rectaux) ; poussée sévère hospitalisée → corticoïdes IV + HBPM préventive (marquée « toujours » dans une autre question). À vérifier.",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 41,
+          "section": "Janvier 2022 — QROC Dewit",
+          "originalNumber": "(QROC Dewit, suite)"
+        }
+      ],
+      "hints": [
+        "Le traitement dépend de la sévérité de la poussée.",
+        "Quel est le traitement de première ligne de la RCUH légère à modérée ?",
+        "Que donne-t-on en cas de colite grave ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "RCUH : poussée **légère à modérée** → **5-ASA** (mésalazine) per os + topique rectal ; échec → corticoïdes oraux. Poussée **sévère** → hospitalisation, **corticoïdes IV**, **HBPM**, réhydratation ; échec à J3–J5 → ciclosporine / infliximab ou colectomie subtotale. Les antibiotiques ne sont pas systématiques."
+      },
+      "lessonLinks": [
+        "mici-traitement"
+      ]
     }
   ]
 }

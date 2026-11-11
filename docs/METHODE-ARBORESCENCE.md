@@ -59,7 +59,7 @@ Un chapitre correspond à **un organe ou un grand ensemble physiopathologique** 
 | 1 | `oesophage` | Œsophage | intégré (70 questions, 4 leçons) |
 | 2 | `estomac` | Estomac et duodénum | intégré (51 questions, 5 leçons) |
 | 3 | `grele` | Intestin grêle | intégré (49 questions, 5 leçons) |
-| 4 | `mici` | MICI | à intégrer |
+| 4 | `mici` | MICI | intégré (44 questions, 5 leçons) |
 | 5 | `colon` | Côlon et rectum | à intégrer |
 | 6 | `procto` | Proctologie | à intégrer |
 | 7 | `biliaire` | Voies biliaires | à intégrer |
@@ -124,6 +124,18 @@ Un sous-chapitre = **un thème qui revient plusieurs fois dans les examens** à 
 | `occlusion` | Occlusion et iléus |
 | `tumeurs` | Tumeurs, syndrome de Koenig et saignement du grêle |
 | `parasites` | Parasitoses intestinales (leçon commune avec `diarrhees`) |
+
+**MICI**
+
+| `id` | Titre |
+|---|---|
+| `crohn` | Maladie de Crohn : clinique, complications et manifestations extra-digestives |
+| `rcuh` | RCUH : clinique, poussée et sévérité |
+| `diagnostic` | Diagnostic, imagerie, anatomo-pathologie et suivi |
+| `traitement` | Traitement médical |
+| `chirurgie` | Chirurgie des MICI |
+
+Les questions Crohn de la partie « Intestin grêle » de la section Dewit sont rangées ici (règle : chapitre où la question se résout).
 
 Les `id` de sous-chapitre sont **locaux au chapitre** : `cancer` peut exister dans plusieurs chapitres.
 

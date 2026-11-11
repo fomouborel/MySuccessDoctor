@@ -1503,6 +1503,143 @@
       "lessonLinks": [
         "grele-diarrhees"
       ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-008",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "crohn",
+      "tags": [
+        "Crohn",
+        "masse FID",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-24-ans-2023",
+      "caseStep": 1,
+      "type": "single",
+      "stem": "Jeune fille, 24 ans. Masse FID, fièvre, perte de poids. Diagnostic ?",
+      "stemNote": "Les propositions sont citées en vrac dans la retranscription (« Crohn iléal, rcuh, tumeur du caecum, colite… »).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Crohn iléal",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "rcuh"
+        },
+        {
+          "key": "C",
+          "text": "tumeur du caecum"
+        },
+        {
+          "key": "D",
+          "text": "colite"
+        }
+      ],
+      "answerStatus": "inferred",
+      "answerNote": "Pas de réponse marquée pour cette occurrence ; déduite des autres occurrences du même cas (Kartheuser, janvier 2022).",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 23,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "30"
+        }
+      ],
+      "duplicateGroup": "mici-femme-24-ans-fid",
+      "hints": [
+        "Cas déjà rencontré.",
+        "Masse de la FID chez une jeune femme qui maigrit.",
+        "Quelle MICI atteint l’iléon ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Crohn iléal / iléo-cæcal."
+      },
+      "lessonLinks": [
+        "mici-crohn"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-009",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "mici",
+      "subchapter": "chirurgie",
+      "tags": [
+        "Crohn",
+        "résection iléo-cæcale",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "caseId": "cas-crohn-24-ans-2023",
+      "caseStep": 2,
+      "type": "single",
+      "stem": "Idem, opération ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rien"
+        },
+        {
+          "key": "B",
+          "text": "stricuturoplastie"
+        },
+        {
+          "key": "C",
+          "text": "résection iléale segmentaire"
+        },
+        {
+          "key": "D",
+          "text": "résection ileo-caecale",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "hemicolectomie gauche"
+        }
+      ],
+      "answerStatus": "inferred",
+      "answerNote": "Pas de réponse marquée pour cette occurrence ; déduite des autres occurrences du même cas.",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 23,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "31"
+        }
+      ],
+      "duplicateGroup": "mici-operation-ileocaecale",
+      "hints": [
+        "Le segment atteint est iléo-cæcal.",
+        "On ne retire que le segment malade.",
+        "Le côlon gauche est-il concerné ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Résection iléo-cæcale."
+      },
+      "lessonLinks": [
+        "mici-chirurgie"
+      ]
     }
   ]
 }
