@@ -1,5 +1,5 @@
 {
-  "source": "Compilation DIGEST — section DEWIT (gastro-entérologie adulte), non datée — sous-partie Œsophage, Estomac et duodénum",
+  "source": "Compilation DIGEST — section DEWIT (gastro-entérologie adulte), non datée — sous-partie Œsophage, Estomac et duodénum, Intestin grêle",
   "questions": [
     {
       "id": "DIGEST-ND-GASTRO-QCMM-001",
@@ -2357,6 +2357,1673 @@
       ],
       "lessonLinks": [
         "est-gastrites"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-022",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "résection iléale",
+        "malabsorption",
+        "gastrectomie"
+      ],
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Une proposition vraie:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Résection d’iléon de < 1m peut donner une malabsorption des hydrates de carbone et des protéines",
+          "note": "résection étendue (> 2 m)",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Résection de l’intestin grêle d’1,5m donne une malabsorption des sels biliaires et une stéatorrhée",
+          "note": "(une résection de 1 à 2 m d’iléon)",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Une résection d’1m de l’intestin grêle peut donner troubles de la magnésémie",
+          "note": "lésions ou résections grêles étendues > 2 m",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Une malabsorption du calcium est accompagnée habituellement d’une malabsorption de la vit D",
+          "note": "inverse je pense",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Une gastrectomie peut favoriser une anémie ferriprive",
+          "expected": true,
+          "note": "oui car réduction en fer ferreux par HCl",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription retient E. Le commentaire sur B (« une résection de 1 à 2 m d’iléon ») laisse penser que B pourrait aussi être juste si la résection porte sur l’iléon : une résection iléale de plus de 1 m entraîne bien une malabsorption des sels biliaires avec stéatorrhée. La formulation exacte (« intestin grêle » ou « iléon ») est incertaine.",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [
+        "NB des archives : après résection iléo-terminale de moins de 1 m, acides biliaires et vitamine B12 ne sont pas complètement absorbés."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 51,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "30"
+        }
+      ],
+      "hints": [
+        "Retenez les seuils de longueur de résection.",
+        "L’acide gastrique sert aussi à l’absorption d’un minéral.",
+        "La vitamine D favorise l’absorption du calcium : laquelle entraîne l’autre ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Iléon terminal = absorption de la **B12** et des **sels biliaires**. Résection iléale **< 1 m** : diarrhée **cholérétique** (sels biliaires irritant le côlon), carence en B12. **> 1 m** : le pool de sels biliaires s’épuise → **stéatorrhée**, carence en vitamines liposolubles, lithiases biliaires et rénales oxaliques. **> 2 m** ou grêle restant < 1–1,5 m : malabsorption globale, grêle court. La **gastrectomie** favorise l’anémie ferriprive (l’acide réduit le fer ferrique en fer ferreux absorbable ; court-circuit duodénal après Billroth II).",
+        "pitfalls": [
+          "Résection iléale courte → diarrhée par sels biliaires ; longue → stéatorrhée."
+        ]
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-023",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "iléus",
+        "occlusion"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Quel signe n’est pas présent à l’examen clinique lors d’un iléus",
+      "options": [
+        {
+          "key": "A",
+          "text": "présence d’air dans le rectum"
+        },
+        {
+          "key": "B",
+          "text": "Crampes abdominales",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "RX niveau hydro-aérique"
+        },
+        {
+          "key": "D",
+          "text": "Ballonnement abdominale"
+        },
+        {
+          "key": "E",
+          "text": "arrêt matières et gaz"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "NB des archives : bruits métalliques à l’auscultation si obstruction."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 51,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "31"
+        }
+      ],
+      "duplicateGroup": "grele-ileus-vs-occlusion",
+      "hints": [
+        "Iléus = paralysie, sans obstacle.",
+        "Qu’est-ce qui provoque des douleurs par vagues ?",
+        "Un intestin paralysé se contracte-t-il ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Iléus (paralytique / réflexe)** : intestin immobile, sans obstacle → ballonnement, arrêt du transit, niveaux hydro-aériques, abdomen silencieux, **air jusque dans le rectum**, **pas de crampes**. **Occlusion mécanique** : lutte de l’intestin contre l’obstacle → **douleurs crampoïdes**, **péristaltisme** visible, **bruits métalliques**, pas d’air dans le rectum en aval d’une occlusion complète."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-024",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "diarrhees",
+      "tags": [
+        "diarrhée",
+        "mécanismes"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Quelle est l’affirmation fausse ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "La diarrhée motrice est améliorée par le jeune.",
+          "note": "oui, postprandiale",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "L’intolérance au lactose est un exemple de diarrhée par malabsorption",
+          "expected": true,
+          "note": "diarrhée osmotique sans malabsorption (+ polyols et laxatifs salins)",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "L'hyperthyroïdie est un exemple de diarrhée motrice"
+        },
+        {
+          "key": "D",
+          "text": "La maladie cœliaque est un exemple de diarrhée par malabsorption",
+          "note": "+ Crohn",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "On peut parler de diarrhée chronique lorsque celle-ci dure depuis plus d’1 mois.",
+          "note": "aiguë < 15 j, subaiguë entre 15 j et 1 mois",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 51,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "32"
+        }
+      ],
+      "hints": [
+        "Classez chaque diarrhée selon son mécanisme.",
+        "Un sucre non digéré attire l’eau dans la lumière : quel mécanisme ?",
+        "La muqueuse est-elle lésée dans l’intolérance au lactose ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Mécanismes de diarrhée : **osmotique** (lactose, polyols, laxatifs salins ; cède au jeûne), **sécrétoire** (toxines, tumeurs endocrines ; persiste au jeûne), **motrice** (hyperthyroïdie, côlon irritable, post-prandiale), **malabsorption** (atteinte de la muqueuse ou maldigestion : cœliaque, Crohn, insuffisance pancréatique ; stéatorrhée), **lésionnelle / exsudative**. L’intolérance au lactose est un **défaut enzymatique** avec diarrhée **osmotique**, sans lésion de la muqueuse. Diarrhée chronique : > 4 semaines."
+      },
+      "lessonLinks": [
+        "grele-diarrhees",
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-011",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "malabsorption",
+      "tags": [
+        "maladie cœliaque"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "A propos de la maladie cœliaque (2 réponses fausses)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elle est principalement diagnostiquée suite à un syndrome de malabsorption"
+        },
+        {
+          "key": "B",
+          "text": "Elle est principalement diagnostiquée chez des hommes jeunes",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "Les Ac anti-endomysium et anti-transglutaminase se normalisent si le régime est bien suivi"
+        },
+        {
+          "key": "D",
+          "text": "La preuve du diagnostic est obtenue par une biopsie duodénale",
+          "note": "mise en évidence d’une atrophie villositaire, augmentation des lymphocytes intra-épithéliaux, infiltration lympho-plasmocytaire du chorion",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Le régime au gluten pourra être arrêté une fois l’intestin a récupéré",
+          "expected": true,
+          "note": "régime à vie, risque de cancer ×4 si non-respect",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription retient B et E. Mais une autre question de la même section (« la majorité des malades sont dépistés grâce à un syndrome de malabsorption ») marque cette affirmation comme FAUSSE : la proposition A devrait donc l’être aussi (formes atypiques ou pauci-symptomatiques majoritaires). Contradiction entre occurrences, à vérifier.",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 52,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "33"
+        }
+      ],
+      "duplicateGroup": "grele-coeliaque-fausses",
+      "hints": [
+        "Il faut cocher les deux FAUSSES.",
+        "La maladie touche-t-elle plus les hommes ou les femmes ?",
+        "Le régime sans gluten est-il temporaire ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La maladie cœliaque touche plus souvent les **femmes**, à tout âge ; elle est aujourd’hui surtout découverte sur des formes **atypiques** (anémie ferriprive, ostéoporose, cytolyse, fatigue). Diagnostic : **sérologie** (anti-transglutaminase IgA + IgA totales) puis **biopsies duodénales**. Régime sans gluten **à vie** ; la normalisation des anticorps sous régime témoigne de l’observance."
+      },
+      "lessonLinks": [
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-025",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "tumeurs",
+      "tags": [
+        "syndrome de Koenig",
+        "ischémie mésentérique",
+        "tumeurs du grêle"
+      ],
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Laquelle de ces propositions est fausse?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Syndrome de Koenig peut être présent dans une pathologie du grêle bénigne ou maligne",
+          "note": "syndrome de Koenig = sténose, crampes et douleurs déclenchées par les repas, cédant brutalement avec gargouillement + débâcle diarrhéique",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Adénocarcinome du grêle est favorisé par la maladie cœliaque ou Crohn"
+        },
+        {
+          "key": "C",
+          "text": "Angor mésentérique entraîne des douleurs au moment des repas",
+          "expected": true,
+          "note": "1 à 3 h après, peur de manger et amaigrissement",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Tumeurs endocrines sont rares mais en augmentation"
+        },
+        {
+          "key": "E",
+          "text": "La nécrose du mésentère est la cause principale d’insuffisance intestinale"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Nuance : selon les sources, la douleur de l’angor mésentérique survient 15 à 30 minutes après le repas et dure 1 à 3 h ; c’est le mot « au moment » qui est jugé faux dans les archives."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 53,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "37"
+        }
+      ],
+      "duplicateGroup": "grele-koenig",
+      "hints": [
+        "Une proposition se trompe sur la chronologie d’une douleur.",
+        "L’ischémie apparaît quand la demande en sang augmente : pendant ou après la digestion ?",
+        "La peur de manger en est une conséquence."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Angor mésentérique** (ischémie chronique) : douleur **post-prandiale retardée** (quand la digestion augmente les besoins), d’où une peur de manger et un amaigrissement, chez un patient vasculaire. **Syndrome de Koenig** : douleurs post-prandiales par sténose du grêle (Crohn, tumeur bénigne ou maligne, lymphome, carcinoïde), cédant avec gargouillements et débâcle. L’adénocarcinome du grêle est favorisé par Crohn, maladie cœliaque, polyposes, Lynch."
+      },
+      "lessonLinks": [
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-012",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "vidéocapsule",
+        "lactose",
+        "Meckel"
+      ],
+      "difficulty": 3,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Parmi les propositions suivantes, quelles sont les 2 affirmations VRAIES :",
+      "options": [
+        {
+          "key": "A",
+          "text": "Une personne intolérante au lactose aura des ballonnements abdominaux et de la diarrhée peu importe la quantité ingérée",
+          "note": "intolérance donc que si grande quantité ; peuvent toujours consommer des médicaments qui contiennent du lactose",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "L’amibiase intestinale se caractérise par une image endoscopique typique.",
+          "note": "non",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Un syndrome occlusif grêle nécessite une mesure conservatrice et la mise en place d’une sonde gastrique.",
+          "expected": true,
+          "note": "Commentaire : « sonde gastrique pour corriger les troubles ioniques, chirurgie URGENTE car risque d’ischémie (infarctus et perforation) »",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "L’utilisation d’une vidéocapsule lors du bilan d’une anémie inexpliquée révèle souvent des lésions angiodysplasiques",
+          "expected": true,
+          "note": "70 % des cas",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "On peut trouver du tissu œsophagien ectopique dans un diverticule de Meckel",
+          "note": "tissu gastrique, parfois pancréatique mais pas œsophagien",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "C est marquée juste, mais le commentaire qui l’accompagne parle de chirurgie urgente. Les deux sont vrais selon la situation : occlusion sur bride sans signe de gravité → traitement conservateur (sonde gastrique, perfusion, surveillance) ; signes de strangulation / ischémie → chirurgie urgente. La question Kartheuser sur l’occlusion du sujet jeune retient le traitement conservateur.",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 53,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "38"
+        }
+      ],
+      "hints": [
+        "Une proposition concerne un examen du grêle par une caméra avalée.",
+        "Quelle est la cause la plus fréquente de saignement du grêle ?",
+        "Quel tissu ectopique trouve-t-on dans un Meckel ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Occlusion du grêle **sans signe de gravité** (souvent sur bride) : **traitement conservateur** (jeûne, **sonde naso-gastrique**, réhydratation, correction ionique, surveillance ± test au produit hydrosoluble) ; **chirurgie** si strangulation, ischémie, péritonite ou échec. La **vidéocapsule** (anémie ferriprive inexpliquée après gastro- et coloscopie normales) montre surtout des **angiodysplasies**. L’intolérance au lactose est **dose-dépendante**. Le diverticule de Meckel contient de la muqueuse **gastrique** ou pancréatique ectopique."
+      },
+      "lessonLinks": [
+        "grele-occlusion",
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-013",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "parasites",
+      "tags": [
+        "parasitoses",
+        "colites infectieuses"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Concernant les colites infectieuses (2 réponses vraies)",
+      "options": [
+        {
+          "key": "1",
+          "text": "Amibiase présente des lésions endoscopiques spécifiques",
+          "note": "non (ulcères, inflammation)",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "2",
+          "text": "Le diagnostic se fait par coproculture",
+          "note": "jamais pour les parasites : amibiase → frottis de selles fraîches ou endoscopie + biopsies ; giardiase → examen direct / biopsie duodénale ; taenia → proglottis ; ascaris → œufs ; oxyure → anamnèse",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "3",
+          "text": "Ascaris donne une angiocholite via l’obstruction des voies biliaires",
+          "expected": true,
+          "note": "oui + appendicite, pancréatite et obstruction intestinale possibles",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "4",
+          "text": "Giardiase donne des abcès hépatiques",
+          "note": "atrophie villositaire, se fixe dans le duodénum, DD maladie cœliaque",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "5",
+          "text": "Absence d’hyperéosinophilie n’exclue pas l’infection",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Question retrouvée au moins 3 fois (Dewit ×2, janvier 2023)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 53,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "41"
+        }
+      ],
+      "duplicateGroup": "grele-parasitoses",
+      "hints": [
+        "Un ver adulte peut migrer dans un canal.",
+        "Tous les parasites ne passent pas dans le sang.",
+        "Quel parasite donne des abcès du foie : l’amibe ou Giardia ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Ascaris** : migration dans les voies biliaires → angiocholite, pancréatite ; occlusion par paquet de vers. L’hyperéosinophilie est surtout présente lors de la phase de migration tissulaire des helminthes : son absence n’exclut pas une parasitose (et les protozoaires comme Giardia ou l’amibe n’en donnent pas). Les **abcès hépatiques** sont dus à l’**amibe** (Entamoeba histolytica), pas à Giardia. La coproculture recherche des **bactéries** ; les parasites se recherchent par examen parasitologique des selles."
+      },
+      "lessonLinks": [
+        "grele-diarrhees"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-026",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "fer",
+        "résection iléale"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Toutes ces affections peuvent donner une diminution du fer sérique sauf une",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gastrectomie Billroth type II"
+        },
+        {
+          "key": "B",
+          "text": "Atrophie gastrique"
+        },
+        {
+          "key": "C",
+          "text": "Résection (1 mètre) de l’iléon terminal",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Maladie cœliaque"
+        },
+        {
+          "key": "E",
+          "text": "Angiodysplasie colique"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 54,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "42"
+        }
+      ],
+      "duplicateGroup": "grele-fer-sauf-ileon",
+      "hints": [
+        "Où le fer est-il absorbé dans le tube digestif ?",
+        "L’iléon terminal absorbe une vitamine et les sels biliaires.",
+        "Une perte de sang chronique fait aussi baisser le fer."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le fer est absorbé dans le **duodénum et le jéjunum proximal**, aidé par l’acidité gastrique. Carence martiale : gastrectomie (Billroth II court-circuite le duodénum), atrophie gastrique (achlorhydrie), maladie cœliaque (atrophie duodénale), saignements (angiodysplasies). La résection de l’**iléon terminal** entraîne une carence en **B12** (anémie **macrocytaire**), pas en fer."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-027",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "tumeurs",
+      "tags": [
+        "syndrome de Koenig"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Concernant le syndrome de Koenig, on peut le retrouver dans toutes ces situations sauf une",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maladie cœliaque",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Lymphome"
+        },
+        {
+          "key": "C",
+          "text": "Maladie de Crohn"
+        },
+        {
+          "key": "D",
+          "text": "Tumeur carcinoïde du grêle"
+        },
+        {
+          "key": "E",
+          "text": "Adénocarcinome du grêle"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "NB des archives : aussi polypes volumineux, métastases, ischémie segmentaire, lésions post-radiques, endométriose, tuberculose iléo-cæcale."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 54,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "43"
+        }
+      ],
+      "duplicateGroup": "grele-koenig",
+      "hints": [
+        "Le syndrome de Koenig traduit un obstacle.",
+        "Quelle affection atrophie la muqueuse sans rétrécir la lumière ?",
+        "Les autres propositions peuvent toutes sténoser le grêle."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le syndrome de Koenig est un syndrome de **sténose** du grêle (douleurs post-prandiales cédant avec gargouillements et débâcle). Crohn, lymphome, carcinoïde, adénocarcinome peuvent sténoser ; la maladie cœliaque non compliquée donne une atrophie **sans sténose** (un lymphome compliquant une maladie cœliaque pourrait le faire)."
+      },
+      "lessonLinks": [
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-028",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "malabsorption",
+      "tags": [
+        "intolérance au lactose"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "On suspecte une intolérance au lactose dans toutes les situations suivantes sauf une laquelle",
+      "options": [
+        {
+          "key": "A",
+          "text": "Symptômes digestifs avec borborygmes, flatulences et coliques"
+        },
+        {
+          "key": "B",
+          "text": "Exacerbation d'un côlon irritable suite à la prise de lactose"
+        },
+        {
+          "key": "C",
+          "text": "Urticaire suite à la prise de lactose",
+          "expected": true,
+          "note": "intolérance pas allergie !",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Symptômes abdominaux atypiques avec ballonnements chez un enfant asiatique"
+        },
+        {
+          "key": "E",
+          "text": "Diarrhées explosives suite à la prise de lactose"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 54,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "44"
+        }
+      ],
+      "hints": [
+        "Intolérance et allergie n’ont pas le même mécanisme.",
+        "Un symptôme cutané immédiat évoque quoi ?",
+        "Le déficit en lactase est très fréquent dans certaines populations."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "L’**intolérance** au lactose (déficit en lactase) donne des symptômes **digestifs** dose-dépendants : ballonnements, borborygmes, flatulences, diarrhée osmotique. Elle est très fréquente chez les adultes d’origine asiatique ou africaine. Une **urticaire** relève d’une **allergie** (aux protéines du lait), mécanisme immunologique différent."
+      },
+      "lessonLinks": [
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-014",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "diarrhees",
+      "tags": [
+        "diarrhée",
+        "iléus",
+        "Meckel"
+      ],
+      "difficulty": 3,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Parmi les affirmations suivantes 2 sont fausses",
+      "options": [
+        {
+          "key": "A",
+          "text": "Une douleur périombilicale est évocatrice d’une d’origine iléale",
+          "expected": true,
+          "note": "jéjunum ; iléon → FID ; duodénum → épigastre",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Tout diarrhée nécessite la recherche d’une constipation",
+          "note": "oui : s’il y a constipation, c’est elle qu’on traitera (fécalome) +1",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Patient présentant une diarrhée hydrique depuis 24h ne nécessite pas d’examen complémentaire.",
+          "note": "seulement si T° > 39 °C et/ou plus de 3 j",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Il n’y a pas d’air dans le rectum lors d’un iléus",
+          "expected": true,
+          "note": "justement comme il n’y a pas d’occlusion, il y a de l’air dans le rectum",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Un diverticule de meckel peut donner des rectorragies",
+          "note": "oui, ou méléna / hémorragie occulte",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 54,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "45"
+        }
+      ],
+      "hints": [
+        "Il faut cocher les deux FAUSSES.",
+        "Projection des douleurs : duodénum, jéjunum, iléon…",
+        "Iléus = pas d’obstacle : l’air peut-il atteindre le rectum ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Projection des douleurs : duodénum → épigastre, **jéjunum → péri-ombilical**, **iléon terminal → fosse iliaque droite**. Dans l’**iléus**, sans obstacle, l’air atteint le **rectum**. Une diarrhée « par regorgement » (fausse diarrhée sur fécalome) est à rechercher, surtout chez le sujet âgé. Une diarrhée aiguë simple de moins de 3 jours, sans fièvre élevée ni signe de gravité, ne nécessite pas d’examen."
+      },
+      "lessonLinks": [
+        "grele-diarrhees",
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-015",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "malabsorption",
+      "tags": [
+        "maladie cœliaque"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Parmi les propositions suivantes concernant la maladie coeliaque, 2 sont fausses",
+      "options": [
+        {
+          "key": "A",
+          "text": "La majorité des malades sont dépistés grâce à un syndrome de malabsoprtion",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Le dosage des anticorps (anti transglutaminase et anti-endomysium) permet de voir si le régime est bien suivi"
+        },
+        {
+          "key": "C",
+          "text": "Le risque de maladie est augmenté si le père est atteint de la maladie cœliaque",
+          "note": "oui, parent au premier degré",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Il y a des neutrophiles dans les villosités",
+          "expected": true,
+          "note": "lymphocytes + infiltration lympho-plasmocytaire dans le chorion + PNN éosinophiles",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "La maladie cœliaque touche plus les femmes"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Les propositions sont numérotées « 1) 2) 3) D. E. » dans la retranscription."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 55,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "46"
+        }
+      ],
+      "duplicateGroup": "grele-coeliaque-fausses",
+      "hints": [
+        "Il faut cocher les deux FAUSSES.",
+        "Comment la maladie est-elle découverte le plus souvent aujourd’hui ?",
+        "Quelle cellule infiltre l’épithélium dans la maladie cœliaque ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La majorité des cas sont découverts sur des formes **atypiques** ou par dépistage (apparentés, anémie, ostéoporose), pas sur une malabsorption franche. Histologie : **lymphocytose intra-épithéliale** (> 25–30 / 100 entérocytes), atrophie villositaire, **hyperplasie des cryptes** — pas de neutrophiles. Risque augmenté chez les apparentés au 1er degré ; prédominance féminine."
+      },
+      "lessonLinks": [
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-016",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "parasites",
+      "tags": [
+        "parasitoses",
+        "colites infectieuses"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Concernant les colites infectieuses, 2 réponses vraies",
+      "options": [
+        {
+          "key": "A",
+          "text": "Amibiase donne des ulcères gastro-duodénaux"
+        },
+        {
+          "key": "B",
+          "text": "Le diagnostic se fait par coproculture pour les parasites",
+          "note": "non, c’est pour les bactéries",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Ascaris donne une angiocholite via l’obstruction des voies biliaires",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Giardiase donne des abcès (ou kystes) hépatiques",
+          "note": "atrophie villositaire, se fixe dans le duodénum, DD maladie cœliaque",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Absence d’hyperéosinophilie sanguine n’exclue pas l’infection",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 55,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "48"
+        }
+      ],
+      "duplicateGroup": "grele-parasitoses",
+      "hints": [
+        "Même logique que la question précédente sur les parasitoses.",
+        "Où l’amibe donne-t-elle des abcès ?",
+        "La coproculture cherche quels micro-organismes ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Ascaris → angiocholite ; éosinophilie inconstante ; l’amibe donne une **colite** (ulcérations « en coup d’ongle ») et des **abcès hépatiques** ; Giardia → atrophie villositaire duodénale (diagnostic différentiel de la maladie cœliaque)."
+      },
+      "lessonLinks": [
+        "grele-diarrhees"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-017",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "malabsorption",
+      "tags": [
+        "maladie cœliaque"
+      ],
+      "difficulty": 3,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "2 réponses est FAUSSES sur la maladie cœliaque?",
+      "options": [
+        {
+          "key": "A",
+          "text": "On peut suivre la compliance au régime par les anticorps anti-endomysium et anti-transglutaminase",
+          "note": "Commentaire : « doivent se normaliser après un an si le régime est bien suivi mais pas la méthode utilisée, on teste les urines »",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Un régime sans lactose peut être prescrit pour certaines maladies coeliaques non traitées",
+          "note": "oui, on peut réintroduire le lactose une fois la maladie stable",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "On voit à la biopsie une infiltration des lymphocytes et des accumulations entre les cryptes atrophiées",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "Favorise l’apparition d’un lymphome gastrique",
+          "note": "oui et des cancers digestifs",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Peut être associée à une RCUH",
+          "expected": true,
+          "note": "pas sûre",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription retient C et E, avec un doute explicite (« pas sûre »). Or la maladie cœliaque favorise surtout le lymphome T de l’INTESTIN GRÊLE, pas le lymphome gastrique : la proposition D pourrait être la vraie réponse fausse. La proposition C est fausse surtout par « cryptes atrophiées » (les cryptes sont hyperplasiques). À vérifier.",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 55,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "49"
+        }
+      ],
+      "duplicateGroup": "grele-coeliaque-fausses",
+      "hints": [
+        "Il faut cocher les deux FAUSSES.",
+        "Dans la maladie cœliaque, les villosités s’atrophient : et les cryptes ?",
+        "Quel lymphome complique la maladie cœliaque, et où ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Histologie : atrophie villositaire, **hyperplasie** des cryptes, lymphocytose intra-épithéliale. Complications de la maladie cœliaque non traitée : **lymphome T associé à une entéropathie (grêle)**, adénocarcinome du grêle, sprue réfractaire. Le déficit en lactase secondaire justifie parfois une éviction transitoire du lactose. Associations : diabète de type 1, thyroïdite, dermatite herpétiforme, déficit en IgA, cholangite biliaire primitive."
+      },
+      "lessonLinks": [
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-029",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "diarrhees",
+      "tags": [
+        "diarrhée aiguë",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Patient de 42 ans diarrhées hydriques depuis 24h (7 selles liquides) que faire ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rien",
+          "expected": true,
+          "note": "on fait hémogramme, ionogramme, copro et examen direct seulement si > 39 °C et/ou durée > 3 j",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Coloscopie + coproc + analyse selles"
+        },
+        {
+          "key": "C",
+          "text": "Coloscopie + coproc"
+        },
+        {
+          "key": "D",
+          "text": "Coloscopie"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 55,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "50"
+        }
+      ],
+      "duplicateGroup": "grele-diarrhee-24h",
+      "hints": [
+        "Durée : 24 heures seulement.",
+        "Pas de fièvre, pas de sang mentionné.",
+        "Une diarrhée aiguë simple guérit le plus souvent spontanément."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Diarrhée aiguë **sans signe de gravité** (pas de fièvre élevée, pas de sang, pas de déshydratation, pas d’immunodépression, < 3 jours) : **aucun examen**, réhydratation orale. Examens (coproculture, biologie) si fièvre > 39 °C, diarrhée sanglante, durée > 3 jours, terrain fragile, retour de voyage, antibiothérapie récente."
+      },
+      "lessonLinks": [
+        "grele-diarrhees"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-018",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "malabsorption",
+      "tags": [
+        "intolérance au lactose",
+        "Helicobacter pylori",
+        "Meckel",
+        "RGO"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Trouver 2 vraies",
+      "options": [
+        {
+          "key": "A",
+          "text": "Test au lactose: en cas de l’intolérance au lactose on aura une augmentation d’H2 dans l’air expiré",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Pour le diagnostic de présence de l’HP on recherche une élastase à la biopsie",
+          "note": "uréase",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Le diagnostic de Meckel, faire une scintigraphie PET-scan",
+          "note": "scintigraphie au Tc99m",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Une gastroscopie est indiquée chez un patient > 45 ans si le RGO n’est pas gérable avec le R/ empirique",
+          "expected": true,
+          "note": "d’office si > 45 ans",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "(proposition non retranscrite)"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 56,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "51"
+        }
+      ],
+      "duplicateGroup": "grele-2vraies-lactose",
+      "hints": [
+        "Les bactéries coliques fermentent le sucre non absorbé.",
+        "Quel gaz est mesuré dans l’air expiré ?",
+        "Quel isotope montre la muqueuse gastrique ectopique ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Test respiratoire à l’hydrogène** : le lactose non absorbé est fermenté par la flore colique → **H₂** dans l’air expiré. H. pylori : **uréase**. Meckel : **scintigraphie au technétium 99m** (pertechnétate fixé par la muqueuse gastrique ectopique), pas un TEP-scan."
+      },
+      "lessonLinks": [
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-019",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "tumeurs",
+      "tags": [
+        "vidéocapsule",
+        "Mallory-Weiss",
+        "dysphagie"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Trouver 2 vraies",
+      "options": [
+        {
+          "key": "A",
+          "text": "indication à la vidéocapsule si anémie ferriprive et colonoscopie et gastroscopie normale",
+          "expected": true,
+          "note": "indication : anémie ferriprive et/ou hémorragie",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "la cause la+ fréquente de saignement de grêle sont les tumeurs du grêle"
+        },
+        {
+          "key": "C",
+          "text": "syndrome de Mallory Weiss est causé par des vomissements",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "dysphagie peut être révélée par une œsophagite médicamenteuse",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "(proposition non retranscrite)"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La consigne demande 2 vraies mais 3 propositions sont marquées (A, C, D). Dans la question jumelle (section « Mix »), seules A et C sont marquées. La proposition D est pourtant juste médicalement : la question a peut-être été mal retranscrite.",
+      "quality": [
+        "incomplete-options",
+        "transcription-error-suspected"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 56,
+          "section": "DEWIT — Intestin grêle",
+          "originalNumber": "52"
+        }
+      ],
+      "duplicateGroup": "grele-2vraies-videocapsule",
+      "hints": [
+        "Quel examen explore le grêle quand gastro- et coloscopie sont normales ?",
+        "Quelle est la cause la plus fréquente de saignement du grêle ?",
+        "Quel effort provoque une déchirure du cardia ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Vidéocapsule : anémie ferriprive / saignement inexpliqué après gastro- et coloscopie normales. Première cause de saignement du grêle : **angiodysplasies** (tumeurs chez le sujet plus jeune). Mallory-Weiss : déchirure du cardia après **vomissements** répétés. L’œsophagite médicamenteuse peut donner une dysphagie / odynophagie."
+      },
+      "lessonLinks": [
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-020",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "malabsorption",
+      "tags": [
+        "intolérance au lactose",
+        "Helicobacter pylori",
+        "Meckel",
+        "RGO"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Trouver 2 vraies",
+      "options": [
+        {
+          "key": "1",
+          "text": "Test au lactose: en cas de l’intolérance au lactose on aura une augmentation d’H2 dans l’air expiré",
+          "expected": true
+        },
+        {
+          "key": "2",
+          "text": "Pour le diagnostic de présence de l’HP on recherche une élastase à la biopsie",
+          "note": "uréase",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "3",
+          "text": "Le diagnostic de Meckel, faire une scintigraphie PET-scan",
+          "note": "scintigraphie au Tc99m",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "4",
+          "text": "Une gastroscopie est indiquée chez un patient > 45 ans si le RGO n’est pas gérable avec le R/ empirique",
+          "expected": true,
+          "note": "d’office si > 45 ans",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "5",
+          "text": "(proposition non retranscrite)"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 67,
+          "section": "DEWIT — Mix",
+          "originalNumber": "98"
+        }
+      ],
+      "duplicateGroup": "grele-2vraies-lactose",
+      "hints": [
+        "Même question que dans la partie « Intestin grêle ».",
+        "Gaz mesuré dans l’air expiré ?",
+        "Isotope de la scintigraphie du Meckel ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Test respiratoire à l’H₂ (lactose) ; uréase (H. pylori) ; scintigraphie au Tc99m (Meckel)."
+      },
+      "lessonLinks": [
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCMM-021",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "tumeurs",
+      "tags": [
+        "vidéocapsule",
+        "angiodysplasie",
+        "Mallory-Weiss"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Trouver 2 vraies (2??)",
+      "options": [
+        {
+          "key": "1",
+          "text": "Indication à la vidéocapsule si anémie ferriprive et colonoscopie et gastroscopie normale",
+          "expected": true,
+          "note": "+ hémorragie inexpliquée",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "2",
+          "text": "La cause la+ fréquente de saignement de grêle sont les tumeurs du grêle",
+          "note": "angiodysplasies à 70 %",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "3",
+          "text": "Syndrome de Mallory Weiss est causé par des vomissements",
+          "expected": true
+        },
+        {
+          "key": "4",
+          "text": "Dysphagie peut être révélée par une œsophagite médicamenteuse"
+        },
+        {
+          "key": "5",
+          "text": "(proposition non retranscrite)"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "Retranscription : « 2 vraies (2 ??) ». Seules 1 et 3 sont marquées, mais la proposition 4 est aussi juste médicalement ; le nombre de réponses attendu est incertain.",
+      "quality": [
+        "incomplete-options",
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 67,
+          "section": "DEWIT — Mix",
+          "originalNumber": "99"
+        }
+      ],
+      "duplicateGroup": "grele-2vraies-videocapsule",
+      "hints": [
+        "Même question que dans la partie « Intestin grêle ».",
+        "Cause principale de saignement du grêle ?",
+        "Quel effort provoque une déchirure du cardia ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Vidéocapsule si anémie ferriprive / saignement inexpliqué ; angiodysplasies = 1re cause de saignement du grêle ; Mallory-Weiss après vomissements."
+      },
+      "lessonLinks": [
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-030",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "anémies",
+        "carences"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Parmi les affirmations suivantes, 1 seule est fausse",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gastrectomie peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "B",
+          "text": "Biermer peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "C",
+          "text": "Maladie de Crohn iléale peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "D",
+          "text": "Maladie cœliaque peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "E",
+          "text": "Les hémorroïdes donnent rarement (je sais plus exactement le terme utilisé..) une anémie microcytaire",
+          "expected": true,
+          "note": "perte de sang, anémie ferriprive = microcytaire",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "inferred",
+      "answerNote": "Pas de marquage rouge pour cette occurrence ; la réponse E est déduite du commentaire et des autres occurrences de la question (janvier 2022, « En vrac »), où E est marquée.",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 68,
+          "section": "DEWIT — Mix",
+          "originalNumber": "101"
+        }
+      ],
+      "duplicateGroup": "grele-anemies-micro-macro",
+      "hints": [
+        "Une maladie peut mêler carence en fer et carence en B12 / folates.",
+        "Les hémorroïdes saignent : quelle carence en résulte ?",
+        "Le mot clé de la proposition fausse est un adverbe."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Gastrectomie, Biermer (achlorhydrie + B12), Crohn iléal (saignement + B12) et maladie cœliaque (fer + folates) peuvent associer carence martiale (**microcytose**) et carence en B12/folates (**macrocytose**), d’où parfois une **normocytose** par compensation. Les hémorroïdes sont une cause **classique** d’anémie ferriprive (microcytaire) par saignements répétés — mais il faut toujours éliminer une autre cause (coloscopie) avant de la leur attribuer."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-031",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "résection iléale",
+        "anémies",
+        "lithiases"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "En cas de résection du grêle terminale ( +/- étendue ? ) toutes ces anomalies seront présentes sauf une",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anémie microcytaire",
+          "expected": true,
+          "note": "le fer est réabsorbé au niveau duodénum/jéjunum (absorption haute)",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Anémie macrocytaire",
+          "note": "vit B12 plus absorbée",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Lithiase biliaire"
+        },
+        {
+          "key": "D",
+          "text": "Truc sels biliaires pas réabsorbés"
+        },
+        {
+          "key": "E",
+          "text": "lithiase rénale d’oxalate",
+          "note": "stéatorrhée → les lipides en excès chélatent le Ca²⁺ qui normalement chélate l’oxalate → excès d’oxalate absorbé → calculs urinaires",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 68,
+          "section": "DEWIT — Mix",
+          "originalNumber": "102"
+        }
+      ],
+      "duplicateGroup": "grele-resection-ileale-sauf",
+      "hints": [
+        "Où le fer est-il absorbé ?",
+        "Que devient la vitamine B12 sans iléon terminal ?",
+        "La perte de sels biliaires a des conséquences biliaires et rénales."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Résection de l’iléon terminal : carence en **B12** (anémie macrocytaire), **perte de sels biliaires** (diarrhée cholérétique, stéatorrhée, **lithiase biliaire** cholestérolique), **hyperoxalurie entérique** (lithiase rénale d’oxalate de calcium, si le côlon est conservé). Le **fer** est absorbé plus haut (duodénum) : pas d’anémie microcytaire par malabsorption."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-COMB-001",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "fer",
+        "anémie ferriprive"
+      ],
+      "difficulty": 2,
+      "type": "count",
+      "countOf": "true",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "expectedChoice": "4",
+      "stem": "Combien de ces maladies peuvent causer une carence en fer ?",
+      "statements": [
+        {
+          "key": "1",
+          "text": "RCUH",
+          "expected": true,
+          "note": "hémorragie",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "2",
+          "text": "Hémorroïdes",
+          "expected": true,
+          "note": "hémorragie",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "3",
+          "text": "Crohn",
+          "expected": true,
+          "note": "réabsorption duodéno-jéjunale, le Crohn atteint tout le tube digestif",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "4",
+          "text": "polype glandulokystique",
+          "expected": false,
+          "note": "non",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "5",
+          "text": "gastrectomie partielle",
+          "expected": true,
+          "note": "oui",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 68,
+          "section": "DEWIT — Mix",
+          "originalNumber": "103"
+        }
+      ],
+      "hints": [
+        "Deux mécanismes : saignement ou malabsorption.",
+        "Un polype glandulo-kystique du fundus est-il hémorragique ?",
+        "Une gastrectomie diminue-t-elle l’absorption du fer ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Carence en fer par **saignement** (RCUH, hémorroïdes, Crohn) ou **malabsorption** (gastrectomie, Crohn duodéno-jéjunal, maladie cœliaque). Les polypes glandulo-kystiques fundiques (souvent sous IPP) sont bénins et ne saignent pas : 4 maladies sur 5."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-032",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "fer",
+        "résection iléale"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "La carence en fer sérique causée par tout sauf:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maladie cœliaque",
+          "note": "atrophie villositaire et problèmes d’absorption",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Atrophie gastrique"
+        },
+        {
+          "key": "C",
+          "text": "Billroth II",
+          "note": "gastrectomie partielle",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "D",
+          "text": "Résection de l'iléon terminale (1m)",
+          "expected": true,
+          "note": "le fer est réabsorbé au niveau duodénum/jéjunum",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Angiodysplasie colique",
+          "note": "hémorragie",
+          "noteOrigin": "archives"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 68,
+          "section": "DEWIT — Mix",
+          "originalNumber": "104"
+        }
+      ],
+      "duplicateGroup": "grele-fer-sauf-ileon",
+      "hints": [
+        "Question très récurrente.",
+        "Absorption du fer : haute ou basse ?",
+        "L’iléon terminal absorbe une vitamine, pas du fer."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le fer est absorbé dans le duodénum et le jéjunum proximal ; la résection de l’iléon terminal donne une carence en B12."
+      },
+      "lessonLinks": [
+        "grele-carences"
       ]
     }
   ]

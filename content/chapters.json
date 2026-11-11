@@ -118,11 +118,67 @@
   {
     "id": "grele",
     "title": "Intestin grêle",
-    "short": "Malabsorption, maladie cœliaque, diarrhées, occlusion, Meckel",
+    "short": "Diarrhées, malabsorption, maladie cœliaque, carences, occlusion, tumeurs et saignement du grêle",
     "icon": "🌀",
-    "status": "pending",
-    "subchapters": [],
-    "lessons": []
+    "status": "available",
+    "subchapters": [
+      {
+        "id": "diarrhees",
+        "title": "Diarrhées : mécanismes et démarche"
+      },
+      {
+        "id": "malabsorption",
+        "title": "Malabsorption, maladie cœliaque et intolérance au lactose"
+      },
+      {
+        "id": "carences",
+        "title": "Résection iléale, carences et anémies d’origine digestive"
+      },
+      {
+        "id": "occlusion",
+        "title": "Occlusion et iléus"
+      },
+      {
+        "id": "tumeurs",
+        "title": "Tumeurs, syndrome de Koenig et saignement du grêle"
+      },
+      {
+        "id": "parasites",
+        "title": "Parasitoses intestinales"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "grele-diarrhees",
+        "title": "Diarrhées et parasitoses intestinales",
+        "file": "grele/01-diarrhees.md",
+        "minutes": 12
+      },
+      {
+        "id": "grele-malabsorption",
+        "title": "Malabsorption, maladie cœliaque et intolérance au lactose",
+        "file": "grele/02-malabsorption.md",
+        "minutes": 14
+      },
+      {
+        "id": "grele-carences",
+        "title": "Résection iléale, carences et anémies d’origine digestive",
+        "file": "grele/03-carences.md",
+        "minutes": 12
+      },
+      {
+        "id": "grele-occlusion",
+        "title": "Occlusion intestinale et iléus",
+        "file": "grele/04-occlusion.md",
+        "minutes": 10
+      },
+      {
+        "id": "grele-tumeurs",
+        "title": "Tumeurs du grêle, syndrome de Koenig et saignement du grêle",
+        "file": "grele/05-tumeurs.md",
+        "minutes": 10
+      }
+    ]
   },
   {
     "id": "mici",

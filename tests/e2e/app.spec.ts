@@ -170,3 +170,14 @@ test('filtre Adulte / Pédiatrie disponible dans l’entraînement', async ({ pa
   await select.selectOption('pedia');
   await expect(page.getByRole('heading', { name: /^0 question/ })).toBeVisible();
 });
+
+test('Intestin grêle : question « combien ? » et question sur image', async ({ page }) => {
+  await go(page, '/question/DIGEST-2026-01-GASTRO-COMB-002');
+  await page.getByRole('button', { name: '7', exact: true }).click();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await expect(page.getByText('✅ Bonne réponse')).toBeVisible();
+  await go(page, '/question/DIGEST-AP2017-ANAPATH-QCM-001');
+  const img = page.getByRole('img', { name: /atrophie totale/ });
+  await expect(img).toBeVisible();
+  expect(await img.evaluate((el) => (el as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+});

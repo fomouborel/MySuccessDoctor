@@ -131,6 +131,203 @@
       "lessonLinks": [
         "est-cancer"
       ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-016",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "bride"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "CT-scan est en faveur d’une occlusion de l’intestin grêle. Quel-est le diagnostic étiologique le plus probable :",
+      "stemNote": "Section « En vrac » : enseignant non précisé (discipline déduite).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tumeur du grêle"
+        },
+        {
+          "key": "B",
+          "text": "Hernie interne"
+        },
+        {
+          "key": "C",
+          "text": "Invagination"
+        },
+        {
+          "key": "D",
+          "text": "Carcinose péritonéale"
+        },
+        {
+          "key": "E",
+          "text": "Bride",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 42,
+          "section": "En vrac",
+          "originalNumber": "5"
+        }
+      ],
+      "duplicateGroup": "grele-occlusion-bride",
+      "hints": [
+        "La question porte sur la fréquence.",
+        "Quelle séquelle laisse souvent une chirurgie abdominale ?",
+        "Cause la plus fréquente d’occlusion du grêle chez l’adulte opéré."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Première cause d’occlusion du grêle chez l’adulte : **bride** (adhérence post-opératoire), puis hernies (étranglées, internes), tumeurs, carcinose, Crohn. L’**invagination** est une cause pédiatrique (chez l’adulte : sur une lésion tumorale)."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-033",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "insuffisance intestinale",
+        "syndrome de Koenig"
+      ],
+      "difficulty": 3,
+      "type": "single",
+      "stem": "Trouver la fausse:",
+      "options": [
+        {
+          "key": "1",
+          "text": "L'élévation de l’urée est le signe biologique qu’on retrouve dans une occlusion",
+          "expected": true
+        },
+        {
+          "key": "2",
+          "text": "L’infarctus mésentérique est la première cause d’insuffisance intestinale"
+        },
+        {
+          "key": "3",
+          "text": "L’adénocarcinome du grêle peut etre induit par la maladie cœliaque ou de Crohn"
+        },
+        {
+          "key": "4",
+          "text": "Le syndrome de Koenig peut etre présent dans une pathologie du grêle bénigne ou maligne"
+        },
+        {
+          "key": "5",
+          "text": "(proposition non retranscrite)"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "La retranscription marque la proposition 1. Pourtant l’urée s’élève souvent au cours d’une occlusion (déshydratation, insuffisance rénale fonctionnelle) ; la proposition est sans doute jugée fausse parce que l’urée n’est pas « LE » signe biologique de l’occlusion (non spécifique). En 2024, une question sur l’occlusion du grêle (non retranscrite) proposait aussi « augmentation de l’urée ». À vérifier.",
+      "quality": [
+        "incomplete-options",
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 43,
+          "section": "En vrac (Dewit)",
+          "originalNumber": "19"
+        }
+      ],
+      "hints": [
+        "Lisez « LE signe biologique » : existe-t-il un marqueur spécifique d’occlusion ?",
+        "Quelle est la première cause d’intestin court chez l’adulte ?",
+        "Le syndrome de Koenig traduit une sténose, quelle qu’en soit la cause."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le diagnostic d’occlusion est **clinique et radiologique** (scanner) ; la biologie évalue le retentissement (déshydratation : urée, créatinine ; troubles ioniques ; lactates si ischémie) sans être spécifique. L’infarctus mésentérique (résections étendues) est une cause majeure de grêle court chez l’adulte."
+      },
+      "lessonLinks": [
+        "grele-occlusion",
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-GASTRO-QCM-034",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "GASTRO",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "anémies",
+        "carences"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Parmi les affirmations suivantes, 1 seule est fausse",
+      "stemNote": "Section « En vrac » : enseignant non précisé. Dans cette version, la proposition a ne cite que les anémies microcytaire et normocytaire.",
+      "options": [
+        {
+          "key": "a",
+          "text": "Gastrectomie peut donner une anémie microcytaire et normocytaire"
+        },
+        {
+          "key": "b",
+          "text": "Biermer peut donner une anémie microcytaire, macro et normocytaire"
+        },
+        {
+          "key": "c",
+          "text": "Maladie de crohn iléal peut donner une anémie micro- macro- et normocytaire"
+        },
+        {
+          "key": "d",
+          "text": "Maladie coeliaque peut donner une anémie micro- macro et normocytaire"
+        },
+        {
+          "key": "e",
+          "text": "Les hémorroïdes donnent rarement une anémie microcytaire",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 43,
+          "section": "En vrac",
+          "originalNumber": "22"
+        }
+      ],
+      "duplicateGroup": "grele-anemies-micro-macro",
+      "hints": [
+        "Question récurrente.",
+        "Quelle carence donnent des saignements répétés ?",
+        "Le mot « rarement » est-il approprié ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Les hémorroïdes sont une cause classique d’anémie ferriprive (microcytaire)."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
     }
   ]
 }

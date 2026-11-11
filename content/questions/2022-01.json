@@ -1,5 +1,5 @@
 {
-  "source": "Examen de janvier 2022 (Compilation p.31–41) — questions du chapitre Œsophage, Estomac et duodénum",
+  "source": "Examen de janvier 2022 (Compilation p.31–41) — questions du chapitre Œsophage, Estomac et duodénum, Intestin grêle",
   "questions": [
     {
       "id": "DIGEST-2022-01-CHIR-QCM-001",
@@ -698,6 +698,388 @@
       ],
       "lessonLinks": [
         "est-hemorragie"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-CHIR-QCM-005",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "CHIR",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "bride"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "une femme présente une occlusion du grêle au ct, quelle est l’étiologie la plus probable ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "carcinose péritonéale"
+        },
+        {
+          "key": "B",
+          "text": "tumeur"
+        },
+        {
+          "key": "C",
+          "text": "bride",
+          "expected": true
+        },
+        {
+          "key": "D",
+          "text": "invagination"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 32,
+          "section": "Janvier 2022",
+          "originalNumber": "7"
+        }
+      ],
+      "duplicateGroup": "grele-occlusion-bride",
+      "hints": [
+        "Question de fréquence.",
+        "Séquelle fréquente d’une chirurgie abdominale.",
+        "Première cause chez l’adulte."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "La **bride** est la première cause d’occlusion du grêle chez l’adulte."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QCM-003",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "GASTRO",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "résection iléale"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Laquelle de ces atteintes n’est pas présente dans une résection terminale du grêle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anémie microcytaire",
+          "expected": true,
+          "note": "fer surtout réabsorbé dans le duodénum",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "B",
+          "text": "Anémie macrocytaire"
+        },
+        {
+          "key": "C",
+          "text": "Lithiase biliaire"
+        },
+        {
+          "key": "D",
+          "text": "Lithiase rénale oxalate"
+        },
+        {
+          "key": "E",
+          "text": "Sels biliaires non réabsorbés"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 38,
+          "section": "Janvier 2022",
+          "originalNumber": "78"
+        }
+      ],
+      "duplicateGroup": "grele-resection-ileale-sauf",
+      "hints": [
+        "Question récurrente.",
+        "Absorption du fer : haute ou basse ?",
+        "Les autres découlent de la perte de B12 et de sels biliaires."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Pas de carence martiale par malabsorption après résection iléale (le fer est absorbé dans le duodénum)."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QCM-004",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "GASTRO",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "anémies",
+        "carences"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Parmi les affirmations suivantes, 1 seule est fausse",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gastrectomie peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "B",
+          "text": "Biermer peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "C",
+          "text": "Maladie de Crohn iléale peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "D",
+          "text": "Maladie cœliaque peut donner une anémie microcytaire, macrocytaire et normocytaire"
+        },
+        {
+          "key": "E",
+          "text": "Les hémorroïdes donnent rarement (je sais plus exactement le terme utilisé..) une anémie microcytaire",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "uncertain-wording"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 38,
+          "section": "Janvier 2022",
+          "originalNumber": "79"
+        }
+      ],
+      "duplicateGroup": "grele-anemies-micro-macro",
+      "hints": [
+        "Question récurrente.",
+        "Saignements répétés → quelle anémie ?",
+        "Le mot « rarement » est-il juste ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Les hémorroïdes sont une cause classique d’anémie ferriprive."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QCM-005",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "GASTRO",
+      "chapter": "grele",
+      "subchapter": "malabsorption",
+      "tags": [
+        "maladie cœliaque",
+        "HLA"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "A propos de la maladie coeliaque laquelle est juste :",
+      "options": [
+        {
+          "key": "A",
+          "text": "C’est un maladie orpheline"
+        },
+        {
+          "key": "B",
+          "text": "On la retrouve spécialement chez les HLA de type DQ2 et DQ8",
+          "expected": true
+        },
+        {
+          "key": "C",
+          "text": "On observe vers l’âge de 1 an une courbe de cassure de croissance d’abord staturale puis pondérale"
+        },
+        {
+          "key": "D",
+          "text": "elle présente toujours des diarrhées"
+        },
+        {
+          "key": "E",
+          "text": "Un adolescent peut arrêter son régime en l’absence de symptômes"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 38,
+          "section": "Janvier 2022",
+          "originalNumber": "80"
+        }
+      ],
+      "hints": [
+        "Une prédisposition génétique est quasi obligatoire.",
+        "Dans la forme du nourrisson, quelle courbe casse en premier ?",
+        "Méfiez-vous des mots « toujours » et des arrêts de régime."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Presque tous les malades portent **HLA-DQ2 ou DQ8** (leur absence exclut quasiment le diagnostic). La maladie est fréquente (≈ 1 % de la population), pas orpheline. Chez l’enfant, la cassure est d’abord **pondérale** puis staturale. Les formes sans diarrhée sont fréquentes. Le régime est à vie, même sans symptômes."
+      },
+      "lessonLinks": [
+        "grele-malabsorption"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-CHIR-QCM-006",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "CHIR",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "bride"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "CT-scan est en faveur d’une occlusion de l’intestin grêle. Quel-est le diagnostic étiologique le plus probable :",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tumeur du grêle"
+        },
+        {
+          "key": "B",
+          "text": "Hernie interne"
+        },
+        {
+          "key": "C",
+          "text": "Invagination"
+        },
+        {
+          "key": "D",
+          "text": "Carcinose péritonéale"
+        },
+        {
+          "key": "E",
+          "text": "Bride",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Discipline déduite (occlusion)."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 39,
+          "section": "Janvier 2022",
+          "originalNumber": "(non numérotée)"
+        }
+      ],
+      "duplicateGroup": "grele-occlusion-bride",
+      "hints": [
+        "Question récurrente.",
+        "Séquelle de chirurgie abdominale.",
+        "Première cause chez l’adulte."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Bride = première cause d’occlusion du grêle."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-2022-01-GASTRO-QCMM-001",
+      "revision": 1,
+      "session": "2022-01",
+      "discipline": "GASTRO",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "iléus",
+        "occlusion"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "qu’est ce qui permet de différencier iléus et occlusion (2 réponses vraies)",
+      "options": [
+        {
+          "key": "6",
+          "text": "douleurs abdominales crampiformes",
+          "expected": true
+        },
+        {
+          "key": "7",
+          "text": "péristaltisme",
+          "expected": true
+        },
+        {
+          "key": "8",
+          "text": "ballonnement abdominal"
+        },
+        {
+          "key": "9",
+          "text": "Arrêt des matières et des gaz"
+        },
+        {
+          "key": "10",
+          "text": "vomissement"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Numérotation 6 à 10 conservée telle quelle dans la retranscription."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 39,
+          "section": "Janvier 2022",
+          "originalNumber": "(non numérotée)"
+        }
+      ],
+      "duplicateGroup": "grele-ileus-vs-occlusion",
+      "hints": [
+        "Même question qu’en 2023.",
+        "Ce qui n’existe que s’il y a un obstacle.",
+        "Un intestin paralysé ne se contracte pas."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Crampes et péristaltisme = lutte contre un obstacle (occlusion mécanique)."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
       ]
     }
   ]

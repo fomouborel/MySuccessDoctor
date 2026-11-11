@@ -1,5 +1,5 @@
 {
-  "source": "Examen de janvier 2023 (Compilation p.18–31) — questions du chapitre Œsophage, Estomac et duodénum",
+  "source": "Examen de janvier 2023 (Compilation p.18–31) — questions du chapitre Œsophage, Estomac et duodénum, Intestin grêle",
   "questions": [
     {
       "id": "DIGEST-2023-01-GASTRO-QCMM-001",
@@ -989,6 +989,519 @@
       },
       "lessonLinks": [
         "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCMM-003",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "iléus",
+        "occlusion"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "qu’est ce qui permet de différencier iléus et occlusion (2 réponses vraies)",
+      "options": [
+        {
+          "key": "1",
+          "text": "douleurs abdominales crampiformes",
+          "expected": true
+        },
+        {
+          "key": "2",
+          "text": "péristaltisme",
+          "expected": true
+        },
+        {
+          "key": "3",
+          "text": "ballonnement abdominal"
+        },
+        {
+          "key": "4",
+          "text": "Arrêt des matières et des gaz"
+        },
+        {
+          "key": "5",
+          "text": "vomissement"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 19,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "8"
+        }
+      ],
+      "duplicateGroup": "grele-ileus-vs-occlusion",
+      "hints": [
+        "Cherchez ce qui n’existe que si l’intestin lutte contre un obstacle.",
+        "Les signes communs aux deux ne permettent pas de les distinguer.",
+        "Un intestin paralysé est silencieux."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Ballonnement, arrêt du transit et vomissements existent dans les deux. Les **crampes** et le **péristaltisme** (visible, bruits métalliques) traduisent la lutte contre un obstacle mécanique : ils manquent dans l’iléus paralytique."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-VF-003",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "tumeurs",
+      "tags": [
+        "syndrome de Koenig"
+      ],
+      "difficulty": 2,
+      "type": "truefalse",
+      "stem": "Question qui portait sur le fait qu’une tumeur bénigne du grêle pouvait engendrer un syndrome de Koenig",
+      "stemNote": "Seul le thème a été retranscrit ; il est présenté ici sous forme d’affirmation.",
+      "statements": [
+        {
+          "key": "1",
+          "text": "Une tumeur bénigne du grêle peut engendrer un syndrome de Koenig.",
+          "expected": true
+        }
+      ],
+      "answerStatus": "inferred",
+      "answerNote": "Réponse déduite des autres questions de la Compilation, où « le syndrome de Koenig peut être présent dans une pathologie du grêle bénigne ou maligne » n’est jamais la proposition fausse.",
+      "quality": [
+        "stem-only"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 19,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "9"
+        }
+      ],
+      "duplicateGroup": "grele-koenig",
+      "hints": [
+        "Le syndrome de Koenig traduit une sténose.",
+        "Une tumeur bénigne volumineuse peut-elle rétrécir la lumière ?",
+        "Pensez aussi à l’invagination sur tumeur."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Vrai : toute sténose du grêle, bénigne (polype volumineux, lipome, Crohn) ou maligne, peut donner un syndrome de Koenig."
+      },
+      "lessonLinks": [
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCM-003",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "tumeurs",
+      "tags": [
+        "saignement du grêle",
+        "vidéocapsule"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Trouver la fausse:",
+      "options": [
+        {
+          "key": "a",
+          "text": "indication de vidéocapsule en cas d’hémorragie avec coloscopie et gastroscopie négative."
+        },
+        {
+          "key": "b",
+          "text": "la cause la plus fréquence de saignement du grêle = tumeurs du grêle",
+          "expected": true,
+          "note": "→ angiodysplasie",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "c",
+          "text": "l’infarctus mésentérique est la première cause d’insuffisance intestinale"
+        },
+        {
+          "key": "d",
+          "text": "l’adénocarcinome du grêle peut être dû à maladie coeliaque ou Crohn"
+        },
+        {
+          "key": "e",
+          "text": "(proposition non retranscrite)"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 19,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "11"
+        }
+      ],
+      "hints": [
+        "Quelle lésion vasculaire saigne le plus souvent dans le grêle ?",
+        "Les tumeurs du grêle sont rares.",
+        "Une seule proposition est fausse."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Première cause de saignement du grêle chez l’adulte : **angiodysplasies** (surtout après 60 ans) ; tumeurs plutôt avant 50 ans ; Meckel chez l’enfant / l’adulte jeune."
+      },
+      "lessonLinks": [
+        "grele-tumeurs"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCM-004",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "fer",
+        "résection iléale"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "Une carence en fer sérique est causée par tous les états suivant sauf un:",
+      "stemNote": "Les lettres des propositions sont dédoublées dans la retranscription (A, A, B, C, D) ; elles ont été renumérotées.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atrophie gastrique"
+        },
+        {
+          "key": "B",
+          "text": "Gastrectomie Billroth II"
+        },
+        {
+          "key": "C",
+          "text": "Maladie cœliaque"
+        },
+        {
+          "key": "D",
+          "text": "Résection de l'iléon terminale (1m)",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "Angiodysplasie colique"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 21,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "21"
+        }
+      ],
+      "duplicateGroup": "grele-fer-sauf-ileon",
+      "hints": [
+        "Question très récurrente.",
+        "Absorption du fer : duodénum ou iléon ?",
+        "L’iléon terminal absorbe la B12."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Le fer est absorbé dans le duodénum : la résection iléale donne une carence en B12, pas en fer."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QCMM-004",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "parasites",
+      "tags": [
+        "parasitoses",
+        "colites infectieuses"
+      ],
+      "difficulty": 2,
+      "type": "multiple",
+      "expectedCount": 2,
+      "stem": "Concernant les colites infectieuses (2 réponses vraies)",
+      "options": [
+        {
+          "key": "1",
+          "text": "Amibiase présente des lésions endoscopiques spécifiques",
+          "note": "non (ulcères, inflammation)",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "2",
+          "text": "Le diagnostic se fait par coproculture",
+          "note": "jamais pour les parasites",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "3",
+          "text": "Ascaris donne une angiocholite via l’obstruction des voies biliaires",
+          "expected": true,
+          "note": "oui + appendicite, pancréatite et obstruction intestinale possibles",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "4",
+          "text": "Giardiase donne des abcès hépatiques",
+          "note": "atrophie villositaire, se fixe dans le duodénum, DD maladie cœliaque",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "5",
+          "text": "Absence d’hyperéosinophilie n’exclue pas l’infection",
+          "expected": true
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 22,
+          "section": "Janvier 2023 — QCM",
+          "originalNumber": "22"
+        }
+      ],
+      "duplicateGroup": "grele-parasitoses",
+      "hints": [
+        "Question déjà vue dans la section Dewit.",
+        "Quel ver migre dans les voies biliaires ?",
+        "L’éosinophilie est-elle constante ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Ascaris → angiocholite ; l’absence d’éosinophilie n’exclut pas une parasitose ; l’amibe (et non Giardia) donne des abcès hépatiques ; la coproculture recherche des bactéries."
+      },
+      "lessonLinks": [
+        "grele-diarrhees"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-006",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "examen clinique",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un homme diabétique se présente aux urgences, il a un niveau hydroaerique à la radio et le médecin urgentiste fait la conclusion qu’il a sûrement une occlusion de l’intestin grêle. Quel signe ne vous attendez-vous pas à voir à l’examen clinique ?",
+      "stemNote": "Le prénom du retranscripteur a été retiré.",
+      "options": [
+        {
+          "key": "A",
+          "text": "des bruits métalliques"
+        },
+        {
+          "key": "B",
+          "text": "une diminution ou une disparition de bruits auscultatoires normaux"
+        },
+        {
+          "key": "C",
+          "text": "un météorisme"
+        },
+        {
+          "key": "D",
+          "text": "un tympanisme"
+        },
+        {
+          "key": "E",
+          "text": "une défense"
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 23,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "32"
+        }
+      ],
+      "hints": [
+        "Distinguez occlusion simple et complication.",
+        "Que traduit une défense abdominale ?",
+        "Une occlusion évoluée peut devenir silencieuse."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** Dans une occlusion mécanique du grêle non compliquée : météorisme, tympanisme, bruits métalliques (au début) puis silence auscultatoire (occlusion évoluée). Une **défense** traduit une irritation péritonéale (strangulation, ischémie, perforation) : elle n’est pas attendue dans une occlusion simple. La réponse attendue est donc probablement E."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-CHIR-QCM-007",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "étiologies"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Chez une personne sans aucun antécédent, quelle cause d’occlusion grêle est exclue:",
+      "stemNote": "Le prénom du retranscripteur a été retiré.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tumeur grêle"
+        },
+        {
+          "key": "B",
+          "text": "Bride",
+          "note": "+1",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Hernie interne"
+        },
+        {
+          "key": "D",
+          "text": "Carcinose péritonéale",
+          "note": "+1",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "E",
+          "text": "Invagination"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "Votes partagés entre B (bride) et D (carcinose). Argument médical : une bride est une adhérence post-opératoire ou post-inflammatoire ; sans aucun antécédent (pas de chirurgie), elle est très improbable, alors qu’une carcinose peut révéler un cancer jusque-là inconnu. Aucune réponse n’est retenue pour la correction automatique.",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 24,
+          "section": "Janvier 2023 — Chirurgie (Kartheuser)",
+          "originalNumber": "33"
+        }
+      ],
+      "hints": [
+        "« Sans aucun antécédent » : lequel des mécanismes suppose une intervention passée ?",
+        "Un cancer peut-il se révéler par une occlusion ?",
+        "Qu’est-ce qu’une bride ?"
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire.** La bride est la 1re cause d’occlusion du grêle chez l’opéré. Sans antécédent chirurgical, on pense à une hernie (étranglée, interne), une tumeur, une invagination sur tumeur, un Crohn, ou une carcinose révélatrice."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-2023-01-GASTRO-QROC-002",
+      "revision": 1,
+      "session": "2023-01",
+      "discipline": "GASTRO",
+      "chapter": "grele",
+      "subchapter": "diarrhees",
+      "tags": [
+        "diarrhée aiguë",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 1,
+      "type": "qroc",
+      "stem": "Patiente de 40 ans, diarrhée liquide depuis 24H (8 selles/jour) sans autre signe associé. Quel examen prescrivez-vous ?",
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "Réponse notée par le retranscripteur, sans marquage rouge."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 30,
+          "section": "Janvier 2023 — QROC",
+          "originalNumber": "3"
+        }
+      ],
+      "duplicateGroup": "grele-diarrhee-24h",
+      "model": {
+        "origin": "archives",
+        "review": "to-validate",
+        "essentials": [
+          "Aucun examen"
+        ],
+        "keywords": [
+          "aucun examen",
+          "réhydratation",
+          "diarrhée aiguë"
+        ],
+        "optional": [
+          "Examens seulement si fièvre > 39 °C, sang dans les selles, durée > 3 jours, déshydratation, terrain fragile"
+        ],
+        "majorErrors": [
+          "Coloscopie ou coproculture systématiques"
+        ],
+        "exampleAnswer": "Aucun examen : diarrhée aiguë de moins de 24 h sans signe de gravité ; réhydratation orale et surveillance. On ne prescrit des examens qu’en cas de fièvre élevée, de diarrhée sanglante, de durée > 3 jours ou de terrain fragile."
+      },
+      "hints": [
+        "Durée très courte, aucun signe associé.",
+        "Quels signes feraient demander des examens ?",
+        "La plupart des diarrhées aiguës guérissent spontanément."
+      ],
+      "lessonLinks": [
+        "grele-diarrhees"
       ]
     }
   ]

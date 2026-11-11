@@ -1,5 +1,5 @@
 {
-  "source": "Compilation DIGEST — section KARTHEUSER (chirurgie adulte), non datée — questions du chapitre Œsophage, Estomac et duodénum",
+  "source": "Compilation DIGEST — section KARTHEUSER (chirurgie adulte), non datée — questions du chapitre Œsophage, Estomac et duodénum, Intestin grêle",
   "questions": [
     {
       "id": "DIGEST-ND-CHIR-QCM-001",
@@ -1210,6 +1210,137 @@
       },
       "lessonLinks": [
         "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-014",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "traitement conservateur",
+        "cas clinique"
+      ],
+      "clinical": true,
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Un jeune patient présente une occlusion intestinale grêle, et outre les symptômes typiques d’occlusion (vomissements, arrêt des matières et gaz), il présente un bon état général et une biologie normale. Quelle attitude est à avoir? (une réponse)",
+      "options": [
+        {
+          "key": "A",
+          "text": "une laparotomie exploratrice"
+        },
+        {
+          "key": "B",
+          "text": "une administration de laxatif"
+        },
+        {
+          "key": "C",
+          "text": "une administration de lavement"
+        },
+        {
+          "key": "D",
+          "text": "une thérapie conventionnelle avec sonde gastrique et perfusion",
+          "expected": true
+        },
+        {
+          "key": "E",
+          "text": "une sonde rectale"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 81,
+          "section": "KARTHEUSER",
+          "originalNumber": "2"
+        }
+      ],
+      "hints": [
+        "Le patient va bien et la biologie est normale.",
+        "Un laxatif ou un lavement sont-ils logiques en amont d’un obstacle du grêle ?",
+        "On décomprime l’estomac et on réhydrate."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Occlusion du grêle **sans signe de gravité** : traitement **conservateur** (jeûne, **sonde naso-gastrique en aspiration**, perfusion, correction ionique, surveillance clinique rapprochée). Chirurgie si signes de strangulation (douleur continue, fièvre, défense, hyperleucocytose, lactates, signes scanographiques d’ischémie) ou échec après 48–72 h. Laxatifs et lavements n’ont pas de place."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
+      ]
+    },
+    {
+      "id": "DIGEST-ND-CHIR-QCM-015",
+      "revision": 1,
+      "session": "ND",
+      "discipline": "CHIR",
+      "teacher": "Kartheuser",
+      "chapter": "grele",
+      "subchapter": "occlusion",
+      "tags": [
+        "occlusion",
+        "iléus"
+      ],
+      "difficulty": 2,
+      "type": "single",
+      "stem": "Quel signe n’est pas présent à l’examen clinique lors d’une occlusion ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "présence d’air dans le rectum",
+          "expected": true
+        },
+        {
+          "key": "B",
+          "text": "Crampes abdominales"
+        },
+        {
+          "key": "C",
+          "text": "RX niveau hydro-aérique"
+        },
+        {
+          "key": "D",
+          "text": "bruit métallique à l’auscultation"
+        },
+        {
+          "key": "E",
+          "text": "arrêt matières et gaz"
+        }
+      ],
+      "answerStatus": "proposed",
+      "quality": [],
+      "sourceComments": [
+        "À comparer avec la question jumelle sur l’iléus (section Dewit), où ce sont les crampes qui manquent."
+      ],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 86,
+          "section": "KARTHEUSER",
+          "originalNumber": "33"
+        }
+      ],
+      "duplicateGroup": "grele-ileus-vs-occlusion",
+      "hints": [
+        "Occlusion mécanique = obstacle.",
+        "En aval d’un obstacle complet, l’air peut-il passer ?",
+        "Comparez avec l’iléus paralytique."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "En aval d’une occlusion mécanique complète, le côlon et le rectum se vident : **pas d’air dans le rectum** (alors qu’il y en a dans l’iléus). Crampes, bruits métalliques, niveaux hydro-aériques et arrêt du transit sont présents."
+      },
+      "lessonLinks": [
+        "grele-occlusion"
       ]
     }
   ]

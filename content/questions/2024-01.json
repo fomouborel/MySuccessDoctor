@@ -1,5 +1,5 @@
 {
-  "source": "Examen de janvier 2024 (Compilation p.9–17) — questions du chapitre Œsophage, Estomac et duodénum",
+  "source": "Examen de janvier 2024 (Compilation p.9–17) — questions du chapitre Œsophage, Estomac et duodénum, Intestin grêle",
   "questions": [
     {
       "id": "DIGEST-2024-01-GASTRO-COMB-001",
@@ -722,6 +722,72 @@
       },
       "lessonLinks": [
         "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-2024-01-GASTRO-QCM-002",
+      "revision": 1,
+      "session": "2024-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "résection iléale"
+      ],
+      "difficulty": 1,
+      "type": "single",
+      "stem": "qu’est ce qui n’est pas la conséquence d’une résection iléale ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Anémie macrocytaire"
+        },
+        {
+          "key": "B",
+          "text": "Anémie microcytaire",
+          "expected": true,
+          "note": "+1 +1",
+          "noteOrigin": "archives"
+        },
+        {
+          "key": "C",
+          "text": "Lithiase biliaire"
+        },
+        {
+          "key": "D",
+          "text": "Lithiase renales oxaliques"
+        },
+        {
+          "key": "E",
+          "text": "Diarrhées sels biliaires"
+        }
+      ],
+      "answerStatus": "proposed",
+      "answerNote": "Réponse issue de votes d’étudiants (+1 +1), sans marquage rouge ; concordante avec les autres occurrences.",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 10,
+          "section": "Janvier 2024 — Dewit",
+          "originalNumber": "9"
+        }
+      ],
+      "duplicateGroup": "grele-resection-ileale-sauf",
+      "hints": [
+        "Question très récurrente.",
+        "Le fer est-il absorbé dans l’iléon ?",
+        "Les sels biliaires non réabsorbés ont plusieurs conséquences."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Résection iléale → B12 (macrocytose), sels biliaires (diarrhée, lithiase biliaire), hyperoxalurie (lithiase rénale). Pas de carence en fer par malabsorption."
+      },
+      "lessonLinks": [
+        "grele-carences"
       ]
     }
   ]

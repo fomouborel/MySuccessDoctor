@@ -1,5 +1,5 @@
 {
-  "source": "Examens de janvier 2026 et d’août 2026 (retranscriptions séparées) — questions du chapitre Œsophage, Estomac et duodénum",
+  "source": "Examens de janvier 2026 et d’août 2026 (retranscriptions séparées) — questions du chapitre Œsophage, Estomac et duodénum, Intestin grêle",
   "questions": [
     {
       "id": "DIGEST-2026-01-GASTRO-COMB-001",
@@ -703,6 +703,169 @@
       ],
       "lessonLinks": [
         "est-cancer"
+      ]
+    },
+    {
+      "id": "DIGEST-2026-01-GASTRO-COMB-002",
+      "revision": 1,
+      "session": "2026-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "anémie ferriprive",
+        "fer"
+      ],
+      "difficulty": 3,
+      "type": "count",
+      "countOf": "true",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "expectedChoice": "7",
+      "stem": "Parmi les pathologies suivantes, combien peuvent donner une anémie ferriprive",
+      "statements": [
+        {
+          "key": "1",
+          "text": "adénocarcinome gastrique"
+        },
+        {
+          "key": "2",
+          "text": "Zollinger Ellison"
+        },
+        {
+          "key": "3",
+          "text": "polypes adénomateux coliques"
+        },
+        {
+          "key": "4",
+          "text": "syndrome du côlon irritable"
+        },
+        {
+          "key": "5",
+          "text": "lymphome de l’intestin grêle"
+        },
+        {
+          "key": "6",
+          "text": "colite microscopique"
+        },
+        {
+          "key": "7",
+          "text": "prise chronique d’AINS"
+        },
+        {
+          "key": "8",
+          "text": "maladie cœliaque"
+        },
+        {
+          "key": "9",
+          "text": "maladie de Crohn"
+        },
+        {
+          "key": "10",
+          "text": "maladie hémorroïdaire"
+        }
+      ],
+      "answerStatus": "proposed",
+      "answerNote": "La retranscription marque « 7 » sans préciser quelles pathologies sont comptées.",
+      "quality": [],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "jan2026",
+          "page": 1,
+          "section": "Janvier 2026 — QCM",
+          "originalNumber": "1"
+        }
+      ],
+      "hints": [
+        "Cherchez saignement chronique ou malabsorption du fer.",
+        "Deux troubles fonctionnels ou microscopiques ne saignent pas.",
+        "Le Zollinger-Ellison est discuté."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire.** Peuvent donner une anémie ferriprive : adénocarcinome gastrique, polypes adénomateux coliques, lymphome du grêle, AINS, maladie cœliaque, Crohn, maladie hémorroïdaire (7). Le côlon irritable et la colite microscopique ne saignent pas. Le Zollinger-Ellison peut saigner (ulcères), ce qui en ferait 8 : la réponse « 7 » suppose qu’il n’est pas compté."
+      },
+      "lessonLinks": [
+        "grele-carences"
+      ]
+    },
+    {
+      "id": "DIGEST-2026-01-GASTRO-QCMM-001",
+      "revision": 1,
+      "session": "2026-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "anémies"
+      ],
+      "difficulty": 3,
+      "type": "multiple",
+      "stem": "Combien de ces pathologies intestinales peuvent donner CHACUNE des anémies suivantes : micro- normo- ET macrocytaire ?",
+      "stemNote": "Retranscripteur : « la question était bizarrement formulée, il voulait les pathos qui peuvent se présenter parfois avec micro, parfois macro… c’était un OU pas un ET ». Les choix de nombre n’ont pas été retranscrits : cochez les pathologies concernées.",
+      "options": [
+        {
+          "key": "1",
+          "text": "Lithiase cholédocienne"
+        },
+        {
+          "key": "2",
+          "text": "Crohn iléal",
+          "expected": true
+        },
+        {
+          "key": "3",
+          "text": "RCUH"
+        },
+        {
+          "key": "4",
+          "text": "gastrite atrophique A-I"
+        },
+        {
+          "key": "5",
+          "text": "cancer du colon droit"
+        },
+        {
+          "key": "6",
+          "text": "Gastroparesie"
+        }
+      ],
+      "answerStatus": "disputed",
+      "answerNote": "Seul « Crohn iléal » est marqué. Mais la gastrite atrophique auto-immune peut aussi donner une anémie microcytaire (achlorhydrie → malabsorption du fer) ou macrocytaire (B12). Le format exact (nombre attendu) n’est pas connu.",
+      "quality": [
+        "uncertain-wording",
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "jan2026",
+          "page": 3,
+          "section": "Janvier 2026 — QCM",
+          "originalNumber": "11"
+        }
+      ],
+      "duplicateGroup": "grele-anemies-micro-macro",
+      "hints": [
+        "Une même maladie peut entraîner deux carences différentes.",
+        "L’iléon terminal absorbe la B12, et une inflammation peut saigner.",
+        "Une gastrite auto-immune touche l’acide ET le facteur intrinsèque."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "Crohn iléal : saignement (fer → microcytose) et malabsorption de la B12 (macrocytose). Gastrite atrophique auto-immune : B12 (macrocytose) et parfois fer (microcytose). RCUH et cancer du côlon droit : surtout microcytose. Lithiase cholédocienne et gastroparésie : pas d’anémie typique."
+      },
+      "lessonLinks": [
+        "grele-carences"
       ]
     }
   ]

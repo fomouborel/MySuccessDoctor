@@ -58,7 +58,7 @@ Un chapitre correspond à **un organe ou un grand ensemble physiopathologique** 
 |---:|---|---|---|
 | 1 | `oesophage` | Œsophage | intégré (70 questions, 4 leçons) |
 | 2 | `estomac` | Estomac et duodénum | intégré (51 questions, 5 leçons) |
-| 3 | `grele` | Intestin grêle | à intégrer |
+| 3 | `grele` | Intestin grêle | intégré (49 questions, 5 leçons) |
 | 4 | `mici` | MICI | à intégrer |
 | 5 | `colon` | Côlon et rectum | à intégrer |
 | 6 | `procto` | Proctologie | à intégrer |
@@ -113,6 +113,17 @@ Un sous-chapitre = **un thème qui revient plusieurs fois dans les examens** à 
 | `gastrites` | Gastrites, maladie de Biermer et hypergastrinémie |
 | `cancer` | Cancer de l’estomac et chirurgie gastrique |
 | `hemorragie` | Hémorragie digestive haute |
+
+**Intestin grêle**
+
+| `id` | Titre |
+|---|---|
+| `diarrhees` | Diarrhées : mécanismes et démarche |
+| `malabsorption` | Malabsorption, maladie cœliaque et intolérance au lactose |
+| `carences` | Résection iléale, carences et anémies d’origine digestive |
+| `occlusion` | Occlusion et iléus |
+| `tumeurs` | Tumeurs, syndrome de Koenig et saignement du grêle |
+| `parasites` | Parasitoses intestinales (leçon commune avec `diarrhees`) |
 
 Les `id` de sous-chapitre sont **locaux au chapitre** : `cancer` peut exister dans plusieurs chapitres.
 

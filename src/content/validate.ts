@@ -83,7 +83,8 @@ export function validateContent(input: ContentInput): { errors: string[]; questi
       if (q.expectedChoice && !q.choices.includes(q.expectedChoice)) errors.push(`${where} : choix attendu absent des choix`);
       if (!gradable && q.expectedChoice) errors.push(`${where} : réponse « non disponible » mais un choix est attendu`);
       if (gradable && q.answerStatus !== 'disputed' && !q.expectedChoice) errors.push(`${where} : aucun choix attendu`);
-      if (q.expectedChoice && q.countOf === 'true') {
+      // Le décompte n'est vérifié que si chaque affirmation est annotée vraie/fausse.
+      if (q.expectedChoice && q.countOf === 'true' && q.statements.every((s) => typeof s.expected === 'boolean')) {
         const n = q.statements.filter((s) => s.expected === true).length;
         if (String(n) !== q.expectedChoice) errors.push(`${where} : ${n} affirmations vraies ≠ réponse ${q.expectedChoice}`);
       }

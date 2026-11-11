@@ -1,5 +1,5 @@
 {
-  "source": "Examen de janvier 2025 (Compilation p.1–9 et Retranscription Janvier 2025) — questions du chapitre Œsophage, Estomac et duodénum",
+  "source": "Examen de janvier 2025 (Compilation p.1–9 et Retranscription Janvier 2025) — questions du chapitre Œsophage, Estomac et duodénum, Intestin grêle",
   "questions": [
     {
       "id": "DIGEST-2025-01-GASTRO-QCMM-001",
@@ -561,6 +561,101 @@
       },
       "lessonLinks": [
         "est-hemorragie"
+      ]
+    },
+    {
+      "id": "DIGEST-2025-01-GASTRO-COMB-001",
+      "revision": 1,
+      "session": "2025-01",
+      "discipline": "GASTRO",
+      "teacher": "Dewit",
+      "chapter": "grele",
+      "subchapter": "carences",
+      "tags": [
+        "anémie microcytaire",
+        "fer"
+      ],
+      "difficulty": 3,
+      "type": "count",
+      "countOf": "true",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "stem": "combien est-ce qu’il y a de causes d’anémie microcytaire ?",
+      "stemNote": "Les choix de réponse n’ont pas été retranscrits ; ils sont remplacés ici par 0 à 8.",
+      "statements": [
+        {
+          "key": "1",
+          "text": "Biermer"
+        },
+        {
+          "key": "2",
+          "text": "Maladie coeliaque"
+        },
+        {
+          "key": "3",
+          "text": "Crohn"
+        },
+        {
+          "key": "4",
+          "text": "RCUH"
+        },
+        {
+          "key": "5",
+          "text": "Mélanose colique"
+        },
+        {
+          "key": "6",
+          "text": "Gastropathie hypertensive portale"
+        },
+        {
+          "key": "7",
+          "text": "AdénoK du grêle"
+        },
+        {
+          "key": "8",
+          "text": "Ulcère de Dieulafoy (il a bien écrit ulcère et pas lésion)"
+        }
+      ],
+      "answerStatus": "unavailable",
+      "quality": [
+        "incomplete-options"
+      ],
+      "sourceComments": [],
+      "provenance": [
+        {
+          "file": "compilation",
+          "page": 2,
+          "section": "Janvier 2025 — Dewit",
+          "originalNumber": "4"
+        },
+        {
+          "file": "jan2025",
+          "page": 2,
+          "section": "Dewit",
+          "originalNumber": "4"
+        }
+      ],
+      "hints": [
+        "Microcytose = le plus souvent carence en fer.",
+        "Cherchez saignement chronique ou malabsorption du fer.",
+        "La mélanose colique est une pigmentation liée aux laxatifs."
+      ],
+      "explanation": {
+        "origin": "complement",
+        "review": "to-validate",
+        "text": "**Analyse complémentaire (aucune correction dans les archives).** Peuvent donner une anémie ferriprive (microcytaire) : maladie cœliaque, Crohn, RCUH, gastropathie d’hypertension portale, adénocarcinome du grêle, Dieulafoy (saignements), et le **Biermer** (l’achlorhydrie diminue l’absorption du fer, même si l’anémie typique est macrocytaire). La **mélanose colique** (pigmentation due aux laxatifs anthraquinoniques) ne saigne pas. Selon qu’on compte ou non le Biermer : 6 ou 7. Le fait que l’enseignant ait écrit « ulcère » de Dieulafoy (au lieu de « lésion ») a intrigué les étudiants : cela ne change pas le fait qu’il saigne."
+      },
+      "lessonLinks": [
+        "grele-carences"
       ]
     }
   ]
