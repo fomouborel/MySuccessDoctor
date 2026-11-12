@@ -9,6 +9,7 @@ import { useProgress } from '../../state/ProgressContext';
 import { db, type ExamSession } from '../../services/db';
 import { emptyAnswer, grade, isAnswered, type Grade, type UserAnswer } from '../../services/scoring';
 import { Filters, applyFilters, useFilters } from '../quizzes/Filters';
+import { usePersistentState } from '../../state/usePersistentState';
 import { QuestionList, useStartSession } from '../quizzes/pages';
 import { keepCasesTogether, shuffle } from '../quizzes/session';
 import { QuestionBody, CorrectionPanel } from '../quizzes/QuestionView';
@@ -17,9 +18,9 @@ import { coverage } from '../../services/progress';
 
 /* ─────────── Anciens examens ─────────── */
 export function ExamsPage() {
-  const [tab, setTab] = useState<'exam' | 'bank'>('exam');
+  const [tab, setTab] = usePersistentState<'exam' | 'bank'>('examens:onglet', 'exam');
   const { states } = useProgress();
-  const [f, setF] = useFilters();
+  const [f, setF] = useFilters('banque');
   const filtered = useMemo(() => applyFilters(questions, f, states), [f, states]);
   const cov = coverage(questions, states);
   const start = useStartSession();

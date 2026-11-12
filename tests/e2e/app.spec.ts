@@ -192,3 +192,27 @@ test('MICI : cas clinique Crohn sténosant en 4 étapes', async ({ page }) => {
   await page.getByRole('button', { name: /Question suivante/ }).click();
   await expect(page.getByText(/Cas clinique — étape 2\/4/)).toBeVisible();
 });
+
+test('les filtres sont conservés après avoir ouvert une question puis être revenu', async ({ page }) => {
+  // Entraînement
+  await go(page, '/entrainement');
+  await page.getByLabel('Chapitre', { exact: true }).selectOption('estomac');
+  await page.getByLabel('Type de question').selectOption('multiple');
+  const heading = page.getByRole('heading', { name: /question\(s\) disponible\(s\)/ });
+  const before = await heading.textContent();
+  await page.locator('.q-item').first().click();
+  await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeVisible();
+  await page.getByRole('button', { name: '← Retour' }).click();
+  await expect(page.getByLabel('Chapitre', { exact: true })).toHaveValue('estomac');
+  await expect(page.getByLabel('Type de question')).toHaveValue('multiple');
+  await expect(heading).toHaveText(before!);
+
+  // Anciens examens → banque complète
+  await go(page, '/examens');
+  await page.getByRole('tab', { name: /Banque complète/ }).click();
+  await page.getByLabel('Chapitre', { exact: true }).selectOption('mici');
+  await page.locator('.q-item').first().click();
+  await page.getByRole('button', { name: '← Retour' }).click();
+  await expect(page.getByRole('tab', { name: /Banque complète/ })).toHaveAttribute('aria-selected', 'true');
+  await expect(page.getByLabel('Chapitre', { exact: true })).toHaveValue('mici');
+});

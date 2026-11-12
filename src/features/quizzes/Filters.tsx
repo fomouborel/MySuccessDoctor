@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { usePersistentState } from '../../state/usePersistentState';
 import { chapters, questions, sessionLabel } from '../../content';
 import type { Question } from '../../content/schema';
 import { DISCIPLINE_LABELS, audienceOf } from '../../content/schema';
@@ -39,9 +40,9 @@ export function applyFilters(qs: Question[], f: FilterValues, states: Map<string
 
 const uniq = (xs: string[]) => [...new Set(xs)].sort((a, b) => a.localeCompare(b, 'fr'));
 
-export function useFilters(initial: Partial<FilterValues> = {}) {
-  const [f, setF] = useState<FilterValues>({ ...EMPTY_FILTERS, ...initial });
-  return [f, setF] as const;
+/** Filtres mémorisés par page (`key`) : ils sont restaurés au retour d'une question. */
+export function useFilters(key: string, initial: Partial<FilterValues> = {}) {
+  return usePersistentState<FilterValues>(`filtres:${key}`, { ...EMPTY_FILTERS, ...initial });
 }
 
 export function Filters({ value, onChange, compact }: { value: FilterValues; onChange: (f: FilterValues) => void; compact?: boolean }) {
@@ -64,7 +65,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
       <div className="grid grid-3">
         <label className="field">
           Chapitre
-          <select value={value.chapter} onChange={set('chapter')}>
+          <select aria-label="Chapitre" value={value.chapter} onChange={set('chapter')}>
             <option value="">Tous</option>
             {chapters
               .filter((c) => questions.some((q) => q.chapter === c.id))
@@ -77,7 +78,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
         </label>
         <label className="field">
           Adulte / Pédiatrie
-          <select value={value.audience} onChange={set('audience')}>
+          <select aria-label="Adulte / Pédiatrie" value={value.audience} onChange={set('audience')}>
             <option value="">Les deux</option>
             <option value="adult">Adulte ({questions.filter((q) => audienceOf(q) === 'adult').length})</option>
             <option value="pedia">
@@ -88,7 +89,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
         </label>
         <label className="field">
           Sous-chapitre
-          <select value={value.subchapter} onChange={set('subchapter')} disabled={!chapter}>
+          <select aria-label="Sous-chapitre" value={value.subchapter} onChange={set('subchapter')} disabled={!chapter}>
             <option value="">Tous</option>
             {chapter?.subchapters.map((s) => (
               <option key={s.id} value={s.id}>
@@ -99,7 +100,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
         </label>
         <label className="field">
           Année / session
-          <select value={value.session} onChange={set('session')}>
+          <select aria-label="Année / session" value={value.session} onChange={set('session')}>
             <option value="">Toutes</option>
             {opts.sessions.map((s) => (
               <option key={s} value={s}>
@@ -112,7 +113,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
           <>
             <label className="field">
               Professeur
-              <select value={value.teacher} onChange={set('teacher')}>
+              <select aria-label="Professeur" value={value.teacher} onChange={set('teacher')}>
                 <option value="">Tous</option>
                 {opts.teachers.map((t) => (
                   <option key={t} value={t}>
@@ -123,7 +124,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
             </label>
             <label className="field">
               Discipline
-              <select value={value.discipline} onChange={set('discipline')}>
+              <select aria-label="Discipline" value={value.discipline} onChange={set('discipline')}>
                 <option value="">Toutes</option>
                 {opts.disciplines.map((d) => (
                   <option key={d} value={d}>
@@ -136,7 +137,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
         )}
         <label className="field">
           Type de question
-          <select value={value.type} onChange={set('type')}>
+          <select aria-label="Type de question" value={value.type} onChange={set('type')}>
             <option value="">Tous</option>
             {opts.types.map((t) => (
               <option key={t} value={t}>
@@ -147,7 +148,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
         </label>
         <label className="field">
           Difficulté (estimée)
-          <select value={value.difficulty} onChange={set('difficulty')}>
+          <select aria-label="Difficulté (estimée)" value={value.difficulty} onChange={set('difficulty')}>
             <option value="">Toutes</option>
             <option value="1">★ Facile</option>
             <option value="2">★★ Moyenne</option>
@@ -156,7 +157,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
         </label>
         <label className="field">
           Mon statut
-          <select value={value.status} onChange={set('status')}>
+          <select aria-label="Mon statut" value={value.status} onChange={set('status')}>
             <option value="">Tous</option>
             {(Object.keys(STATUS_LABELS) as QuestionStatus[]).map((s) => (
               <option key={s} value={s}>
@@ -168,7 +169,7 @@ export function Filters({ value, onChange, compact }: { value: FilterValues; onC
         {!compact && (
           <label className="field">
             Correction
-            <select value={value.answer} onChange={set('answer')}>
+            <select aria-label="Correction" value={value.answer} onChange={set('answer')}>
               <option value="">Toutes</option>
               <option value="with">Avec réponse proposée</option>
               <option value="without">Sans réponse dans les archives</option>

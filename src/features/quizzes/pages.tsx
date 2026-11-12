@@ -5,6 +5,7 @@ import type { Question } from '../../content/schema';
 import { useProgress } from '../../state/ProgressContext';
 import { PracticeQuestion } from './QuestionView';
 import { Filters, applyFilters, useFilters } from './Filters';
+import { usePersistentState } from '../../state/usePersistentState';
 import { keepCasesTogether, saveSession, shuffle, type SessionSpec } from './session';
 import { StatusBadge, TYPE_LABELS, shortStem, AnswerStatusBadge, AudienceBadge } from '../../components/ui';
 
@@ -43,9 +44,9 @@ export function QuestionList({ qs, limit = 200 }: { qs: Question[]; limit?: numb
 export function TrainingPage() {
   const { states } = useProgress();
   const start = useStartSession();
-  const [f, setF] = useFilters();
-  const [count, setCount] = useState(10);
-  const [order, setOrder] = useState<'progressive' | 'random'>('progressive');
+  const [f, setF] = useFilters('entrainement');
+  const [count, setCount] = usePersistentState('entrainement:nombre', 10);
+  const [order, setOrder] = usePersistentState<'progressive' | 'random'>('entrainement:ordre', 'progressive');
   const filtered = useMemo(() => applyFilters(questions, f, states), [f, states]);
 
   const launch = () => {
